@@ -15,7 +15,7 @@ You can run a validator on your own hardware or on a cloud provider like GCP and
 3. Run the validator node specific to the DLP. Confirm that your validator is running correctly. Your logs should look something like this, which will vary by DLP:&#x20;
    * See DLP-specific instructions for running a validator node
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for the ChatGPT DLP validator node</p></figcaption></figure>
 
 4. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking onchain.&#x20;
 

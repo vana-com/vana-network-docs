@@ -20,6 +20,8 @@
 
 * [Satori Testnet](quick-start-guide/satori-testnet/README.md)
   * [Network information](quick-start-guide/satori-testnet/network-information.md)
+  * [Working with Keys](quick-start-guide/satori-testnet/working-with-keys.md)
+  * [Creating a Wallet](quick-start-guide/satori-testnet/creating-a-wallet.md)
   * [Create a Data Liquidity Pool (DLP)](quick-start-guide/satori-testnet/create-a-data-liquidity-pool-dlp.md)
   * [Become a Validator](quick-start-guide/satori-testnet/become-a-validator.md)
   * [Contribute Data](quick-start-guide/satori-testnet/contribute-data.md)

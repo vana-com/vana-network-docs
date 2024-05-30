@@ -44,7 +44,7 @@ Still work-in-progress - not yet open sourced
 
 As an example implementation:&#x20;
 
-* ChatGPT data liquidity pool: [https://github.com/vana-com/data-liquidity-pool-chatgpt](https://github.com/vana-com/data-liquidity-pool-chatgpt)
+* ChatGPT data liquidity pool: [https://github.com/vana-com/vana-dlp-chatgpt](https://github.com/vana-com/vana-dlp-chatgpt)
 * Data liquidity pool with simple zk proofs: [https://github.com/vana-com/dlp-zk](https://github.com/vana-com/dlp-zk)
 {% endhint %}
 

@@ -2,7 +2,13 @@
 
 ## Network Details
 
-<table data-header-hidden><thead><tr><th width="209"></th><th></th></tr></thead><tbody><tr><td>RPC URL</td><td><a href="http://34.172.243.254:8545/">http://34.172.243.254:8545/</a></td></tr><tr><td>Chain ID</td><td>19311041</td></tr><tr><td>Network name</td><td>Satori Testnet</td></tr><tr><td>Currency</td><td>DAT</td></tr></tbody></table>
+### Satori Testnet
+
+<table data-header-hidden><thead><tr><th width="183"></th><th></th></tr></thead><tbody><tr><td>RPC URL</td><td>http://rpc.satori.vana.com</td></tr><tr><td>Chain ID</td><td>14801</td></tr><tr><td>Network name</td><td>Satori Testnet</td></tr><tr><td>Currency</td><td>DAT</td></tr></tbody></table>
+
+### Mainnet (Coming Soon)
+
+<table data-header-hidden><thead><tr><th width="183"></th><th></th></tr></thead><tbody><tr><td>RPC URL</td><td>Coming Soon</td></tr><tr><td>Chain ID</td><td>1480</td></tr><tr><td>Network name</td><td>Vana Mainnet</td></tr><tr><td>Currency</td><td>DAT</td></tr></tbody></table>
 
 ## Block Explorer
 
@@ -14,8 +20,8 @@ A block explorer is a web-based tool that allows users to view details about blo
 
 ## Token Faucet
 
-{% hint style="warning" %}
-Still work -in-progress, Link coming soon.
+{% hint style="success" %}
+Available at: [https://faucet.vana.com](https://faucet.vana.com)
 {% endhint %}
 
-To begin testing on the testnet, a faucet can send free tokens to your wallet so you can register a DLP or a validator node.&#x20;
+To begin testing on the testnet, a faucet can send free tokens on the test network to your wallet so you can register a DLP or a validator node. The faucet is rate-limited, and only a small amount of tokens will be available to be sent daily to a wallet.
