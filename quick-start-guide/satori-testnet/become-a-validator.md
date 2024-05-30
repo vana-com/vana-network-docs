@@ -19,15 +19,6 @@ You can run a validator on your own hardware or on a cloud provider like GCP and
 
 4. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking onchain.&#x20;
 
-## Data Validation process
-
-Each DLP is free to validate data unique to their data requirements. However the data is verified, a DLP should aim to prove that the data point has these qualities:
-
-* The data is authentic
-* The data is meaningful (proven via proof-of-contribution)
-* The data is valid (follows a schema similar to the rest of the data in that DLP)
-* The data contributor that submitted the data has the right to do so
-
 ## Scoring process
 
 A data validation request is received by a validator and sent to other validators in the network to perform the actual validation. Each validator scores the data points based on certain metrics and reports them to the initiator. The scores are then aggregated and written onchain.&#x20;
