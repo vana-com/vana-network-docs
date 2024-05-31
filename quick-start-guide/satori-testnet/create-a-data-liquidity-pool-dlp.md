@@ -43,12 +43,15 @@ A data liquidity pool consists of:
 
 A DLP node can handle data specific to a data liquidity pool. It can make use of the `opendata` framework that implements all the components of the Vana network. A starting point can be found here:&#x20;
 
+{% hint style="info" %}
+Vana framework with core components: [https://github.com/vana-com/vana-framework/](https://github.com/vana-com/vana-framework/)
+
+ChatGPT data liquidity pool (as example): [https://github.com/vana-com/vana-dlp-chatgpt](https://github.com/vana-com/vana-dlp-chatgpt)
+{% endhint %}
+
 {% hint style="warning" %}
 Still work-in-progress - not yet open sourced
 
-As an example implementation:&#x20;
-
-* ChatGPT data liquidity pool: [https://github.com/vana-com/vana-dlp-chatgpt](https://github.com/vana-com/vana-dlp-chatgpt)
 * Data liquidity pool with simple zk proofs: [https://github.com/vana-com/dlp-zk](https://github.com/vana-com/dlp-zk)
 {% endhint %}
 
@@ -66,10 +69,8 @@ This proof-of-contribution function checks data validity and maps the diverse da
 
 A DLP smart contract is responsible for recording consensus values among network nodes and can help orchestrate how proof-of-contribution works in the DLP. A starting point can be found here:
 
-{% hint style="warning" %}
-Still work-in-progress, Link coming soon.
-
-\[[https://github.com/vana-com/dlp-smart-contracts](https://github.com/vana-com/dlp-smart-contracts) - not yet open source]
+{% hint style="info" %}
+[https://github.com/vana-com/vana-dlp-smart-contracts](https://github.com/vana-com/vana-dlp-smart-contracts)
 {% endhint %}
 
 ### DLP Upload UI
