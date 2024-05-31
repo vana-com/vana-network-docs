@@ -15,7 +15,7 @@ We appreciate your feedback and contributions to help to resolve any issues. Ple
 ## Terms of Service for Participation in the Testnet
 
 {% hint style="info" %}
-Please make sure to read carefully the [Terms](https://drive.google.com/file/d/1uyvxlcdoqTBWX9ZE2B4rwldUeYjDDD2T/view?usp=sharing) before you participate in any activities in the Testnet.
+Please make sure to read carefully the [Terms](https://drive.google.com/file/d/1VroenNhMFrGx\_PF2p2-zISW7TdTjDVPW/view?usp=sharing) before you participate in any activities in the Testnet.
 {% endhint %}
 
 ## Timelines for Testnet
