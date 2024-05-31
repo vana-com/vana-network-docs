@@ -1,7 +1,13 @@
+---
+description: Validate user data for specific Data Liquidity Pools
+---
+
 # Become a Validator
 
 {% hint style="info" %}
 Please join our [Discord](https://discord.gg/xfGrYrjw) to get an overview of all existing DLPs and how to access them.
+
+If you need to meet specific minimum staking requirements for a DLP, please reach out to the community in our [#testnet-help](https://discord.com/channels/1239717483536187504/1243719189223571456) channel for support as well.
 {% endhint %}
 
 You can run a validator on your own hardware or on a cloud provider like GCP and AWS, ensuring the quality of data in the pool and earning rewards accordingly.&#x20;

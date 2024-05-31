@@ -1,8 +1,12 @@
+---
+description: Help bringing user data on-chain
+---
+
 # Create a Data Liquidity Pool (DLP)
 
 ## Creating a DLP
 
-On mainnet, creating a DLP will be fully permissionless, with voting to elect the top 16 DLPs. As we roll out the network, we are partnering closely with DLP creators to help them get setup. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfB\_puqABBqCUZCFfjKihp7qc4V1wCv9APn86ijHNeBs93xyw/viewform) if you'd like to create a DLP.&#x20;
+On mainnet, creating a DLP will be fully permissionless, with voting to elect the top 16 DLPs. As we roll out the network, we are partnering closely with DLP creators to help them get setup. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfB\_puqABBqCUZCFfjKihp7qc4V1wCv9APn86ijHNeBs93xyw/viewform) if you'd like to create a DLP and apply for token grants.&#x20;
 
 _There are 16 slots on mainnet for data liquidity pools. This limit is intended to incentivize quality over quantity. Currently, there are teams building DLPs for: Reddit, Twitter, LinkedIn, ChatGPT, Github. Multiple DLPs can be created for the same data source, but we expect the community to prefer voting in one best performing DLP for each data source. Top performers on testnet will be voted into slots on mainnet._
 
