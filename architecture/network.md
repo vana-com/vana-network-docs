@@ -6,7 +6,13 @@ description: >-
 
 # Network
 
+{% embed url="https://www.loom.com/share/439197205b4d45c3b3981b9db863bc2d?sid=adcedf1e-830e-413f-b5fa-ed70d72cfc1c" %}
+Walkthrough of the Vana network pieces
+{% endembed %}
+
 Vana consists of a Data Liquidity Layer, designed to introduce data onchain as transferable digital assets, and an Application Layer for user-owned data applications powered by verified data. The universal connectome is a permissionless, real-time map of data flowing through the ecosystem.
+
+
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-05-14 at 8.29.14 PM (2).png" alt=""><figcaption></figcaption></figure>
 
