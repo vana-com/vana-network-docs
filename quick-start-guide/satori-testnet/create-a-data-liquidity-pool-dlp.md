@@ -50,6 +50,12 @@ ChatGPT data liquidity pool (as example): [https://github.com/vana-com/vana-dlp-
 {% endhint %}
 
 {% hint style="warning" %}
+Integration of the DLP-specific ERC-20 token is still in progress.&#x20;
+
+We highly recommend using the DLP Smart Contract with the integrated DLP token to avoid redeployment of the Smart Contract.
+{% endhint %}
+
+{% hint style="warning" %}
 Still work-in-progress - not yet open sourced
 
 * Data liquidity pool with simple zk proofs: [https://github.com/vana-com/dlp-zk](https://github.com/vana-com/dlp-zk)
