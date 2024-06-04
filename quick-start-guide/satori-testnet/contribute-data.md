@@ -17,7 +17,7 @@ To remove your data from the testnet, delete the specific files from your cloud 
 {% endhint %}
 
 {% hint style="info" %}
-Please join our [Discord ](https://discord.gg/xfGrYrjw)to get an overview over all existing DLPs and how to access them.
+Please join our [Discord ](https://discord.com/invite/Wv2vtBazMR)to get an overview over all existing DLPs and how to access them.
 {% endhint %}
 
 {% hint style="info" %}

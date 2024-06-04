@@ -11,7 +11,7 @@ On mainnet, creating a DLP will be fully permissionless, with voting to elect th
 _There are 16 slots on mainnet for data liquidity pools. This limit is intended to incentivize quality over quantity. Currently, there are teams building DLPs for: Reddit, Twitter, LinkedIn, ChatGPT, Github. Multiple DLPs can be created for the same data source, but we expect the community to prefer voting in one best performing DLP for each data source. Top performers on testnet will be voted into slots on mainnet._
 
 {% hint style="info" %}
-Please join our [Discord](https://discord.gg/xfGrYrjw) as well to present your DLP and engage with the community.
+Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) as well to present your DLP and engage with the community.
 {% endhint %}
 
 ## How to start a DLP

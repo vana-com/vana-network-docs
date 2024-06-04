@@ -9,7 +9,7 @@ The Satori testnet is a testing ground for data liquidity pool creators and vali
 {% hint style="warning" %}
 The Testnet is currently under active development. Please be aware that you may encounter bugs, performance issues, and other disruptions. \
 \
-We appreciate your feedback and contributions to help to resolve any issues. Please join our [Discord](https://discord.gg/xfGrYrjw) to get more information on the current status.
+We appreciate your feedback and contributions to help to resolve any issues. Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) to get more information on the current status.
 {% endhint %}
 
 ## Terms of Service for Participation in the Testnet
@@ -23,7 +23,7 @@ Please make sure to read carefully the [Terms](https://drive.google.com/file/d/1
 {% hint style="info" %}
 Please be aware that all dates are subject to change in order to ensure the necessary bug fixes, feature deployments, audits, and other essential adjustments.
 
-Please join our [Discord](https://discord.gg/xfGrYrjw) to get the latest updates.
+Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) to get the latest updates.
 {% endhint %}
 
 ### Phase 1: Preparation&#x20;
