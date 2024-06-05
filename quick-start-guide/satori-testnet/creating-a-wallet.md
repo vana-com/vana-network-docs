@@ -22,9 +22,7 @@ When a wallet is created, a mnemonic is created that can be used to recover your
 
 To create a wallet using the CLI:
 
-Install the Vana package.
-
-Run the following command
+Clone the [vana-framework](https://github.com/vana-com/vana-framework) repository and follow the steps in Getting Started to install the CLI tool. Use the `wallet create` command to start the process of creating a wallet.
 
 ```bash
 vanacli wallet create
