@@ -53,12 +53,8 @@ A DLP node can handle data specific to a data liquidity pool. It can make use of
 Vana framework with core components: [https://github.com/vana-com/vana-framework/](https://github.com/vana-com/vana-framework/)
 
 ChatGPT data liquidity pool (as example): [https://github.com/vana-com/vana-dlp-chatgpt](https://github.com/vana-com/vana-dlp-chatgpt)
-{% endhint %}
 
-{% hint style="warning" %}
-Still work-in-progress - not yet open sourced
-
-* Data liquidity pool with simple zk proofs: [https://github.com/vana-com/dlp-zk](https://github.com/vana-com/dlp-zk)
+Data liquidity pool with simple zk proofs: [https://github.com/vana-com/zk-proof-poc](https://github.com/vana-com/zk-proof-poc)
 {% endhint %}
 
 ### Proof of contribution
