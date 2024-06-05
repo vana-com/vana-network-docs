@@ -1,20 +1,36 @@
 ---
-description: Contribute data to data liquidity pools
+description: Contribute data to Data Liquidity Pools
 ---
 
 # Contribute Data
 
-Testnet participants can access DLPs and contribute their individual data. Each DLP might have their own requirements, what data is required, how to contribute this data and what specific rewards users will receive
+Submit test data to see how your crypto wallet can manage permissions and to establish yourself as an early user. Choose a DLP, submit test data, and observe the network in action.&#x20;
 
-Some DLPs have a frontend interface for data contributors to add their data. Other DLPs do not have a frontend interface and require data contributors to write their data contribution transactions on their own.&#x20;
+## Testnet Disclaimer
+
+In order to participate in the Testnet, we encourage users to create new test accounts for their activities. This approach ensures that the data remains valid for testing purposes but minimizes potential risks associated with the use of personal information.&#x20;
+
+**Save your real data for the Vana mainnet launch.**
 
 {% hint style="warning" %}
-All testnet data will **not** be migrated to mainnet. Do not expect that your data added to the testnet will be available on mainnet.
+**Do Not Upload Personal Data**
 
-Uploading real data to testnet is for testing purposes only. No tokens have value on testnet. \
-\
-To remove your data from the testnet, delete the specific files from your cloud storage or personal server used for the upload.
+Please do not upload personal data. Create a new test account instead to ensure data validity and protect your privacy.
+
+**Non-Migratory Data**
+
+All testnet data will not be migrated to mainnet. Do not expect your testnet data to be available on the mainnet.
+
+**Testing Purposes Only**
+
+Uploading data is for testing purposes only. No tokens have value on testnet.
 {% endhint %}
+
+## Participate in a DLP
+
+Testnet participants can access DLPs and contribute their individual test data. Each DLP has specific requirements for the type of data needed, how to contribute it, and the rewards users will receive.&#x20;
+
+Some DLPs offer a frontend interface for data submission, while others require contributors to manually write their data contribution transactions.&#x20;
 
 {% hint style="info" %}
 Please join our [Discord ](https://discord.com/invite/Wv2vtBazMR)to get an overview over all existing DLPs and how to access them.

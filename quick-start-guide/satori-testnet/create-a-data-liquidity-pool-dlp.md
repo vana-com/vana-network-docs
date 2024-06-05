@@ -31,6 +31,12 @@ Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) as well to pres
 7. Congrats, you're up and running!
 8. To quality for block rewards, get voted into the top 16 DLP slots based on data value and participation
 
+{% hint style="warning" %}
+**Satori Testnet is for Testing Purposes Only**
+
+Please ensure to create a different configuration for data validation for testnet and mainnet.
+{% endhint %}
+
 ## Components
 
 A data liquidity pool consists of:
