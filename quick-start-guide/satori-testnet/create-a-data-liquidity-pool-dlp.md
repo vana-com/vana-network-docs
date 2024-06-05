@@ -97,6 +97,10 @@ r/datadao: [https://github.com/rdatadao/interface](https://github.com/rdatadao/i
 
 Once a DLP has been built, we are ready to deploy it. DLP nodes form a peer-to-peer network, and can be deployed to any infrastructure of your choice (ex, AWS, Google Cloud Platform, Azure, etc). Ideally, nodes have a static IP to more easily communicate with each other. Each node must have a wallet used to register the node to the DLP.
 
+{% hint style="info" %}
+Please find a detailed tutorial as well in the [Vana Github](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md)
+{% endhint %}
+
 ### Register a new DLP
 
 Once a DLP Smart Contract is deployed to the Vana network, reach out to us and we will register this contract as a DLP. We will be manually approving DLP registration at the beginning of the testnet before moving to voting-based approval.&#x20;
