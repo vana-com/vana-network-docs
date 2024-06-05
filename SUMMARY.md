@@ -15,6 +15,7 @@
 * [Proof of Contribution](architecture/proof-of-contribution/README.md)
   * [Zero-Knowledge Proof of Contribution](architecture/proof-of-contribution/zero-knowledge-proof-of-contribution.md)
 * [Incentives](architecture/incentives.md)
+* [Data Liquidity Pool Whitepaper](https://drive.google.com/file/d/1mbucIVLC6dnq6NU-gE33xCGSOO-x-xlX/view?usp=sharing)
 
 ## Quick-start guide
 
