@@ -42,7 +42,7 @@ The Application Layer functions as an active data hub, where online communities 
 
 #### **Personal Servers**
 
-Vana uses a personal server architecture to allow users and data collectives to store private information offchain. Personal servers allow users to train models on their personal data in a secure local environment. Urbit and Solid Project were the first to pioneer this architecture. Vana uses it specifically private, personal data storage. To run your personal server, get started [here](https://github.com/vana-com).&#x20;
+Vana uses a personal server architecture to allow users and data collectives to store private information offchain. Personal servers allow users to train models on their personal data in a secure local environment. Urbit and Solid Project were the first to pioneer this architecture. Vana uses it specifically for private, personal data storage. To run your personal server, get started [here](https://github.com/vana-com).&#x20;
 
 ### Connectome
 

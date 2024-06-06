@@ -5,7 +5,7 @@
 While existing layer one blockchains have enabled digital ownership and liquid markets for assets like art, collectibles, and financial instruments, private data has two unique properties that make it more challenging to apply the same solutions:
 
 1. Data is non-excludable, so as soon as you make it public, it can be copied any number of times. We call this the "data double spend problem"
-2. Data is heterogeneous, but must be aggregated in order to be valuable as AI training data.
+2. Data is non-fungible, but must be aggregated in order to be valuable as AI training data.
 
 Vana is designed to solve the data double spend problem by allowing data contributors to contribute to AI models without revealing their underlying data, and designed to enable data liquidity through data liquidity pools.&#x20;
 
