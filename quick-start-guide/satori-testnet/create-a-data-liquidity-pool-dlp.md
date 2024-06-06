@@ -126,7 +126,7 @@ Clone the DLP smart contract from a [template](https://github.com/vana-com/vana-
 
 ### Register a node to a DLP
 
-A DLP Smart contract will be able to accept new nodes into the DLP. To register a new node, create a wallet for it and call the registration function in the DLP smart contract. More information can be found in [become-a-validator.md](become-a-validator.md "mention").&#x20;
+A DLP Smart contract will be able to accept new nodes into the DLP. To register a new node, create a wallet for it and call the registration function in the DLP smart contract. More information can be found in [become-a-dlp-validator.md](become-a-dlp-validator.md "mention").&#x20;
 
 ### Deploy DLP Nodes
 

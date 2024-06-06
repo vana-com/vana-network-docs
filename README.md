@@ -19,14 +19,14 @@ layout:
 
 Vana is the first network for user-owned data. It is designed for users to own their data and the value it creates.&#x20;
 
-At its core, Vana is a data liquidity network. It makes data liquid by solving the double-spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof of contribution and proof of use. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while proof-of-use guarantees that data is only used for approved operations.
+At its core, Vana is a data liquidity network. It makes data liquid by solving the double-spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof-of-contribution and proof-of-use. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while proof-of-use guarantees that data is only used for approved operations.
 
 Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities. Our guiding use case is a user-owned foundation model collectively owned and created by 100M users.&#x20;
 
 To participate in the network, you can:&#x20;
 
 * [Start a data liquidity pool (DLP)](quick-start-guide/satori-testnet/create-a-data-liquidity-pool-dlp.md)
-* [Run a validator](quick-start-guide/satori-testnet/become-a-validator.md)
+* [Run a validator](quick-start-guide/satori-testnet/become-a-dlp-validator.md)
 * [Contribute data](quick-start-guide/satori-testnet/contribute-data.md)
 
 <div align="left">

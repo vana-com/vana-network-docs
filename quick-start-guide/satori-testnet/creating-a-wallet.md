@@ -1,12 +1,45 @@
 # Creating a Wallet
 
-This is an overview of how to create a Vana wallet, and associated keys. Read the [working-with-keys.md](working-with-keys.md "mention") section on how keys work in the Vana ecosystem.&#x20;
+This is an overview of how to create a Vana wallet, and associated keys. A Vana wallet holds the core ownership of assets on the Vana network, acting as the identity for all operations.
 
-## Ways to Create a Wallet
+## For Basic Use
 
-### For Basic Use
+The Vana network is EVM-compatible and supports Ethereum-compatible addresses. Any wallet that supports EVM chains can be used to create a wallet that can send and receive $DAT, including hardware wallets. Some recommended wallet applications are [MetaMask](https://metamask.io/), [Rabby](https://rabby.io/), and [Trust Wallet](https://trustwallet.com/).
 
-The Vana L1 is an EVM-compatible blockchain; therefore, any wallet that supports EVM chains can be used to create a wallet that can send and receive $DAT. Some good ones are [MetaMask](https://metamask.io/), [Rabby](https://rabby.io/), and [Trust Wallet](https://trustwallet.com/).
+## For Network Operators
+
+Network operators like DLP validators can use the CLI tool that comes with the [Vana framework](https://github.com/vana-com/vana-framework) to manage their wallets.
+
+The Vana framework supports wallets that each contain:
+
+* **A coldkey**: an address representing the owner of a service running in the network.
+* **A hotkey**: an address representing the service running in the network.
+
+Coldkeys are secure keys stored encrypted offline, used for critical or infrequent transactions. A hotkey allows a validator to call a DLP smart contract and must be loaded into the live service environment.
+
+Each of these is a pair of separate cryptographic keys. A coldkey has a private key and a public key, as does a hotkey.
+
+### Coldkey
+
+The coldkey is synonymous with the wallet name. For example, the `--wallet.name` option in a `vanacli` command accepts the coldkey as its value, while `--wallet.hotkey` accepts the hotkey. One coldkey can have multiple hotkeys.
+
+### **Coldkey Uses**
+
+* **Storage**: Holds DAT tokens.
+* **Delegation**: For delegating and undelegating DAT tokens.
+* **DLP Creation**: Used for creating a DLP.
+* **Security**: Provides the highest level of security; encrypted at rest.
+
+### Hotkey
+
+You can create multiple hotkeys paired with a single coldkey. In a DLP, you are identified by your hotkey, keeping your coldkey secure. The same hotkey cannot be used for two nodes in the same DLP but can be used in different DLPs.
+
+#### **Hotkey Uses**
+
+* **Transactions**: Signing transactions.
+* **Operations**: Registering and running DLP nodes.
+* **Delegation**: DAT holders can delegate their DAT to a validator’s hotkey.
+* **Security**: Less secure, generally unencrypted, used for regular operational tasks.
 
 ### For DLP Participation
 

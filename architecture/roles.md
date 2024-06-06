@@ -28,7 +28,7 @@ Liquidity Pool Creators are central to ensuring data liquidity and ecosystem int
 * Design, implement, and manage systems to distribute DLP-token incentives to validators and Data Contributors.
 * Influence users to contribute data for financial and ideological motives.
 
-DLP Creators have full control over the tokenomics of their DLP-specific token, and can allocate the DLP-specific token however they'd like.&#x20;
+DLP Creators have full control over the tokenomics of their DLP-specific tokens, and can allocate their DLP-specific tokens however they like.&#x20;
 
 ### Validator
 
@@ -60,7 +60,7 @@ Propagator’s earn transaction fees and block rewards for processing network tr
 
 ### Data Contributor
 
-Data Contributors are the foundation of the system work, providing the valuable data on which the network is built.&#x20;
+Data Contributors are the foundation of the system, supplying the valuable data on which the network is built.&#x20;
 
 #### **Participation:**
 
@@ -80,11 +80,11 @@ Data Consumers pay for access to DLPs and dApps within the ecosystem. They creat
 * Pay fees to access DLP data banks for external services.
 * Propose ideas and data needs to DLP Creators.
 
-We expect big tech companies will fill the role of Data Consumers and request access to niche data on the Vana network (if the users allow) to push the frontiers of their models.
+We expect big tech companies will fill the role of Data Consumers and request access to niche data on the Vana network (if the users allow) to push the frontiers of their models. We also expect the Vana architecture to enable new model creators to finance and aggregate data for their projects.
 
 ### Data Custodian (optional)
 
-Data Custodians increase the efficiency of data contributions within the Vana network. DLPs might opt to leverage Data Custodians to lower the barrier of entry for Data Contributors to share their data with DLPs.
+Data Custodians increase the efficiency of data contributions within the Vana network by aggregating data from data contributors before it is submitted to a DLP. DLPs might opt to leverage Data Custodians to lower the barrier of entry for Data Contributors to share their data with DLPs.
 
 #### **Responsibilities:**
 

@@ -10,7 +10,7 @@ description: >-
 Walkthrough of the Vana network pieces
 {% endembed %}
 
-Vana consists of a Data Liquidity Layer, designed to introduce data onchain as transferable digital assets, and an Application Layer for user-owned data applications powered by verified data. The universal connectome is a permissionless, real-time map of data flowing through the ecosystem.
+Vana consists of a Data Liquidity Layer, designed to introduce data on-chain as transferable digital assets, and an Application Layer for user-owned data applications powered by verified data. The universal connectome is a permissionless, real-time map of data flowing through the ecosystem.
 
 
 
@@ -22,7 +22,7 @@ The Data Liquidity Layer is where data is contributed, validated, and recorded t
 
 In the Data Liquidity Layer, data contributors and custodians submit data to DLPs for validation and receive both governance rights and rewards for their data contributions based on parameters set out in the DLP validation process.
 
-The purpose of the Data Liquidity Layer is to bring data onchain and facilitate data transactions among Data Contributors, Custodians, and DLP Validators. This network layer organizes all data collection and management for user and developer accessibility throughout the ecosystem.
+The purpose of the Data Liquidity Layer is to bring data on-chain and facilitate data transactions among Data Contributors, Custodians, and DLP Validators. This network layer organizes all data collection and management for user and developer accessibility throughout the ecosystem.
 
 #### Data Liquidity Pools
 
@@ -36,17 +36,17 @@ Data Liquidity Pools (DLPs) aggregate similar types of data submitted to the dat
 
 ### Application Layer
 
-The Application Layer is an open data playground for Data Contributors and developers to collaborate and build applications with the data liquidity amassed by DLPs. As the Data Liquidity Layer verifiably brings data onchain, the Application Layer provides the infrastructure for the distributed training of user-owned foundation models and the development of novel AI dApps.
+The Application Layer is an open data playground for Data Contributors and developers to collaborate and build applications with the data liquidity amassed by DLPs. As the Data Liquidity Layer verifiably brings data on-chain, the Application Layer provides the infrastructure for the distributed training of user-owned foundation models and the development of novel AI dApps.
 
 The Application Layer functions as an active data hub, where online communities can collaborate with developers to create real economic value from their data. This fosters an interactive data creation ecosystem, where data contributors benefit from the downstream network effects and value emerging from the intelligence that their data helps to create.
 
 #### **Personal Servers**
 
-Vana uses a personal server architecture to allow users and data collectives to store private information offchain. Personal servers allow users to train models on their personal data in a secure local environment. Urbit and Solid Project were the first to pioneer this architecture. Vana uses it specifically for private, personal data storage. To run your personal server, get started [here](https://github.com/vana-com).&#x20;
+Vana supports a non-custodial architecture in which users and data collectives can store private information off-chain. Personal servers allow users to store personal data and train models on their data in a secure local environments. Urbit and Solid Project were the first to pioneer similar architectures. Vana uses it specifically for private, personal data storage. To run your personal server, get started [here](https://github.com/vana-com).&#x20;
 
 ### Connectome
 
-Connectome is a network over-layer that validates real-time data transactions throughout Vana’s ecosystem. Using proof-of-stake consensus, Connectome propogators propagate data transactions within the network. This ensures that DLP token transfers are valid and allows for cross-DLP data access by user-owned data applications.&#x20;
+The Connectome is a decentralized ledger of real-time data transactions throughout Vana’s ecosystem. Using proof-of-stake consensus, Connectome propogators propagate data transactions within the network. This ensures that DLP token transfers are valid and allows for cross-DLP data access by user-owned data applications.&#x20;
 
-Functioning like a block explorer for data, Connectome allows external parties to view and monitor data transactions throughout the network. Moreover, Connectome is EVM-compatible allowing for interoperability with other EVM networks, protocols, and DeFi applications.
+The Connectome allows external parties to view and monitor data transactions throughout the network. Moreover, the Connectome is EVM-compatible allowing for interoperability with other EVM networks, protocols, and DeFi applications.
 

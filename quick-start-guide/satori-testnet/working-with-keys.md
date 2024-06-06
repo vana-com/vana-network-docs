@@ -1,8 +1,14 @@
 # Working with Keys
 
-## Coldkeys and Hotkeys
+## EVM Compatibility
 
-The Vana wallet holds the core ownership of assets on the Vana network, acting as the identity for all operations. This guide explains how to work with Vana wallet keys. For instructions on creating a Vana wallet, see [creating-a-wallet.md](creating-a-wallet.md "mention").
+The Vana network is EVM-compatible and supports Ethereum-compatible addresses. A Vana wallet holds the core ownership of assets on the Vana network, acting as the identity for all operations.
+
+## Wallets
+
+Network participants like DLP validators can use the CLI tool that comes with the [Vana framework](https://github.com/vana-com/vana-framework) to manage their wallets.
+
+This guide explains how to work with Vana wallet keys. For instructions on creating a Vana wallet, see [creating-a-wallet.md](creating-a-wallet.md "mention").
 
 A Vana wallet consists of a coldkey and a hotkey, used for different operations in the Vana ecosystem.&#x20;
 
