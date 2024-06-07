@@ -19,7 +19,7 @@ layout:
 
 Vana is the first network for user-owned data. It is designed for users to own their data and the value it creates.&#x20;
 
-At its core, Vana is a data liquidity network. It makes data liquid by solving the double-spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof-of-contribution and proof-of-use. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while proof-of-use guarantees that data is only used for approved operations.
+At its core, Vana is a data liquidity network. It makes data liquid by solving the double-spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof-of-contribution and non-custodial data. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while non-custodial data ensures that the data is only used for approved operations.
 
 Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities. Our guiding use case is a user-owned foundation model collectively owned and created by 100M users.&#x20;
 
@@ -51,11 +51,11 @@ We risk heading towards a future where AI models trained on our data displace us
 
 We believe that you should own a piece of the AI models that your data helps create.
 
-### Objective
+### Goal
 
-Our objective is to empower users to own their data and the value is creates. We want everyday people to directly benefit from the data that they create in their _increasingly_ digital lives.
+Our goal is to empower users to own their data and the value it creates. We believe data will power the AI economic shift over the next decade. Giving users true ownership of their data opens up walled gardens pushes AI progress forward through data abundance.
 
-We apply the sovereign, decentralized technology that powers bitcoin and ethereum to personal data, shifting power from monopolistic big tech and distributing it back into the hands of anons. Vana provides the infrastructure to generate user-owned datasets that can replicate and supersede the datasets that big tech companies are today selling for hundreds of millions of dollars.
+We apply the sovereign, decentralized technology that powers bitcoin and ethereum to personal data, shifting power from monopolistic big tech and distributing it back into the hands of the users who created the data. Vana provides the infrastructure to generate user-owned datasets that can replicate and supersede the datasets that big tech companies are today selling for hundreds of millions of dollars.
 
 #### _**We’re creating the world's largest user-owned data treasury—a resource so valuable that the world’s leading AI models will be built upon it.**_
 
