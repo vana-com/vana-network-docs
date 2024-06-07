@@ -29,7 +29,7 @@ A DLP validator can handle data specific to a data liquidity pool. It can make u
 {% hint style="info" %}
 Vana framework with core components: [https://github.com/vana-com/vana-framework](https://github.com/vana-com/vana-framework/)
 
-ChatGPT data liquidity pool (as example): [https://github.com/vana-com/vana-dlp-chatgpt](https://github.com/vana-com/vana-dlp-chatgpt)
+Template for creating DLP validators [https://github.com/vana-com/vana-dlp-template](https://github.com/vana-com/vana-dlp-template)
 
 Data liquidity pool with simple zk proofs: [https://github.com/vana-com/zk-proof-poc](https://github.com/vana-com/zk-proof-poc)
 {% endhint %}
@@ -62,12 +62,9 @@ We highly recommend using the DLP Smart Contract with the integrated DLP token t
 
 A UI may be useful to data contributors to upload their data to a DLP, but it is not necessary. Ultimately, it's up to the DLP to decide what is best for the DLP's contributors to be able to write data transactions on-chain. A starting point for a UI can be found here:&#x20;
 
-{% hint style="warning" %}
-Still work-in-progress, Link coming soon.\
-Not yet open source - need to sanitize repos before open sourcing
-
-ChatGPT: [https://github.com/vana-com/chatgpt-ui](https://github.com/vana-com/chatgpt-ui)\
-r/datadao: [https://github.com/rdatadao/interface](https://github.com/rdatadao/interface)
+{% hint style="info" %}
+Generic UI for uploading data to DLPs: [https://github.com/vana-com/vana-dlp-ui](https://github.com/vana-com/vana-dlp-ui)\
+r/datadao (as example for an existing project): [https://github.com/rdatadao/interface](https://github.com/rdatadao/interface)
 {% endhint %}
 
 ## How to start a DLP
