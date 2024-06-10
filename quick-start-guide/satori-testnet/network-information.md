@@ -6,6 +6,10 @@ Here is a quick video how to get started in setting up the Satori Testnet and pe
 
 {% embed url="https://www.loom.com/share/81021e1ebd4f4b13b7312de58682d036?sid=dbf392a1-76ea-4278-add7-500b48f2d21e" %}
 
+You will also find a button on the bottom left in the [Block Explorer](https://satori.vanascan.io) to add the Network with one click to your MetaMask
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-10 at 21.24.43.png" alt=""><figcaption><p>Add Satori Testnet to MetaMask with One-Click</p></figcaption></figure>
+
 ## Network Details
 
 ### Satori Testnet
