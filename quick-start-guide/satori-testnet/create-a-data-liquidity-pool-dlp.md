@@ -1,5 +1,5 @@
 ---
-description: Help bringing user data on-chain
+description: Help bringing user data onchain
 ---
 
 # Create a Data Liquidity Pool (DLP)
