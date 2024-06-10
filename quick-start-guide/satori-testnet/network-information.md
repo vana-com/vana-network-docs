@@ -1,5 +1,11 @@
 # Network information
 
+## Setting up the Network
+
+Here is a quick video how to get started in setting up the Satori Testnet and perfom a simple transaction.
+
+{% embed url="https://www.loom.com/share/81021e1ebd4f4b13b7312de58682d036?sid=dbf392a1-76ea-4278-add7-500b48f2d21e" %}
+
 ## Network Details
 
 ### Satori Testnet
