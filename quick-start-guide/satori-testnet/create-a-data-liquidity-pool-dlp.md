@@ -6,9 +6,11 @@ description: Help bringing user data onchain
 
 ## Getting Started
 
-On mainnet, creating a DLP will be fully permissionless, with voting to elect the top 16 DLPs. As we roll out the network, we are partnering closely with DLP creators to help them get setup. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfB\_puqABBqCUZCFfjKihp7qc4V1wCv9APn86ijHNeBs93xyw/viewform) if you'd like to create a DLP and apply for token grants.&#x20;
+The Data Liquidity Layer is where data is contributed, validated, and recorded to the network into data liquidity pools (DLPs). Here, DLP creators deploy DLP smart contracts with specific data contribution objectives, including the DLP’s purpose, validation method, and data contribution parameters.
 
-_There are 16 slots on mainnet for data liquidity pools. This limit is intended to incentivize quality over quantity. Currently, there are teams building DLPs for: Reddit, Twitter, LinkedIn, ChatGPT, GitHub. Multiple DLPs can be created for the same data source, but we expect the community to prefer voting in one best performing DLP for each data source. Top performers on testnet will be voted into slots on mainnet._
+DLPs are eligible for generous block rewards, and DLP slots are competitive. There 16 slots available on mainnet for DLPs. This limit is intended to incentivize quality over quantity
+
+* To register your DLP or provide updates on progress, go [here](https://usevana.typeform.com/to/lYvFKKYY).
 
 {% hint style="info" %}
 Join our [Discord](https://discord.com/invite/Wv2vtBazMR) server to present your DLP and engage with the community!
