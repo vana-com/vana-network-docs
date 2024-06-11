@@ -41,13 +41,13 @@
 * [Security Audits](useful-information/security-audits.md)
 * [Glossary](useful-information/glossary.md)
 
-## Personal Servers
+## Non-Custodial Data
 
-* [Overview](personal-servers/overview.md)
-* [Run your personal server](personal-servers/run-your-personal-server/README.md)
-  * [Self-Host on Macbook](personal-servers/run-your-personal-server/self-host-on-macbook.md)
-  * [Hosted App](personal-servers/run-your-personal-server/hosted-app.md)
-* [Collective Servers](personal-servers/collective-servers.md)
+* [Overview](non-custodial-data/overview.md)
+* [Run your personal server](non-custodial-data/run-your-personal-server/README.md)
+  * [Self-Host on Macbook](non-custodial-data/run-your-personal-server/self-host-on-macbook.md)
+  * [Hosted App](non-custodial-data/run-your-personal-server/hosted-app.md)
+* [Collective Servers](non-custodial-data/collective-servers.md)
 
 ## DATA AND MODEL PORTABILITY
 

@@ -4,7 +4,9 @@ description: Store private data off-chain while permissioning it onchain
 
 # Collective Servers
 
-To enable community-owned models and datasets, we use a trusted compute node with asymmetric encryption. Users contribute their data by encrypting it client-side with the node's public key. It is decrypted with the corresponding private key held securely on the node.
+Depending on a DLPs tokenomics, they may want to hold user data in escrow. Other DLPs may use liveness checks and rewards to ensure that user data remains connected, even without holding an encrypted copy of it.&#x20;
+
+For DLPs and other user-owned data apps that require access to a collective dataset or model weights, Vana users a secured compute node with asymmetric encryption. Users contribute their data by encrypting it client-side with the node's public key. It is decrypted with the corresponding private key held securely on the node.
 
 The trusted compute node can only run code that is approved by the collective. With a community-owned dataset, for example, for a company to pay for access to train on the data, the company (or someone on their behalf) puts up a pull request with the code that they need to run on the secure node. This could include code to transmit the data to them, or code to train the model. Note the trusted compute node does not have access to a GPU, so to train larger models, the data requester must setup a secure compute node that that its own private key, then request that an encrypted copy is sent to that heavy compute node. Then, the data requester submits a proposal to the DAO describing what they would like to do.
 
