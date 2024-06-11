@@ -5,13 +5,7 @@
 * [What is Vana?](README.md)
 * [Data Ownership FAQ](welcome-to-vana/data-ownership-faq.md)
 * [Use Cases](welcome-to-vana/use-cases.md)
-* [FAQs](welcome-to-vana/faqs/README.md)
-  * [How competitive will it be to earn one of the 16 slots?](welcome-to-vana/faqs/how-competitive-will-it-be-to-earn-one-of-the-16-slots.md)
-  * [If I invest time in building out the DLP, will it pay off?](welcome-to-vana/faqs/if-i-invest-time-in-building-out-the-dlp-will-it-pay-off.md)
-  * [What is the timeline for launching my DLP?](welcome-to-vana/faqs/what-is-the-timeline-for-launching-my-dlp.md)
-  * [Can I start on Testnet without a live token?](welcome-to-vana/faqs/can-i-start-on-testnet-without-a-live-token.md)
-  * [What criteria will DLPs be evaluated on to earn a slot on mainnet?](welcome-to-vana/faqs/what-criteria-will-dlps-be-evaluated-on-to-earn-a-slot-on-mainnet.md)
-  * [How do I get started to build a DLP?](welcome-to-vana/faqs/how-do-i-get-started-to-build-a-dlp.md)
+* [FAQs](welcome-to-vana/faqs.md)
 
 ## Architecture
 
