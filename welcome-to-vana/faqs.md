@@ -1,5 +1,9 @@
 # FAQs
 
+## Is a data DAO the same as a data liquidity pool?
+
+Data liquidity pools allow any group to come together and pool similar data, with data quality secured by proof-of-contribution. A data DAO is like a labor union for data, where users collectively pool their data and govern what happens to it. It is a specific form of a data liquidity pool that uses a dataset-specific token to govern the use of the data. Some data liquidity pools may choose not to create a new token, and instead use a stablecoin with payments that go out to data contributors.
+
 ## How competitive will it be to earn one of the 16 slots?
 
 Earning one of the 16 slots on Vana's mainnet for Data Liquidity Pools (DLPs) is designed to be competitive to ensure only the highest quality and most valuable DLPs are included. Factors that will affect the competitiveness include:
