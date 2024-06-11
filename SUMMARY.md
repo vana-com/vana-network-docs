@@ -27,6 +27,7 @@
   * [Become a DLP Validator](quick-start-guide/satori-testnet/become-a-dlp-validator.md)
   * [Contribute Data](quick-start-guide/satori-testnet/contribute-data.md)
   * [Run a Propagator Node](quick-start-guide/satori-testnet/run-a-propagator-node.md)
+  * [DLP Leaderboard](quick-start-guide/satori-testnet/dlp-leaderboard.md)
 
 ## Useful Information
 
