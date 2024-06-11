@@ -1,5 +1,5 @@
 ---
-description: Leaderboard for Data Liquidity Pools
+description: The Top Data Liquidity Pools
 ---
 
 # DLP Leaderboard

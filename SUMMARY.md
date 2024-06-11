@@ -3,9 +3,9 @@
 ## Welcome to Vana
 
 * [What is Vana?](README.md)
-* [Data Ownership FAQ](welcome-to-vana/data-ownership-faq.md)
-* [Use Cases](welcome-to-vana/use-cases.md)
-* [FAQs](welcome-to-vana/faqs.md)
+* [FAQ](welcome-to-vana/faq.md)
+* [Guiding Use Cases](welcome-to-vana/guiding-use-cases.md)
+* [DLP Leaderboard](welcome-to-vana/dlp-leaderboard.md)
 
 ## Architecture
 
@@ -28,7 +28,6 @@
   * [Become a DLP Validator](quick-start-guide/satori-testnet/become-a-dlp-validator.md)
   * [Contribute Data](quick-start-guide/satori-testnet/contribute-data.md)
   * [Run a Propagator Node](quick-start-guide/satori-testnet/run-a-propagator-node.md)
-  * [DLP Leaderboard](quick-start-guide/satori-testnet/dlp-leaderboard.md)
 
 ## Useful Information
 

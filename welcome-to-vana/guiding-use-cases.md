@@ -15,11 +15,11 @@ layout:
     visible: true
 ---
 
-# Use Cases
+# Guiding Use Cases
 
-With Vana, users and developers can incentivize global data contribution and accelerate the development of user-owned data applications, AI models, and data liquidity pools. Here are some use cases that have guided our network design:
+With Vana, users and developers can incentivize global data contribution and accelerate the development of user-owned data applications, AI models, and data liquidity pools. These use cases have guided our architecture:
 
-### User-Owned Data Treasuries
+### User-Owned Data Treasury
 
 Incentivize 100 million people to export their Google, Facebook, Instagram, and Reddit data to create the first user-owned data treasury.
 

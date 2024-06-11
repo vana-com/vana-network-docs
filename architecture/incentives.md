@@ -8,7 +8,7 @@ description: Overview of DLP tokens
 Incentives are subject to change and might be updated to account for necessary adjustments in the ecosystem.
 {% endhint %}
 
-### Core economics in DLP-specific token
+### Core economics in dataset-specific token
 
 * Each DLP configures the address of the currency it would like to use
 * It is recommended that each DLP create their own dataset-specific token
@@ -19,7 +19,7 @@ Incentives are subject to change and might be updated to account for necessary a
 * DLP tokens are used to collectively govern the actions of the DLP
 
 {% hint style="info" %}
-\[Link to a few different pool token implementations]
+See the [r/datadao docs](https://docs.rdatadao.org/usdrdat-tokenomics) for an example of dataset-specific tokenomics
 {% endhint %}
 
 ### Relationship between the native token and dataset-specific tokens
@@ -28,10 +28,9 @@ The Vana network does not own or control any of the dataset-specific tokens crea
 
 The native gas token facilitates transactions and computations across the entire network. It is used to pay gas fees for data transactions across all DLPs, reward propagators and contributors, and secure the network. Dataset-specific tokens, on the other hand, are used specifically within their respective DLPs to access and consume the data they represent.
 
-### Temporary block rewards for top pools
+### Block rewards for top pools
 
 * Top 16 DLPs split X% of block rewards for the first X months, halving over each period
-* Performance measured by amount of native token burned in DLP
 * New pools must prove themselves by running w/o block rewards for some time
 * Governable incentive to recognize the value of data onboarding and verification to network
 
