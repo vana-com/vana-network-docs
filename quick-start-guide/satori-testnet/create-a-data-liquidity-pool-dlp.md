@@ -1,5 +1,5 @@
 ---
-description: Help bringing user data onchain
+description: Bring user data onchain
 ---
 
 # Create a Data Liquidity Pool (DLP)
@@ -11,9 +11,10 @@ The Data Liquidity Layer is where data is contributed, validated, and recorded t
 DLPs are eligible for generous block rewards, and DLP slots are competitive. There 16 slots available on mainnet for DLPs. This limit is intended to incentivize quality over quantity
 
 * To register your DLP or provide updates on progress, go [here](https://usevana.typeform.com/to/lYvFKKYY).
+* To see other DLPs, view the [DLP Leaderboard](dlp-leaderboard.md)
 
 {% hint style="info" %}
-Join our [Discord](https://discord.com/invite/Wv2vtBazMR) server to present your DLP and engage with the community!
+Join our [Discord](https://discord.com/invite/Wv2vtBazMR) server to present your DLP and chat with other devs creating DLPs
 {% endhint %}
 
 ## Understanding DLPs
@@ -46,6 +47,10 @@ DLPs have the flexibility to validate data according to their unique requirement
 
 This proof-of-contribution function checks data validity and maps the diverse data submissions to a score that can be used to reward fungible DLP-specific tokens.&#x20;
 
+{% hint style="info" %}
+See the ChatGPT DLP for a [detailed example of proof-of-contribution](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/proof\_of\_contribution.md)
+{% endhint %}
+
 ### DLP Smart Contract
 
 A DLP smart contract is responsible for recording consensus values among network nodes and can help orchestrate how proof-of-contribution works in the DLP. A starting point can be found here:
@@ -55,33 +60,37 @@ A DLP smart contract is responsible for recording consensus values among network
 {% endhint %}
 
 {% hint style="warning" %}
-Integration of the DLP-specific ERC-20 token is still in progress.&#x20;
+The template DLP-specific ERC-20 token with validator is still in progress.&#x20;
 
-We highly recommend using the DLP Smart Contract with the integrated DLP token to avoid redeployment of the Smart Contract.
+We will share an update in discord as soon as it is ready. In the meantime, the DLP creator will have to manually approve new validators rather than relying on a staking minimum. Note, migration may be inconvenient from the current DLP template to the new one.&#x20;
 {% endhint %}
 
 ### DLP Upload UI
 
-A UI may be useful to data contributors to upload their data to a DLP, but it is not necessary. Ultimately, it's up to the DLP to decide what is best for the DLP's contributors to be able to write data transactions on-chain. A starting point for a UI can be found here:&#x20;
+Some DLPs use a UI for data contributors to upload their data to a DLP. It's up to the DLP to decide what is best for the DLP's contributors to be able to write data transactions onchain. A starting point for a UI, which implements client-side encryption, is here:&#x20;
 
 {% hint style="info" %}
 Generic UI for uploading data to DLPs: [https://github.com/vana-com/vana-dlp-ui](https://github.com/vana-com/vana-dlp-ui)\
-r/datadao (as example for an existing project): [https://github.com/rdatadao/interface](https://github.com/rdatadao/interface)
+gpt data dao:  [https://www.gptdatadao.org/](https://www.gptdatadao.org/)\
+reddit data dao: [https://rdatadao.org/](https://rdatadao.org/)
 {% endhint %}
+
+Other DLPs are using chrome extensions or scrapers for users to contribute data.
 
 ## How to start a DLP
 
-Now that you're familiar with the components of a DLP, here's a conceptual step-by-step guide for launching a DLP of your own.
+Now that you're familiar with the components of a DLP, here's a conceptual step-by-step guide to launch a DLP of your own.
 
 {% hint style="info" %}
-We recommend following the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md) to familiarize yourself with the implementation of a typical DLP.
+Follow the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md) for a step-by-step guide on creating a DLP
 {% endhint %}
 
 1. Choose a valuable data source.
    * Current community requests: stack overflow, telegram, youtube, email, google drive
+   * To see what others are building, visi the [DLP Leaderboard](dlp-leaderboard.md)
 2. Tell users how to access that data source.
    * For example, through a GDPR or CCPA data export request, through scraping their own data, or through an API.&#x20;
-   * Optionally, build an application that makes it easy for data contributors to add their data via your smart contract.
+   * Optionally, build an UI that makes it easy for data contributors to add their data via your smart contract.
 3. Implement a DLP validator template and smart contract that will validate and value data.
    * Data validation and value depends on the data source.
    * Once decided, implement your incentives and validation checks.
@@ -90,7 +99,7 @@ We recommend following the [ChatGPT DLP tutorial](https://github.com/vana-com/va
 5. Deploy your DLP smart contract.
 6. Start up a DLP validator and recruit other existing validators to participate in the DLP as well.
 7. Congrats, you're up and running!
-8. To quality for block rewards, get voted into the top 16 DLP slots based on data value and participation.
+8. To qualify for block rewards, get voted into the top 16 DLP slots based on data value and participation.
 
 {% hint style="warning" %}
 **Satori Testnet is for Testing Purposes Only**
@@ -108,20 +117,7 @@ Once a DLP Smart Contract is deployed to the Vana network, reach out to us and w
 
 ### Deploy the Smart Contract
 
-Clone the DLP smart contract from a [template](https://github.com/vana-com/vana-dlp-smart-contracts), modify it for the needs of your specific DLP, and deploy it to the network.&#x20;
-
-1. Install [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation), an Ethereum development environment.
-2. Clone our DLP smart contract repository: \[Link coming soon]
-3. Run: `yarn install`
-4. Copy `.env.example` into `.env` file and fill it out&#x20;
-5. Run the example: `npx hardhat test test/dlpExample.ts`  (this will create a temporary local node and run the example)
-6. If you want to change the smart contract code, that can be found here : `contracts/dataLiquidityPool/DataLiquidityPool.sol`\
-   If you want to change the example code (add more files, validators, etc): \
-   `test/dlpExample.ts`
-7. Repeat step 5 to run and test your changes
-8. To redeploy the smart contract to the mycelium testnet:\
-   `npx hardhat deploy --network vanaMycelium --tags DataLiquidityPool`\
-   `npx hardhat verify --network vanaMycelium <deployed contract address>`
+Clone the DLP smart contract from a [template](https://github.com/vana-com/vana-dlp-smart-contracts), modify it for the needs of your specific DLP, and deploy it to the network following the readme.
 
 ### Register a node to a DLP
 
@@ -129,4 +125,4 @@ A DLP Smart contract will be able to accept new nodes into the DLP. To register 
 
 ### Deploy DLP Nodes
 
-Once DLP nodes have been registered, they must be deployed to a location where they can be reached by other DLP nodes. This can mean deploying to your favorite cloud vendor of choice or even running a node on your own hardware and setting up appropriate networking rules. Once the node is running, they can begin serving proof-of-contribution requests within the DLP.
+Once DLP nodes are registered, they must be deployed to a location where they can be reached by other DLP nodes. This can mean deploying to your favorite cloud vendor of choice or running a node on your own hardware and setting up appropriate networking rules. Once the node is running, they can begin serving proof-of-contribution requests within the DLP.
