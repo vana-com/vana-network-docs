@@ -17,9 +17,9 @@ layout:
 
 # What is Vana?
 
-Vana is the first network for user-owned data. It is designed for users to own their data and the value it creates.&#x20;
+Vana is the first network for user-owned data. It is designed for users to own their data and the value it creates. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).&#x20;
 
-At its core, Vana is a data liquidity network. It makes data liquid by solving the double-spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof-of-contribution and non-custodial data. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while non-custodial data ensures that the data is only used for approved operations.
+At its core, Vana is a data liquidity network. It makes data liquid by solving the double spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof-of-contribution and non-custodial data. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while non-custodial data ensures that the data is only used for approved operations.
 
 Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities. Our guiding use case is a user-owned foundation model collectively owned and created by 100M users.&#x20;
 

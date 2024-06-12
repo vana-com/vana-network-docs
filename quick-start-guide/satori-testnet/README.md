@@ -32,14 +32,14 @@ Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) to get the late
 * Launch first iteration of docs
 * To be finished by end of May 2024
 
-### Phase 1: DLP Creators and Validators
+### :white\_check\_mark: Phase 1: DLP Creators and Validators
 
 * Focus on data liquidity pool creators and validators
   * Testing proof of contribution functions and consensus
   * No DLP-specific tokens in contracts - just focused on proof of contribution
 * Users can only contribute test data and are discouraged from bringing real data onto testnet
 * Audit process for smart contracts
-* Start: early June 2024
+* Start: June 11, 2024
 
 ### Phase 2 : Fully-featured Testnet&#x20;
 
