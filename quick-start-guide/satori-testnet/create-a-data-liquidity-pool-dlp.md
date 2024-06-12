@@ -59,11 +59,13 @@ A DLP smart contract is responsible for recording consensus values among network
 [https://github.com/vana-com/vana-dlp-smart-contracts](https://github.com/vana-com/vana-dlp-smart-contracts)
 {% endhint %}
 
-{% hint style="warning" %}
-The template DLP-specific ERC-20 token with validator is still in progress.&#x20;
+#### DLP Tokens
 
-We will share an update in discord as soon as it is ready. In the meantime, the DLP creator will have to manually approve new validators rather than relying on a staking minimum. Note, migration may be inconvenient from the current DLP template to the new one.&#x20;
-{% endhint %}
+The Smart Contract repo contains a [DLPT (DLP Token) contract](https://github.com/vana-com/vana-dlp-smart-contracts?tab=readme-ov-file#dlpt-contract), that is an ERC20 token with additional features such as minting permissions, an admin role, and a blocklist for addresses. It leverages OpenZeppelin's ERC20, ERC20Permit, ERC20Votes, and Ownable modules for extended functionality.
+
+#### Validator registration
+
+The [Data Liquidity Pool smart contract](https://github.com/vana-com/vana-dlp-smart-contracts?tab=readme-ov-file#data-liquidity-pool-smart-contract) is designed to manage the registration of validators. This contract ensures that validators can participate in maintaining the network's integrity and security while earning rewards for their contributions.
 
 ### DLP Upload UI
 
