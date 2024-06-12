@@ -12,7 +12,15 @@ If you need to meet specific minimum staking requirements for a DLP, please reac
 
 You can run a validator on your own hardware or on a cloud provider like GCP and AWS, ensuring the quality of data in the pool and earning rewards accordingly.&#x20;
 
+{% hint style="info" %}
+**Minimum hardware requirements:** 1 CPU, 8GB RAM, 10GB free disk space
+{% endhint %}
+
 ## How to run a validator
+
+{% hint style="info" %}
+See example integration of a Validator [here](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md#running-a-validator-on-an-existing-dlp).
+{% endhint %}
 
 1. Choose the DLP you'd like to run a validator for.
    * You can run validators in multiple DLPs
@@ -21,10 +29,9 @@ You can run a validator on your own hardware or on a cloud provider like GCP and
 3. Wait for your registration request to be approved by the DLP.
 4. Run the validator node specific to the DLP. Confirm that your validator is running correctly. Your logs should look something like this, which will vary by DLP:
    * See DLP-specific instructions for running a validator node
+5. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking on-chain.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
-
-4. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking on-chain.&#x20;
 
 ## Scoring process
 
