@@ -14,7 +14,7 @@ You will also find a button on the bottom left in the [Block Explorer](https://s
 
 ### Satori Testnet
 
-<table data-header-hidden><thead><tr><th width="183"></th><th></th></tr></thead><tbody><tr><td>RPC URL</td><td>http://rpc.satori.vana.com</td></tr><tr><td>Chain ID</td><td>14801</td></tr><tr><td>Network name</td><td>Satori Testnet</td></tr><tr><td>Currency</td><td>DAT</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="183"></th><th></th></tr></thead><tbody><tr><td>RPC URL</td><td>http://rpc.satori.vana.org</td></tr><tr><td>Chain ID</td><td>14801</td></tr><tr><td>Network name</td><td>Satori Testnet</td></tr><tr><td>Currency</td><td>DAT</td></tr></tbody></table>
 
 ### Mainnet (Coming Soon)
 
