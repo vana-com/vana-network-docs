@@ -89,7 +89,7 @@ Follow the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/b
 
 1. Choose a valuable data source.
    * Current community requests: stack overflow, telegram, youtube, email, google drive
-   * To see what others are building, visi the [DLP Leaderboard](../../welcome-to-vana/dlp-leaderboard.md)
+   * To see what others are building, visit the [DLP Leaderboard](../../welcome-to-vana/dlp-leaderboard.md)
 2. Tell users how to access that data source.
    * For example, through a GDPR or CCPA data export request, through scraping their own data, or through an API.&#x20;
    * Optionally, build an UI that makes it easy for data contributors to add their data via your smart contract.
