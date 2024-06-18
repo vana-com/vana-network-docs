@@ -42,13 +42,13 @@ Data liquidity pool with simple zk proofs: [https://github.com/vana-com/zk-proof
 
 ### Proof of contribution
 
-DLPs have the flexibility to validate data according to their unique requirements. Regardless of the specific verification methods employed, a DLP should strive to ensure that each data point passes the following criteria, which is implemented through a proof-of-contribution function:
+Data value and validation depends on the data source. DLPs have the flexibility to validate data according to their unique requirements. Regardless of the specific verification methods employed, a DLP should strive to ensure that each data point passes the following criteria, which is implemented through a proof-of-contribution function:
 
 * **Meaningfulness**: The data should contribute novel and valuable insights to the DLP's overall dataset. It should enhance the richness and diversity of the available information.
 * **Validity**: The data must adhere to a schema that is consistent with the existing data within the DLP. Conforming to a standardized structure ensures compatibility and facilitates efficient data processing.
 * **Authenticity and Contributor's rights**: The data must be genuine and, if required, originate from a legitimate account. This ensures the integrity and reliability of the information. The data contributor submitting the data must have the necessary rights and permissions to do so.&#x20;
 
-This proof-of-contribution function checks data validity and maps the diverse data submissions to a score that can be used to reward fungible DLP-specific tokens.&#x20;
+This proof-of-contribution function checks data validity and maps the diverse data submissions to a score that can be used to reward fungible DLP-specific tokens. A template is included in the DLP template to make these easier to implement.
 
 {% hint style="info" %}
 See the ChatGPT DLP for a [detailed example of proof-of-contribution](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/proof\_of\_contribution.md)
