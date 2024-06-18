@@ -35,7 +35,14 @@ See example integration of a Validator [here](https://github.com/vana-com/vana-d
 
 ## Scoring process
 
-A data validation request is received by a validator and sent to other validators in the network to perform the actual validation. Each validator scores the data points based on certain metrics and reports them to the initiator. The scores are then aggregated and written on-chain.&#x20;
+Validators earn rewards for validating uploaded files. For a given data validation request, each validator scores data based on metrics that are relevant to the data type. The scores are aggregated and written on-chain, but how does the DLP decide how to reward its validators?
 
-Along with the data scores, whenever a task is performed by a validator, the validators are scored as well, depending on their performance. The scores are sent to the DLP smart contract, where consensus is reached via Nagoya consensus, and the validator scores are updated. Low-ranking validators quickly realize fewer rewards for their contributions, incentivizing validators who stay in consensus with other validators.&#x20;
+Every 1800 blocks (\~3 hours), a DLP epoch concludes and the DLP contract sends a chunk of rewards to its validators. The precise amount of rewards a given validator receives depends is determined by the Nagoya consensus process.
 
+In Nagoya consensus, each validator submits a score for every other validator to the DLP smart contract. Validators score each other based on the quality of their assessments and their operational performance. For instance, if a validator is perceived as wrongly giving an uploaded file that appears fraudulent or low quality a high score, it may receive low scores from other validators.
+
+{% hint style="info" %}
+Somewhat more formally: a validator peer's emissions amount is based on calculations for their **rank** and **consensus**. It is calculated by multiplying these two scores, integrating both the peer's individual valuation by the network (rank) and the collective agreement on that valuation (consensus). This multiplication ensures that emissions are allocated in a manner that considers both the quality of contributions and the degree of communal support for those contributions.
+{% endhint %}
+
+When an epoch concludes, the consensus process converts the most recent validator scores into a distribution for that epoch's emissions, and the rewards are distributed to the validators accordingly. Low-ranking validators quickly realize fewer rewards for their contributions, ensuring that an honest majority of validators is able to out-earn dishonest actors and therefore uphold the integrity of the DLP over time.
