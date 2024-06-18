@@ -1,5 +1,8 @@
 ---
-description: Bring user data onchain
+description: >-
+  Creating a DLP is the best way for highly motivated builders to get involved
+  and rewarded. It takes a few hours to deploy a template, and 1-2 days to
+  modify the template for your chosen data source.
 ---
 
 # Create a Data Liquidity Pool (DLP)
@@ -8,7 +11,7 @@ description: Bring user data onchain
 
 The Data Liquidity Layer is where data is contributed, validated, and recorded to the network into data liquidity pools (DLPs). Here, DLP creators deploy DLP smart contracts with specific data contribution objectives, including the DLP’s purpose, validation method, and data contribution parameters.
 
-DLPs are eligible for generous block rewards, and DLP slots are competitive. There 16 slots available on mainnet for DLPs. This limit is intended to incentivize quality over quantity
+The top DLPs earn data liquidity pool rewards, so DLP slots are competitive. There 16 slots available on mainnet. This limit is intended to incentivize quality over quantity.
 
 * To register your DLP or provide updates on progress, go [here](https://usevana.typeform.com/to/lYvFKKYY).
 * To see other DLPs, view the [DLP Leaderboard](../../welcome-to-vana/dlp-leaderboard.md)
