@@ -6,27 +6,27 @@
 * [Guiding Use Cases](welcome-to-vana/guiding-use-cases.md)
 * [DLP Leaderboard](welcome-to-vana/dlp-leaderboard.md)
 
-## Architecture
+## Core Concepts
 
-* [Network Overview](architecture/network-overview.md)
-* [Building Blocks](architecture/building-blocks.md)
-* [Roles](architecture/roles.md)
-* [Data Transactions](architecture/data-transactions.md)
-* [Proof of Contribution](architecture/proof-of-contribution/README.md)
-  * [Zero-Knowledge Proof of Contribution](architecture/proof-of-contribution/zero-knowledge-proof-of-contribution.md)
-* [Incentives](architecture/incentives.md)
-* [Data Liquidity Pool Whitepaper](https://drive.google.com/file/d/1mbucIVLC6dnq6NU-gE33xCGSOO-x-xlX/view?usp=sharing)
+* [Network Overview](core-concepts/network-overview.md)
+* [Data Liquidity Pools](core-concepts/data-liquidity-pools/README.md)
+  * [Data Liquidity Pool Whitepaper](https://drive.google.com/file/d/1mbucIVLC6dnq6NU-gE33xCGSOO-x-xlX/view?usp=sharing)
+* [Roles](core-concepts/roles.md)
+* [Data Transactions](core-concepts/data-transactions.md)
+* [Proof of Contribution](core-concepts/proof-of-contribution/README.md)
+  * [Zero-Knowledge Proof of Contribution](core-concepts/proof-of-contribution/zero-knowledge-proof-of-contribution.md)
+* [Incentives](core-concepts/incentives.md)
 
-## Quick-start guide
+## Get Started
 
-* [Satori Testnet](quick-start-guide/satori-testnet/README.md)
-  * [Network information](quick-start-guide/satori-testnet/network-information.md)
-  * [Working with Keys](quick-start-guide/satori-testnet/working-with-keys.md)
-  * [Creating a Wallet](quick-start-guide/satori-testnet/creating-a-wallet.md)
-  * [Create a Data Liquidity Pool (DLP)](quick-start-guide/satori-testnet/create-a-data-liquidity-pool-dlp.md)
-  * [Become a DLP Validator](quick-start-guide/satori-testnet/become-a-dlp-validator.md)
-  * [Contribute Data](quick-start-guide/satori-testnet/contribute-data.md)
-  * [Run a Propagator Node](quick-start-guide/satori-testnet/run-a-propagator-node.md)
+* [Satori Testnet](get-started/satori-testnet/README.md)
+  * [Network information](get-started/satori-testnet/network-information.md)
+  * [Working with Keys](get-started/satori-testnet/working-with-keys.md)
+  * [Creating a Wallet](get-started/satori-testnet/creating-a-wallet.md)
+  * [Create a Data Liquidity Pool (DLP)](get-started/satori-testnet/create-a-data-liquidity-pool-dlp.md)
+  * [Become a DLP Validator](get-started/satori-testnet/become-a-dlp-validator.md)
+  * [Contribute Data](get-started/satori-testnet/contribute-data.md)
+  * [Run a Propagator Node](get-started/satori-testnet/run-a-propagator-node.md)
 
 ## DATA PORTABILITY LAYER
 
