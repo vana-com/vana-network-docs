@@ -3,13 +3,12 @@
 ## Welcome to Vana
 
 * [What is Vana?](README.md)
-* [FAQ](welcome-to-vana/faq.md)
 * [Guiding Use Cases](welcome-to-vana/guiding-use-cases.md)
 * [DLP Leaderboard](welcome-to-vana/dlp-leaderboard.md)
 
 ## Architecture
 
-* [Network](architecture/network.md)
+* [Network Overview](architecture/network-overview.md)
 * [Building Blocks](architecture/building-blocks.md)
 * [Roles](architecture/roles.md)
 * [Data Transactions](architecture/data-transactions.md)
@@ -29,19 +28,16 @@
   * [Contribute Data](quick-start-guide/satori-testnet/contribute-data.md)
   * [Run a Propagator Node](quick-start-guide/satori-testnet/run-a-propagator-node.md)
 
-## Useful Information
+## DATA PORTABILITY LAYER
 
-* [Security Audits](useful-information/security-audits.md)
-* [Glossary](useful-information/glossary.md)
+* [Data and Model Portability](data-portability-layer/data-and-model-portability.md)
+* [Non-Custodial Data](data-portability-layer/non-custodial-data.md)
+* [Run your personal server](data-portability-layer/run-your-personal-server/README.md)
+  * [Self-Host on Macbook](data-portability-layer/run-your-personal-server/self-host-on-macbook.md)
+  * [Hosted App](data-portability-layer/run-your-personal-server/hosted-app.md)
+* [Collective Servers](data-portability-layer/collective-servers.md)
 
-## Non-Custodial Data
+## &#x20;
 
-* [Overview](non-custodial-data/overview.md)
-* [Run your personal server](non-custodial-data/run-your-personal-server/README.md)
-  * [Self-Host on Macbook](non-custodial-data/run-your-personal-server/self-host-on-macbook.md)
-  * [Hosted App](non-custodial-data/run-your-personal-server/hosted-app.md)
-* [Collective Servers](non-custodial-data/collective-servers.md)
-
-## DATA AND MODEL PORTABILITY
-
-* [Granting Access](data-and-model-portability/granting-access.md)
+* [Key Terms](undefined/key-terms.md)
+* [FAQ](undefined/faq.md)
