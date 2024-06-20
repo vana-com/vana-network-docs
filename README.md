@@ -39,7 +39,7 @@ Vana aligns incentives between data owners, developers, and data consumers. It c
 
 ## Start Here
 
-To learn more about the core concepts of the Vana Network by exploring these sections:
+Learn more about the core concepts of the Vana Network by exploring these sections:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="core-concepts/network-overview.md">Network Overview</a></td><td>Understand the core building blocks of the Vana ecosystem</td></tr><tr><td></td><td><a href="core-concepts/roles/">Roles</a></td><td>Explore the different participants and their role in the Vana network</td></tr><tr><td></td><td><a href="core-concepts/key-elements/">Key Elements</a></td><td>Understand how data is transformed and validated and incitives will work</td></tr></tbody></table>
 
