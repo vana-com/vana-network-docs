@@ -4,6 +4,8 @@ description: Definitions of all relevant terms within the Vana ecosystem
 
 # Key Terms
 
+Definitions of all relevant terms within the Vana ecosystem.
+
 ### **Connectome**
 
 A network overlay validating real-time data transactions within [Vana’s](key-terms.md#vana) ecosystem, ensuring cross-[DLP](key-terms.md#data-liquidity-pool-dlp) data access and interoperability with other networks.

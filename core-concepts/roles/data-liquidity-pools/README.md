@@ -1,10 +1,20 @@
 ---
-description: >-
-  The Vana network provides building blocks that can be used to create a Data
-  Liquidity Pool (DLP) tailored for collecting any kind of meaningful data.
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Data Liquidity Pools
+
+The Vana network provides building blocks that can be used to create a Data Liquidity Pool (DLP) tailored for collecting any kind of meaningful data.
 
 ## Root Network
 
@@ -22,7 +32,7 @@ Typically, validators uphold the integrity of a DLP by evaluating the data for i
 
 Each DLP owner is responsible for deploying a smart contract specific to the DLP's needs. We provide contract templates that offer a starting point for registering DLP validators, recording and verifying data transactions written on-chain, and validators reaching consensus through [Nagoya consensus](https://colab.research.google.com/drive/19MUtnOTk1kXp18pCRGNBgMTOJhW-4TGK). We also provide a template implementation for the corresponding validators.
 
-<figure><img src="../../.gitbook/assets/Vana Docs Graphics.jpg" alt="" width="375"><figcaption><p>Nodes running within a DLP</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Vana Docs Graphics.jpg" alt="" width="375"><figcaption><p>Nodes running within a DLP</p></figcaption></figure>
 
 The provided templates include:
 

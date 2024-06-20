@@ -2,9 +2,9 @@
 description: Vana makes data non-custodial by running operations in a personal server
 ---
 
-# Overview
+# Non-Custodial Data
 
-Vana uses a personal server architecture to allow users and data collectives to store private information off-chain. You may be familiar with this architecture through [Solid Project](https://solidproject.org/). The basic idea is that you have some off-chain compute environment where you can execute code that works with private data. You can think of this as a safe little home to execute code that requires your private data, and follows the data permissions rules you have laid out.
+Vana uses a personal server architecture to allow users and data collectives to store private information off-chain and make it non-custodial. You may be familiar with this architecture through [Solid Project](https://solidproject.org/). The basic idea is that you have some off-chain compute environment where you can execute code that works with private data. You can think of this as a safe little home to execute code that requires your private data, and follows the data permissions rules you have laid out.
 
 There is no expectation that every user runs their own personal server - it is simply a secure environment where you can work with private data. It can be secure because it's on your macbook, or secure because you trust the third party provider, similar to Infura for ethereum. You can also just use someone's browser as a lightweight personal server, [generating proofs](https://zk-proof-poc.vercel.vana.com/) or encrypting data client-side so it is fully secured as soon as it leaves their device.&#x20;
 

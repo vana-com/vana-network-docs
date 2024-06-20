@@ -1,16 +1,26 @@
 ---
-description: >-
-  Vana is a decentralized network enabling global data creation and advancing AI
-  innovation within an open data economy.
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Network
+# Network Overview
+
+Vana is a decentralized network enabling global data creation and advancing AI innovation within an open data economy.
 
 {% embed url="https://www.loom.com/share/439197205b4d45c3b3981b9db863bc2d?sid=adcedf1e-830e-413f-b5fa-ed70d72cfc1c" %}
 Walkthrough of the Vana network pieces
 {% endembed %}
 
-Vana consists of a Data Liquidity Layer, designed to introduce data on-chain as transferable digital assets, and an Application Layer for user-owned data applications powered by verified data. The universal connectome is a permissionless, real-time map of data flowing through the ecosystem.
+Vana consists of a Data Liquidity Layer, designed to introduce data on-chain as transferable digital assets, and an Application Layer (the so-called Data Portability Layer) for user-owned data applications powered by verified data. The universal connectome is a permissionless, real-time map of data flowing through the ecosystem.
 
 
 
@@ -18,15 +28,15 @@ Vana consists of a Data Liquidity Layer, designed to introduce data on-chain as 
 
 ### Data Liquidity Layer
 
-The Data Liquidity Layer is where data is contributed, validated, and recorded to the network into data liquidity pools (DLPs). Here, DLP creators deploy DLP smart contracts with specific data contribution objectives, including the DLP’s purpose, validation method, and data contribution parameters.
+The [Data Liquidity Layer](../get-started/data-liquidity-layer/) facilitates the contribution, validation, and recording of data into Data Liquidity Pools (DLPs) via smart contracts.&#x20;
 
-In the Data Liquidity Layer, data contributors and custodians submit data to DLPs for validation and receive both governance rights and rewards for their data contributions based on parameters set out in the DLP validation process.
+DLP creators set specific objectives, including the purpose, validation method, and contribution parameters. Data contributors and custodians submit data for validation, receiving governance rights and rewards based on the DLP's parameters.&#x20;
 
-The purpose of the Data Liquidity Layer is to bring data on-chain and facilitate data transactions among Data Contributors, Custodians, and DLP Validators. This network layer organizes all data collection and management for user and developer accessibility throughout the ecosystem.
+The primary goal is to bring data on-chain, enabling transactions among Data Contributors, Custodians, and Validators, thereby organizing data collection and management for user and developer accessibility within the ecosystem.
 
 #### Data Liquidity Pools
 
-Data Liquidity Pools (DLPs) aggregate similar types of data submitted to the data liquidity layer by Data Contributors and Custodians. Each DLP is an individual peer-to-peer network that uses DLP Validators to ensure data integrity through Vana’s proof-of-contribution system. DLPs provide trustless, private, and attributable data liquidity pools from which users and developers can:
+[Data Liquidity Pools (DLPs)](../get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/) aggregate similar types of data submitted to the data liquidity layer by Data Contributors and Custodians. Each DLP is an individual peer-to-peer network that uses DLP Validators to ensure data integrity through Vana’s proof-of-contribution system. DLPs provide trustless, private, and attributable data liquidity pools from which users and developers can:
 
 * Govern the use of their data in model training and application development.
 * Build community-focused applications in Vana’s application layer.
@@ -34,19 +44,11 @@ Data Liquidity Pools (DLPs) aggregate similar types of data submitted to the dat
 
 <figure><img src="../.gitbook/assets/Vana Docs graphics - Data Liquidity pool - high-level data flow (1).jpg" alt=""><figcaption></figcaption></figure>
 
-### Application Layer
+### Data Portability Layer
 
-The Application Layer is an open data playground for Data Contributors and developers to collaborate and build applications with the data liquidity amassed by DLPs. As the Data Liquidity Layer verifiably brings data on-chain, the Application Layer provides the infrastructure for the distributed training of user-owned foundation models and the development of novel AI dApps.
-
-The Application Layer functions as an active data hub, where online communities can collaborate with developers to create real economic value from their data. This fosters an interactive data creation ecosystem, where data contributors benefit from the downstream network effects and value emerging from the intelligence that their data helps to create.
-
-#### **Personal Servers**
-
-Vana supports a non-custodial architecture in which users and data collectives can store private information off-chain. Personal servers allow users to store personal data and train models on their data in a secure local environments. Urbit and Solid Project were the first to pioneer similar architectures. Vana uses it specifically for private, personal data storage. To run your personal server, get started [here](https://github.com/vana-com).&#x20;
+The Data Portability Layer, or Application Layer, is a collaborative space for Data Contributors and developers to build applications using data from DLPs. It provides the infrastructure for training user-owned models and developing AI dApps. This layer acts as a hub where online communities and developers create economic value from data, fostering an interactive ecosystem. Data contributors benefit from the network effects and value generated by the intelligence derived from their data.
 
 ### Connectome
 
-The Connectome is a decentralized ledger of real-time data transactions throughout Vana’s ecosystem. Using proof-of-stake consensus, Connectome propogators propagate data transactions within the network. This ensures that DLP token transfers are valid and allows for cross-DLP data access by user-owned data applications.&#x20;
-
-The Connectome allows external parties to view and monitor data transactions throughout the network. Moreover, the Connectome is EVM-compatible allowing for interoperability with other EVM networks, protocols, and DeFi applications.
+The [Connectome](../get-started/connectome/) is a decentralized ledger that records real-time data transactions in Vana’s ecosystem using proof-of-stake consensus. It ensures valid DLP token transfers and enables cross-DLP data access for user-owned applications. External parties can view and monitor these transactions. The Connectome is EVM-compatible, allowing interoperability with other EVM networks, protocols, and DeFi applications.
 

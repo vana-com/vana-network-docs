@@ -25,9 +25,9 @@ Vana aligns incentives between data owners, developers, and data consumers. It c
 
 To participate in the network, you can:&#x20;
 
-* [Start a data liquidity pool (DLP)](get-started/satori-testnet/create-a-data-liquidity-pool-dlp.md)
-* [Run a validator](get-started/satori-testnet/become-a-dlp-validator.md)
-* [Contribute data](get-started/satori-testnet/contribute-data.md)
+* [Start a data liquidity pool (DLP)](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/)
+* [Run a validator](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/become-a-dlp-validator.md)
+* [Contribute data](get-started/data-liquidity-layer/contribute-data.md)
 
 <div align="left">
 

@@ -6,7 +6,7 @@ A zero-knowledge proof (ZKP) is a cryptographic method by which one party (the p
 
 To protect the privacy of data contributions, a DLP can implement a Proof of Contribution using ZKP. When a Data Contributor or Custodian submits data to the DLP, they generate a zero-knowledge proof that verifies the authenticity and integrity of the data and its contribution to the DLP without revealing its full contents.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>ZK Proofs as a Proof of Contribution</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>ZK Proofs as a Proof of Contribution</p></figcaption></figure>
 
 ## Example
 

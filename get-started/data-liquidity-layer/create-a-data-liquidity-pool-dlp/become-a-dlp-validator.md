@@ -4,6 +4,8 @@ description: Validate user data for specific Data Liquidity Pools
 
 # Become a DLP Validator
 
+Start to validate user data for specific Data Liquidity Pools.
+
 {% hint style="info" %}
 Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) to get an overview of all existing DLPs and how to access them.
 
@@ -31,7 +33,7 @@ See example integration of a Validator [here](https://github.com/vana-com/vana-d
    * See DLP-specific instructions for running a validator node
 5. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking on-chain.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
 
 ## Scoring process
 

@@ -1,11 +1,6 @@
----
-description: >-
-  Creating a DLP is the best way for highly motivated builders to get involved
-  and rewarded. It takes a few hours to deploy a template, and 1-2 days to
-  modify the template for your chosen data source.
----
-
 # Create a Data Liquidity Pool (DLP)
+
+Creating a DLP is the best way for highly motivated builders to get involved and rewarded. It takes a few hours to deploy a template, and 1-2 days to modify the template for your chosen data source.
 
 ## Getting Started
 
@@ -14,7 +9,7 @@ The Data Liquidity Layer is where data is contributed, validated, and recorded t
 The top DLPs earn data liquidity pool rewards, so DLP slots are competitive. There 16 slots available on mainnet. This limit is intended to incentivize quality over quantity.
 
 * To register your DLP or provide updates on progress, go [here](https://usevana.typeform.com/to/lYvFKKYY).
-* To see other DLPs, view the [DLP Leaderboard](../../welcome-to-vana/dlp-leaderboard.md)
+* To see other DLPs, view the [DLP Leaderboard](dlp-leaderboard.md)
 
 {% hint style="info" %}
 Join our [Discord](https://discord.com/invite/Wv2vtBazMR) server to present your DLP and chat with other devs creating DLPs
@@ -92,7 +87,7 @@ Follow the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/b
 
 1. Choose a valuable data source.
    * Current community requests: stack overflow, telegram, youtube, email, google drive
-   * To see what others are building, visit the [DLP Leaderboard](../../welcome-to-vana/dlp-leaderboard.md)
+   * To see what others are building, visit the [DLP Leaderboard](dlp-leaderboard.md)
 2. Tell users how to access that data source.
    * For example, through a GDPR or CCPA data export request, through scraping their own data, or through an API.&#x20;
    * Optionally, build an UI that makes it easy for data contributors to add their data via your smart contract.

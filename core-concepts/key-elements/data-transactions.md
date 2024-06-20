@@ -11,8 +11,8 @@ Users choose how they store their data and, at all times, maintain control over 
 
 ## Data Flow
 
-<figure><img src="../.gitbook/assets/Vana Docs graphics - Data Flow v1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Vana Docs graphics - Data Flow v1.jpg" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-05-20 at 11.00.47 PM.png" alt="" width="171"><figcaption><p>Data transactions. Note fees are rounded in this screenshot but are non-zero.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-20 at 11.00.47 PM.png" alt="" width="171"><figcaption><p>Data transactions. Note fees are rounded in this screenshot but are non-zero.</p></figcaption></figure>
