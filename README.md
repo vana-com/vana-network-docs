@@ -33,7 +33,7 @@ At its core, Vana is a data liquidity network. It makes data liquid by solving t
 
 Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities.&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="./#the-data-ownership-problem">The Data Ownership Problem</a></td><td>How to establish ownership of the AI models created using our data</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-north-star.md">Our Goals</a></td><td>Empower users to own their data and the value it creates by decantralized technology</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-guiding-use-cases.md">Our Guiding Use Cases</a></td><td>Build a User-Owned Data Treasury and a User-Owned Foundation Model</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="./#the-data-ownership-problem">The Data Ownership Problem</a></td><td>How to establish ownership of the AI models created using our data</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-north-star.md">Our North Start</a></td><td>Empower users to own their data and the value it creates by decantralized technology</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-guiding-use-cases.md">Our Guiding Use Cases</a></td><td>Build a User-Owned Data Treasury and a User-Owned Foundation Model</td></tr></tbody></table>
 
 ***
 
