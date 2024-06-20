@@ -4,6 +4,7 @@
 
 * [What is Vana?](README.md)
 * [Guiding Use Cases](welcome-to-vana/guiding-use-cases.md)
+* [DLP Leaderboard](welcome-to-vana/dlp-leaderboard.md)
 
 ## Core Concepts
 
