@@ -6,7 +6,7 @@ This is a draft and subject to change based on testnet findings and community fe
 
 ## Block Rewards
 
-The Block Rewards program ensures that those who have invested in building the core pieces of the Vana ecosystem continue to play a governance role through their holdings of $DAT as the network grows.&#x20;
+The Block Rewards program ensures that those who have invested in building the core pieces of the Vana ecosystem continue to play a governance role through their holdings of [$DAT](../../undefined/key-terms.md#data-autonomy-token-usddat) as the network grows.&#x20;
 
 By rewarding Data Liquidity Pool (DLP) creators and Propagators, the program incentivizes the essential components needed to harness the network effects of pooled data: data liquidity and security. This structure generates strong initial value, enabling robust data network effects to drive ecosystem value creation over time.
 
