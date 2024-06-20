@@ -1,5 +1,16 @@
 ---
 description: Bring your data and models across applications
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Data and Model Portability

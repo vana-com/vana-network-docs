@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Data Custodians (optional)
 
 Data Custodians increase the efficiency of data contributions within the Vana network by aggregating data from data contributors before it is submitted to a DLP. DLPs might opt to leverage Data Custodians to lower the barrier of entry for Data Contributors to share their data with DLPs.

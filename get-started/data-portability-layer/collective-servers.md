@@ -1,5 +1,16 @@
 ---
 description: Store private data off-chain while permissioning it onchain
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Collective Servers

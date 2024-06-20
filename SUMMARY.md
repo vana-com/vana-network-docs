@@ -3,7 +3,9 @@
 ## Welcome to Vana
 
 * [What is Vana?](README.md)
-* [Guiding Use Cases](welcome-to-vana/guiding-use-cases.md)
+  * [The Data Ownership Problem](welcome-to-vana/what-is-vana/the-data-ownership-problem.md)
+  * [Our North Star](welcome-to-vana/what-is-vana/our-north-star.md)
+  * [Our Guiding Use Cases](welcome-to-vana/what-is-vana/our-guiding-use-cases.md)
 * [DLP Leaderboard](welcome-to-vana/dlp-leaderboard.md)
 
 ## Core Concepts
@@ -26,10 +28,10 @@
 
 ## Get Started
 
-* [Setup](get-started/setup/README.md)
-  * [Network information](get-started/setup/network-information.md)
-  * [Working with Keys](get-started/setup/working-with-keys.md)
-  * [Creating a Wallet](get-started/setup/creating-a-wallet.md)
+* [Network Setup](get-started/network-setup/README.md)
+  * [Network information](get-started/network-setup/network-information.md)
+  * [Working with Keys](get-started/network-setup/working-with-keys.md)
+  * [Creating a Wallet](get-started/network-setup/creating-a-wallet.md)
 * [Data Liquidity Layer](get-started/data-liquidity-layer/README.md)
   * [Contribute Data](get-started/data-liquidity-layer/contribute-data.md)
   * [Create a Data Liquidity Pool (DLP)](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/README.md)

@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Creating a Wallet
 
 This is an overview of how to create a Vana wallet, and associated keys. A Vana wallet holds the core ownership of assets on the Vana network, acting as the identity for all operations.

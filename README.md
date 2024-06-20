@@ -17,17 +17,11 @@ layout:
 
 # What is Vana?
 
+## Welcome!
+
 Vana is a layer one blockchain designed for private, user-owned data. It allows users to collectively own, govern, and earn from the AI models trained on their data. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).&#x20;
 
 At its core, Vana is a data liquidity network. It makes data liquid by solving the double spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof-of-contribution and non-custodial data. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while non-custodial data ensures that the data is only used for approved operations.
-
-Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities. Our guiding use case is a user-owned foundation model collectively owned and created by 100M users.&#x20;
-
-To participate in the network, you can:&#x20;
-
-* [Start a data liquidity pool (DLP)](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/)
-* [Run a validator](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/become-a-dlp-validator.md)
-* [Contribute data](get-started/data-liquidity-layer/contribute-data.md)
 
 <div align="left">
 
@@ -35,27 +29,21 @@ To participate in the network, you can:&#x20;
 
 </div>
 
-{% hint style="info" %}
-This is a technical overview of the Vana network, intended for researchers, experimental developers, and curious users. The documentation and the system are a work in progress.
+***
 
-Join our [Discord](https://discord.gg/Junyx8Vb) to connect with like-minded individuals, exchange and discuss ideas, and be part of our vibrant community.
-{% endhint %}
+Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities.&#x20;
 
-### Data Ownership Problem
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="./#the-data-ownership-problem">The Data Ownership Problem</a></td><td>How to establish ownership of the AI models created using our data</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-north-star.md">Our Goals</a></td><td>Empower users to own their data and the value it creates by decantralized technology</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-guiding-use-cases.md">Our Guiding Use Cases</a></td><td>Build a User-Owned Data Treasury and a User-Owned Foundation Model</td></tr></tbody></table>
 
-We live under data serfdom, where we create valuable data and see no economic upside in the value we've helped create.
+***
 
-OpenAI_,_ Meta, and Google all train models on publicly scraped data from the searchable internet, and are starting to buy up private data as they need access to more training data. Reddit for example, earns $200M from selling user-generated content as AI training data. As AI starts to play a larger and larger economic role in society, the economic impact of this data will grow.&#x20;
+## Start Here
 
-We risk heading towards a future where AI models trained on our data displace us, with the economic gains flowing to a small set of shareholders. At the same time, we hold all the power through our data, but it requires collective action.
+To learn more about the core concepts of the Vana Network by exploring these sections:
 
-We believe that you should own a piece of the AI models that your data helps create.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="core-concepts/network-overview.md">Network Overview</a></td><td>Understand the core building blocks of the Vana ecosystem</td></tr><tr><td></td><td><a href="core-concepts/roles/">Roles</a></td><td>Explore the different participants and their role in the Vana network</td></tr><tr><td></td><td><a href="core-concepts/key-elements/">Key Elements</a></td><td>Understand how data is transformed and validated and incitives will work</td></tr></tbody></table>
 
-### Goal
+To participate in the network, you can:&#x20;
 
-Our goal is to empower users to own their data and the value it creates. We believe data will power the AI economic shift over the next decade. Giving users true ownership of their data opens up walled gardens pushes AI progress forward through data abundance.
-
-We apply the sovereign, decentralized technology that powers bitcoin and ethereum to personal data, shifting power from monopolistic big tech and distributing it back into the hands of the users who created the data. Vana provides the infrastructure to generate user-owned datasets that can replicate and supersede the datasets that big tech companies are today selling for hundreds of millions of dollars.
-
-#### _**We’re creating the world's largest user-owned data treasury—a resource so valuable that the world’s leading AI models will be built upon it.**_
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/">Start a Data Liquidity Pool (DLP)</a></td><td>Build your own DLP based on provided templates and deploy to the Vana Network</td></tr><tr><td></td><td><a href="get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/become-a-dlp-validator.md">Run a Validator</a></td><td>Start the validation of data for specific DLPs on your own hardware</td></tr><tr><td></td><td><a href="get-started/data-liquidity-layer/contribute-data.md">Contribute Data</a></td><td>Submit your data to a DLP and observe on-chain your contribution</td></tr></tbody></table>
 

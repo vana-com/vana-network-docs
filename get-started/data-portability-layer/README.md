@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Data Portability Layer
 
 The [Data Portability Layer](./) or Application Layer is an open data playground for Data Contributors and developers to collaborate and build applications with the data liquidity amassed by DLPs. As the Data Liquidity Layer verifiably brings data on-chain, the Application Layer provides the infrastructure for the distributed training of user-owned foundation models and the development of novel AI dApps.

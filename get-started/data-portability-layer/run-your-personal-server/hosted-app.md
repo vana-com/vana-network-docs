@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Hosted App
 
 We have partnered with Replicate to offer a hosted version of the personal server. It contains a personal vector database with your private information, an audio model trained on your voice, and an image model trained on your photos. You can create it through our consumer-friendly application at [`app.vana.com`](https://app.vana.com/). Note that there is a paywall to cover compute costs.

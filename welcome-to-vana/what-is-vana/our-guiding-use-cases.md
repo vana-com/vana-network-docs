@@ -1,7 +1,4 @@
 ---
-description: >-
-  Fair AI demands data ownership. Let's create a world where users own their
-  data and benefit from the value it creates!
 layout:
   title:
     visible: true
@@ -15,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Guiding Use Cases
+# Our Guiding Use Cases
 
 With Vana, users and developers can incentivize global data contribution and accelerate the development of user-owned data applications, AI models, and data liquidity pools. These use cases have guided our architecture:
 

@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Data Consumers
 
 Data Consumers pay for access to DLPs and user-owned data apps within the ecosystem. They create demand for data contribution and ecosystem growth.

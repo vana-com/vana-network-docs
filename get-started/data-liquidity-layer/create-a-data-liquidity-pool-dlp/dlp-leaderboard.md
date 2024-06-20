@@ -1,5 +1,16 @@
 ---
 description: The Top Data Liquidity Pools
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # DLP Leaderboard

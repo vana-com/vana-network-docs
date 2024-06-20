@@ -1,5 +1,16 @@
 ---
 description: Validate user data for specific Data Liquidity Pools
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Become a DLP Validator

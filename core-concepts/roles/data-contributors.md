@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Data Contributors
 
 Data Contributors are the foundation of the system, supplying the valuable data on which the network is built.&#x20;

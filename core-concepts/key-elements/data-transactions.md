@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Data Transactions
 
 Vana turns data into currency. Data submitted to the network becomes a digital asset that is transferable throughout Vana’s open data economy. Each data transaction includes the following metadata:

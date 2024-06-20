@@ -1,4 +1,18 @@
-# Setup
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Network Setup
 
 To interact with the Vana Network, please refer to the instructions on setting up the network, managing hot and cold keys, and setting up a wallet.
 

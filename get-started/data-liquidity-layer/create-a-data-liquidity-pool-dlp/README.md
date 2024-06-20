@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Create a Data Liquidity Pool (DLP)
 
 Creating a DLP is the best way for highly motivated builders to get involved and rewarded. It takes a few hours to deploy a template, and 1-2 days to modify the template for your chosen data source.

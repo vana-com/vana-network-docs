@@ -16,13 +16,17 @@ layout:
 
 Vana is a decentralized network enabling global data creation and advancing AI innovation within an open data economy.
 
+{% hint style="info" %}
+This is a technical overview of the Vana network, intended for researchers, experimental developers, and curious users. The documentation and the system are a work in progress.
+
+Join our [Discord](https://discord.gg/Junyx8Vb) to connect with like-minded individuals, exchange and discuss ideas, and be part of our vibrant community.
+{% endhint %}
+
 {% embed url="https://www.loom.com/share/439197205b4d45c3b3981b9db863bc2d?sid=adcedf1e-830e-413f-b5fa-ed70d72cfc1c" %}
 Walkthrough of the Vana network pieces
 {% endembed %}
 
 Vana consists of a Data Liquidity Layer, designed to introduce data on-chain as transferable digital assets, and an Application Layer (the so-called Data Portability Layer) for user-owned data applications powered by verified data. The universal connectome is a permissionless, real-time map of data flowing through the ecosystem.
-
-
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-05-14 at 8.29.14 PM (2).png" alt=""><figcaption></figcaption></figure>
 

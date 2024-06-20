@@ -1,5 +1,16 @@
 ---
 description: Vana makes data non-custodial by running operations in a personal server
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Non-Custodial Data
