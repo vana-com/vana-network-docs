@@ -32,7 +32,7 @@ The structure of Block Rewards heavily incentivizes early contributions and decl
 
 ## DLP Block Rewards
 
-The top 16 DLPs are eligible to participate in the Block Rewards Program.  DLPs are selected and maintained by a [system of governance](https://docs.google.com/document/d/1OmGOZteabCx8gcswET5\_VJTCOKqynTNjJ0xp47KCuI8/edit#heading=h.mzblgv234mvr) that aligns with Vana’s vision to prioritize user-owned infrastructure and encourage community participation.&#x20;
+The top 16 DLPs are eligible to participate in the Block Rewards Program.  DLPs are selected and maintained by a [system of governance](dlp-governance.md) that aligns with Vana’s vision to prioritize user-owned infrastructure and encourage community participation.&#x20;
 
 To incentivize competition and ensure high-quality data within the DLPs Block Rewards are distributed based on performance across 4 key metrics, weighted as follows:
 
