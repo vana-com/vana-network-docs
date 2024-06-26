@@ -22,6 +22,7 @@
 * [Key Elements](core-concepts/key-elements/README.md)
   * [Data Transactions](core-concepts/key-elements/data-transactions.md)
   * [Proof of Contribution](core-concepts/key-elements/proof-of-contribution/README.md)
+    * [Data Privacy](core-concepts/key-elements/proof-of-contribution/data-privacy.md)
     * [Zero-Knowledge Proof of Contribution](core-concepts/key-elements/proof-of-contribution/zero-knowledge-proof-of-contribution.md)
   * [Incentives](core-concepts/key-elements/incentives.md)
   * [DLP Governance](core-concepts/key-elements/dlp-governance.md)
