@@ -15,9 +15,9 @@ layout:
 
 # Collective Servers
 
-## Off-Chain Storage and On-Chain Permissioning
+## Off-Chain Storage and OnChain Permissioning
 
-How can we ensure private data is stored off-chain while managing permissions on-chain?
+How can we ensure private data is stored off-chain while managing permissions onchain?
 
 Depending on a DLPs tokenomics, they may want to hold user data in escrow. Other DLPs may use liveness checks and rewards to ensure that user data remains connected, even without holding an encrypted copy of it.&#x20;
 

@@ -16,18 +16,18 @@ layout:
 
 ## Satori Testnet
 
-The Satori testnet is a testing ground for data liquidity pool creators and validators to compete.
+The Satori testnet is a fully evm-compatible L1 designed for private data. It is a testing ground for data liquidity pool creators and validators to compete.
 
 {% hint style="warning" %}
-The Testnet is currently under active development. Please be aware that you may encounter bugs, performance issues, and other disruptions. \
+Satori Testnet is under active development. You may encounter bugs, performance issues, and other disruptions. \
 \
-We appreciate your feedback and contributions to help to resolve any issues. Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) to get more information on the current status.
+We appreciate your feedback and contributions to help to resolve any issues. Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) for the most up-to-date information.
 {% endhint %}
 
 ### Terms of Service for Participation in the Testnet
 
 {% hint style="info" %}
-Please make sure to read carefully the [Terms](https://drive.google.com/file/d/1p45fQXiQUfIKi\_CmdLOGqlYigl4ZJiYC/view?usp=sharing) before you participate in any activities in the Testnet.
+Please make sure to read carefully the [Terms](https://drive.google.com/file/d/1p45fQXiQUfIKi\_CmdLOGqlYigl4ZJiYC/view?usp=sharing) before you participate in any activities on Satori Testnet.
 {% endhint %}
 
 ### Network Details
@@ -36,7 +36,7 @@ Please make sure to read carefully the [Terms](https://drive.google.com/file/d/1
 
 ### Setting up the Network
 
-Here is a quick video how to get started in setting up the Satori Testnet and perfom a simple transaction.
+A quick video on setting up the Satori Testnet and perform a simple data transaction.
 
 {% embed url="https://www.loom.com/share/81021e1ebd4f4b13b7312de58682d036?sid=dbf392a1-76ea-4278-add7-500b48f2d21e" %}
 
@@ -58,4 +58,4 @@ A block explorer is a web-based tool that allows users to view details about blo
 Available at: [https://faucet.vana.org/](https://faucet.vana.org/)
 {% endhint %}
 
-To begin testing on the testnet, a faucet can send free tokens on the test network to your wallet so you can register a DLP or a validator node. The faucet is rate-limited, and only a small amount of tokens will be available to be sent daily to a wallet.
+To begin testing on Satori, use the faucet to send free tokens to your wallet so you can register a DLP or a validator node. The faucet is rate-limited, but if you need more tokens to test, send your wallet address in discord and the community will help you out.

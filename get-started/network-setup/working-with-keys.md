@@ -16,11 +16,11 @@ layout:
 
 ## EVM Compatibility
 
-The Vana network is EVM-compatible and supports Ethereum-compatible addresses. A Vana wallet holds the core ownership of assets on the Vana network, acting as the identity for all operations.
+The Vana network is EVM-compatible and supports Ethereum-compatible addresses. A Vana wallet holds the core ownership of assets on the Vana network, acting as the identity for all operations. Your wallet is also used to derive different encryption keys to secure your data.&#x20;
 
 ## Wallets
 
-Network participants like DLP validators can use the CLI tool that comes with the [Vana framework](https://github.com/vana-com/vana-framework) to manage their wallets.
+Network participants like DLP validators can use the CLI tool that comes with the [Vana cli](https://pypi.org/project/vana/) to manage their wallets.
 
 This guide explains how to work with Vana wallet keys. For instructions on creating a Vana wallet, see [creating-a-wallet.md](creating-a-wallet.md "mention").
 
@@ -28,7 +28,7 @@ A Vana wallet consists of a coldkey and a hotkey, used for different operations 
 
 ## **Key Pairings**
 
-Each key is a pair of separate cryptographic keys. A coldkey has a private key and a public key, as does a hotkey. This is similar to an account on a blockchain.
+Each key is a pair of separate cryptographic keys. A coldkey has a private key and a public key, as does a hotkey.
 
 ## Coldkey
 
