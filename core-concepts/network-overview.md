@@ -28,7 +28,7 @@ Walkthrough of the Vana network pieces
 
 Vana consists of a Data Liquidity Layer, designed to introduce data on-chain as transferable digital assets, and an Application Layer (the so-called Data Portability Layer) for user-owned data applications powered by verified data. The universal connectome is a permissionless, real-time map of data flowing through the ecosystem.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-05-14 at 8.29.14 PM (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/LogoVanaArchitectureDiagram.png" alt=""><figcaption></figcaption></figure>
 
 ### Data Liquidity Layer
 
