@@ -22,4 +22,4 @@ Propagators are essential for ensuring the composability and security of the net
 * Verify the validity of network transactions.
 * Maintain network state liveness through accurate and timely block creation.
 
-Propagator’s earn transaction fees and block rewards in the form of [$DAT](../../undefined/key-terms.md#data-autonomy-token-usddat) for processing network transactions and finalizing blocks.
+Propagator’s earn transaction fees and block rewards in the form of [VANA](../../undefined/key-terms.md#vana-token-usdvana) for processing network transactions and finalizing blocks.

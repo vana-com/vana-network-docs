@@ -18,7 +18,7 @@ layout:
 This is a draft and subject to change based on testnet findings and community feedback. It should not be relied upon as a legal promise or guarantee for future implementations.
 {% endhint %}
 
-Data Liquidity Pools (DLPs) transform raw data into valuable on-chain assets, playing a crucial role in Vana's architecture.Given their central importance, it is logical for DLPs to be at the heart of community governance, allowing [$DAT](../../undefined/key-terms.md#data-autonomy-token-usddat) holders to directly influence key decisions.&#x20;
+Data Liquidity Pools (DLPs) transform raw data into valuable on-chain assets, playing a crucial role in Vana's architecture.Given their central importance, it is logical for DLPs to be at the heart of community governance, allowing [VANA](../../undefined/key-terms.md#vana-token-usdvana) holders to directly influence key decisions.&#x20;
 
 Combined with the [Block Rewards](incentives.md) system, DLP Governance ensures the sustainability of the ecosystem by aligning governance with contributions that support the network's growth.
 
@@ -30,11 +30,11 @@ The selection of DLPs is a competitive process, designed to prioritize those who
 
 ## DLP Staking and Periodic Snapshots
 
-DLP Staking in the Vana network allows users to stake their $DAT tokens in support of their preferred DLPs, directly influencing which DLPs are eligible for block rewards.
+DLP Staking in the Vana network allows users to stake their VANA tokens in support of their preferred DLPs, directly influencing which DLPs are eligible for block rewards.
 
-Regular periodic snapshots are taken to ensure that the top 16 DLPs, determined by the amount of $DAT staked, continue to reflect the community's choice.&#x20;
+Regular periodic snapshots are taken to ensure that the top 16 DLPs, determined by the amount of VANA staked, continue to reflect the community's choice.&#x20;
 
-This system ensures that DLPs that add value to those who are most invested in network growth (and therefore largest $DAT holders) avail of block rewards. It also provides clear incentives for DLPs to continuously create value.  At the same time, it fosters competition to drive high quality data by allowing new entrants, with community support, to overtake incumbents.
+This system ensures that DLPs that add value to those who are most invested in network growth (and therefore largest VANA holders) avail of block rewards. It also provides clear incentives for DLPs to continuously create value.  At the same time, it fosters competition to drive high quality data by allowing new entrants, with community support, to overtake incumbents.
 
 ## Creating new DLP Slots
 

@@ -18,7 +18,7 @@ This is an overview of how to create a Vana wallet, and associated keys. A Vana 
 
 ## For Basic Use
 
-The Vana network is EVM-compatible and supports Ethereum-compatible addresses. Any wallet that supports EVM chains can be used to create a wallet that can send and receive $DAT, including hardware wallets. Some recommended wallet applications are [MetaMask](https://metamask.io/), [Rabby](https://rabby.io/), and [Trust Wallet](https://trustwallet.com/).
+The Vana network is EVM-compatible and supports Ethereum-compatible addresses. Any wallet that supports EVM chains can be used to create a wallet that can send and receive [VANA](../../undefined/key-terms.md#vana-token-usdvana), including hardware wallets. Some recommended wallet applications are [MetaMask](https://metamask.io/), [Rabby](https://rabby.io/), and [Trust Wallet](https://trustwallet.com/).
 
 ## For Network Operators
 
@@ -39,8 +39,8 @@ The coldkey is synonymous with the wallet name. For example, the `--wallet.name`
 
 ### **Coldkey Uses**
 
-* **Storage**: Holds DAT tokens.
-* **Delegation**: For delegating and undelegating DAT tokens.
+* **Storage**: Holds VANA.
+* **Delegation**: For delegating and undelegating VANA.
 * **DLP Creation**: Used for creating a DLP.
 * **Security**: Provides the highest level of security; encrypted at rest.
 
@@ -52,7 +52,7 @@ You can create multiple hotkeys paired with a single coldkey. In a DLP, you are 
 
 * **Transactions**: Signing transactions.
 * **Operations**: Registering and running DLP nodes.
-* **Delegation**: DAT holders can delegate their DAT to a validator’s hotkey.
+* **Delegation**: VANA holders can delegate their VANA to a validator’s hotkey.
 * **Security**: Less secure, generally unencrypted, used for regular operational tasks.
 
 ### For DLP Participation
@@ -62,7 +62,7 @@ Create a local wallet using the `vanacli` command line tool on your computer, so
 {% hint style="danger" %}
 **Keep your mnemonic safe**
 
-When a wallet is created, a mnemonic is created that can be used to recover your wallet. Anyone who knows the mnemonic for your wallet account can access your DAT tokens. Hence you must always keep this mnemonic in a safe and secure place, known only to you. More important, if you lose your wallet address, you can use its mnemonic (that you stored away in safekeeping) to restore the wallet.
+When a wallet is created, a mnemonic is created that can be used to recover your wallet. Anyone who knows the mnemonic for your wallet account can access your VANA tokens. Hence you must always keep this mnemonic in a safe and secure place, known only to you. More important, if you lose your wallet address, you can use its mnemonic (that you stored away in safekeeping) to restore the wallet.
 {% endhint %}
 
 ## Creating a local wallet with CLI <a href="#creating-a-local-wallet-with-cli" id="creating-a-local-wallet-with-cli"></a>

@@ -20,7 +20,7 @@ This is a draft and subject to change based on testnet findings and community fe
 
 ## Block Rewards
 
-The Block Rewards program ensures that those who have invested in building the core pieces of the Vana ecosystem continue to play a governance role through their holdings of [$DAT](../../undefined/key-terms.md#data-autonomy-token-usddat) as the network grows.&#x20;
+The Block Rewards program ensures that those who have invested in building the core pieces of the Vana ecosystem continue to play a governance role through their holdings of [VANA](../../undefined/key-terms.md#vana-token-usdvana) as the network grows.&#x20;
 
 By rewarding Data Liquidity Pool (DLP) creators and Propagators, the program incentivizes the essential components needed to harness the network effects of pooled data: data liquidity and security. This structure generates strong initial value, enabling robust data network effects to drive ecosystem value creation over time.
 
@@ -49,12 +49,12 @@ The score 𝑆𝑖 for each Data Liquidity Pool (DLP) 𝑖 is calculated by summ
 
 ## Division of Block Rewards
 
-Block rewards in the Vana network are divided between DLP Creators and $DAT stakers within each eligible DLP. This dual reward system ensures that both the creators driving network value and the stakeholders supporting them are fairly compensated.
+Block rewards in the Vana network are divided between DLP Creators and VANA stakers within each eligible DLP. This dual reward system ensures that both the creators driving network value and the stakeholders supporting them are fairly compensated.
 
 ## Propagator Block Rewards
 
 Propagators rely on Proof of Stake (PoS) to validate data transactions and maintain network security.
 
-To participate, Propagators must stake a minimum amount of $DAT tokens, which are held as collateral to ensure honest behavior. Propagators are randomly selected to propose and validate blocks, with the selection probability proportional to their staked amount.&#x20;
+To participate, Propagators must stake a minimum amount of VANA tokens, which are held as collateral to ensure honest behavior. Propagators are randomly selected to propose and validate blocks, with the selection probability proportional to their staked amount.&#x20;
 
-This process includes proposing new blocks, having them attested by other Propagators, and reaching consensus through a supermajority, ensuring decentralization and fairness. Successful Propagators earn $DAT rewards, while those who act maliciously may be penalized.
+This process includes proposing new blocks, having them attested by other Propagators, and reaching consensus through a supermajority, ensuring decentralization and fairness. Successful Propagators earn VANA rewards, while those who act maliciously may be penalized.

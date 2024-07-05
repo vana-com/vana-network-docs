@@ -36,8 +36,8 @@ The coldkey is synonymous with the wallet name. For example, the `--wallet.name`
 
 ### **Coldkey Uses**
 
-* **Storage**: Holds DAT tokens.
-* **Delegation**: For delegating and undelegating DAT tokens.
+* **Storage**: Holds VANA.
+* **Delegation**: For delegating and undelegating VANA.
 * **DLP Creation**: Used for creating a DLP.
 * **Security**: Provides the highest level of security; always encrypted.
 
@@ -49,9 +49,9 @@ You can create multiple hotkeys paired with a single coldkey. In a DLP, you are 
 
 * **Transactions**: Signing transactions.
 * **Operations**: Registering and running DLP nodes.
-* **Delegation**: DAT holders can delegate their DAT to a validator’s hotkey.
+* **Delegation**: VANA holders can delegate their VANA to a validator’s hotkey.
 
 ## Security
 
-* **Coldkey**: Highly secure and always encrypted, used for storing and managing DAT securely.
+* **Coldkey**: Highly secure and always encrypted, used for storing and managing VANA securely.
 * **Hotkey**: Less secure, generally unencrypted, used for regular operational tasks.
