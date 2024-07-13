@@ -41,7 +41,7 @@
 * [Data Portability Layer](get-started/data-portability-layer/README.md)
   * [Data and Model Portability](get-started/data-portability-layer/data-and-model-portability.md)
   * [Non-Custodial Data](get-started/data-portability-layer/non-custodial-data/README.md)
-    * [Personal Servers for Non-Custodial Data](https://drive.google.com/file/d/1TJ3-\_e1rpMgcCbN0lwuu8oeL33RX2g-i/view?usp=drive\_link)
+    * [Personal Servers for Non-Custodial Data](https://drive.google.com/file/d/1xJkPQUhIzTA1R5P91bkDSVfK7NBMkNqv/view?usp=drive\_link)
   * [Run your personal server](get-started/data-portability-layer/run-your-personal-server/README.md)
     * [Self-Host on Macbook](get-started/data-portability-layer/run-your-personal-server/self-host-on-macbook.md)
     * [Hosted App](get-started/data-portability-layer/run-your-personal-server/hosted-app.md)
