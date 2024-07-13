@@ -15,7 +15,7 @@ layout:
 
 # Collective Servers
 
-## Off-Chain Storage and OnChain Permissioning
+## Private Data with Onchain Permissioning
 
 How can we ensure private data is stored off-chain while managing permissions onchain?
 
@@ -23,7 +23,7 @@ Depending on a DLPs tokenomics, they may want to hold user data in escrow. Other
 
 ## Secure Data Contribution and Encryption
 
-For DLPs and other user-owned data apps that require access to a collective dataset or model weights, Vana users a secured compute node with asymmetric encryption. Users contribute their data by encrypting it client-side with the node's public key. It is decrypted with the corresponding private key held securely on the node.
+For DLPs and other user-owned data apps that require access to a collective dataset or model weights, Vana uses a secured compute node with asymmetric encryption. Users contribute their data by encrypting it client-side with the node's public key. It is decrypted with the corresponding private key held securely on the node.
 
 ## Code Approval and Community Governance
 
@@ -31,7 +31,7 @@ The trusted compute node can only run code that is approved by the collective. W
 
 If the DAO approves the proposal (and code), the pull request is merged and deployed to the node. [Here](https://github.com/vana-com/rdatadao-executor) is the code running on the node. However, this still requires trusting that the node operator(s) will adhere to the approved code and not introduce any vulnerabilities.
 
-## Ongoing developments <a href="#ongoing-developments" id="ongoing-developments"></a>
+## Ongoing Developments <a href="#ongoing-developments" id="ongoing-developments"></a>
 
 Our current approach is a step towards decentralization, but still relies on trust in the compute node and code approval process. If the node operator, which at this point is only Vana, were to deploy malicious code to the server, or otherwise compromise the private key that can decrypt the data, then the node operator would be able to access the underlying data.
 
