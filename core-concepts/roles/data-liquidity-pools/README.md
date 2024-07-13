@@ -30,7 +30,7 @@ Typically, validators uphold the integrity of a DLP by evaluating the data for i
 
 ## DLP Templates
 
-Each DLP owner is responsible for deploying a smart contract specific to the DLP's needs. We provide contract templates that offer a starting point for registering DLP validators, recording and verifying data transactions written on-chain, and validators reaching consensus through [Nagoya consensus](https://colab.research.google.com/drive/19MUtnOTk1kXp18pCRGNBgMTOJhW-4TGK). We also provide a template implementation for the corresponding validators.
+Each DLP owner is responsible for deploying a smart contract specific to the DLP's needs. We provide contract templates that offer a starting point for registering DLP validators, recording and verifying data transactions written onchain, and validators reaching consensus through [Nagoya consensus](https://colab.research.google.com/drive/19MUtnOTk1kXp18pCRGNBgMTOJhW-4TGK). We also provide a template implementation for the corresponding validators.
 
 <figure><img src="../../../.gitbook/assets/Vana Docs Graphics.jpg" alt="" width="375"><figcaption><p>Nodes running within a DLP</p></figcaption></figure>
 

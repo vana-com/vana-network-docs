@@ -42,13 +42,13 @@ See example integration of a Validator [here](https://github.com/vana-com/vana-d
 3. Wait for your registration request to be approved by the DLP.
 4. Run the validator node specific to the DLP. Confirm that your validator is running correctly. Your logs should look something like this, which will vary by DLP:
    * See DLP-specific instructions for running a validator node
-5. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking on-chain.&#x20;
+5. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking onchain.&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
 
 ## Scoring process
 
-Validators earn rewards for validating uploaded files. For a given data validation request, each validator scores data based on metrics that are relevant to the data type. The scores are aggregated and written on-chain, but how does the DLP decide how to reward its validators?
+Validators earn rewards for validating uploaded files. For a given data validation request, each validator scores data based on metrics that are relevant to the data type. The scores are aggregated and written onchain, but how does the DLP decide how to reward its validators?
 
 Every 1800 blocks (\~3 hours), a DLP epoch concludes and the DLP contract sends a chunk of rewards to its validators. The precise amount of rewards a given validator receives depends is determined by the Nagoya consensus process.
 
