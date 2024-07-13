@@ -16,11 +16,7 @@ layout:
 
 Vana is a decentralized network enabling global data creation and advancing AI innovation within an open data economy.
 
-{% hint style="info" %}
-This is a technical overview of the Vana network, intended for researchers, experimental developers, and curious users. The documentation and the system are a work in progress.
-
-Join our [Discord](https://discord.gg/Junyx8Vb) to connect with like-minded individuals, exchange and discuss ideas, and be part of our vibrant community.
-{% endhint %}
+The network relies on two key concepts
 
 {% embed url="https://www.loom.com/share/439197205b4d45c3b3981b9db863bc2d?sid=adcedf1e-830e-413f-b5fa-ed70d72cfc1c" %}
 Walkthrough of the Vana network pieces
@@ -32,11 +28,11 @@ Vana consists of a Data Liquidity Layer, designed to introduce data on-chain as 
 
 ### Data Liquidity Layer
 
-The [Data Liquidity Layer](../get-started/data-liquidity-layer/) facilitates the contribution, validation, and recording of data into Data Liquidity Pools (DLPs) via smart contracts.&#x20;
+Collective, pooled data is much more valuable than individual data as it can be used as AI training data. The [Data Liquidity Layer](../get-started/data-liquidity-layer/) facilitates the contribution, validation, and recording of data into Data Liquidity Pools (DLPs) via smart contracts.&#x20;
 
 DLP creators set specific objectives, including the purpose, validation method, and contribution parameters. Data contributors and custodians submit data for validation, receiving governance rights and rewards based on the DLP's parameters.&#x20;
 
-The primary goal is to bring data on-chain, enabling transactions among Data Contributors, Custodians, and Validators, thereby organizing data collection and management for user and developer accessibility within the ecosystem.
+The primary goal is to bring data onchain, enabling transactions among Data Contributors, Custodians, and Validators, thereby organizing data collection and management for user and developer accessibility within the ecosystem.
 
 #### Data Liquidity Pools
 
