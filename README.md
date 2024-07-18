@@ -19,9 +19,14 @@ layout:
 
 ## Welcome!
 
-Vana is a layer one blockchain designed for private, user-owned data. It allows users to collectively own, govern, and earn from the AI models trained on their data. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).&#x20;
+Vana turns data into currency to push the frontiers of decentralized AI. It is a layer one blockchain designed for private, user-owned data. It allows users to collectively own, govern, and earn from the AI models trained on their data. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).&#x20;
 
-At its core, Vana is a data liquidity network. It makes data liquid by solving the double spend problem for data, ensuring that data is not used multiple times without the owner's consent. This is achieved through two mechanisms: proof-of-contribution and non-custodial data. Proof-of-contribution verifies the value of private data in a privacy-preserving manner, while non-custodial data ensures that the data is only used for approved operations.
+At its core, Vana is a data liquidity network. It makes data liquid by solving the double spend problem for data, ensuring that data can be used like a financial asset in flexible, modular ways. This is achieved through two mechanisms:
+
+1. Proof-of-contribution, which verifies the value of private data in a privacy-preserving manner
+2. Non-custodial data, which ensures that the data is only used for approved operations
+
+These mechanisms create a trustless environment where data can be securely tokenized, traded, and utilized for AI training without compromising user privacy or control. This paradigm shift not only democratizes AI development but also introduces a new economic model where data contributors become active stakeholders in the AI value chain.
 
 <div align="left">
 
