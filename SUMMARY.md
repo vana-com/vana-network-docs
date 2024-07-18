@@ -3,7 +3,7 @@
 ## Welcome to Vana
 
 * [What is Vana?](README.md)
-  * [The Data Ownership Problem](welcome-to-vana/what-is-vana/the-data-ownership-problem.md)
+  * [The Value of Data](welcome-to-vana/what-is-vana/the-value-of-data.md)
   * [Our North Star](welcome-to-vana/what-is-vana/our-north-star.md)
   * [Our Guiding Use Cases](welcome-to-vana/what-is-vana/our-guiding-use-cases.md)
 * [DLP Leaderboard](welcome-to-vana/dlp-leaderboard.md)
