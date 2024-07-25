@@ -37,6 +37,7 @@
   * [Contribute Data](get-started/data-liquidity-layer/contribute-data.md)
   * [Create a Data Liquidity Pool (DLP)](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/README.md)
     * [Become a DLP Validator](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/become-a-dlp-validator.md)
+    * [Data Privacy in DLPs](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/data-privacy-in-dlps.md)
     * [DLP Leaderboard](get-started/data-liquidity-layer/create-a-data-liquidity-pool-dlp/dlp-leaderboard.md)
 * [Data Portability Layer](get-started/data-portability-layer/README.md)
   * [Data and Model Portability](get-started/data-portability-layer/data-and-model-portability.md)
