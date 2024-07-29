@@ -32,6 +32,8 @@ Please make sure to read carefully the [Terms](https://drive.google.com/file/d/1
 
 ### Network Details
 
+_Add a new network with these details within your preferred wallet (e.g. MetaMask). The video below demonstrates how to do this._
+
 <table data-header-hidden><thead><tr><th width="183"></th><th></th></tr></thead><tbody><tr><td>RPC URL</td><td>https://rpc.satori.vana.org</td></tr><tr><td>Chain ID</td><td>14801</td></tr><tr><td>Network name</td><td>Satori Testnet</td></tr><tr><td>Currency</td><td>VANA</td></tr></tbody></table>
 
 ### Setting up the Network
