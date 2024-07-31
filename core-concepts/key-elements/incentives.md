@@ -53,30 +53,11 @@ Here's an example breakdown for a top DLP earning 1% of FDV in the first year:
 The DLP creator chooses the initial rewards split. After launch, the split is decided by DLP token holders, forming a data DAO.
 {% endhint %}
 
-### At Launch
+## DLP Selection Process
 
-The initial 16 DLP slots at launch are allocated based on performance on Satori Testnet and the following criteria:
+The DLP Rewards apply to the top 16 DLP slots, prioritizing quality over quantity. These DLPs are selected through a staking mechanism where VANA token holders stake their tokens with DLPs they believe will perform well. The top 16 DLPs, ranked by total staked tokens, qualify for rewards, which they [share with their stakers](incentives.md#dlp-reward-distribution).
 
-* **Total Transaction Volume:** The number of transactions created by the DLP.&#x20;
-* **Unique Data Contributors:** The number of unique data contributions on Satori testnet. Note: users are discouraged from uploading real data to testnet DLPs.
-* **Data Security Audit:** An independent assessment of the [Proof of Contribution](proof-of-contribution/) function deployed by the DLP.&#x20;
-
-DLPs are encouraged to publicly launch earlier to ensure that they can start driving these metrics sooner.&#x20;
-
-### Post-Launch
-
-DLPs are selected and maintained by a [system of governance](dlp-governance.md) that aligns with Vana’s vision to prioritize community participation.&#x20;
-
-To incentivize competition and ensure high-quality data within the DLPs, Data Liquidity Rewards are distributed based on performance across 4 key metrics, weighted as follows:
-
-* Total Transactions Facilitated by the DLP (TTF) - 15%
-* Total Transaction Fees (Gas Costs) created by the DLP (TFC) - 15%
-* Total Number of Verified Data Uploads to the DLP (VDU) - 50%
-* Unique Wallets that Interacted with the DLP (UW) - 20%
-
-The score 𝑆𝑖 for each Data Liquidity Pool (DLP) 𝑖 is calculated by summing the weighted contributions of four metrics (W): TTF, TFC, VDU, and UW. Each metric is normalized by dividing it by the total of that metric across all DLPs, and then multiplied by its respective weight to reflect its importance as follows:&#x20;
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-20 at 10.46.45.png" alt=""><figcaption></figcaption></figure>
+A detailed breakdown of the DLP Selection process can be found in the [DLP Governance](dlp-governance.md) section.
 
 ## Propagators
 
