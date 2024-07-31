@@ -15,7 +15,7 @@ layout:
 # DLP Governance
 
 {% hint style="warning" %}
-This is a draft and subject to change based on testnet findings and community feedback. It should not be relied upon as a legal promise or guarantee for future implementations.
+This is a draft and should not be relied upon as a legal promise or guarantee for future implementations.
 {% endhint %}
 
 Data Liquidity Pools (DLPs) transform raw data into valuable onchain assets, playing a crucial role in Vana's architecture.Given their central importance, it is logical for DLPs to be at the heart of community governance, allowing [VANA](../../undefined/key-terms.md#vana-token-usdvana) holders to directly influence key decisions.&#x20;

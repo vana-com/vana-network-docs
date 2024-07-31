@@ -15,31 +15,53 @@ layout:
 # Incentives
 
 {% hint style="warning" %}
-This is a draft and should not be relied upon as a legal promise or guarantee for future implementations
+This is a draft and should not be relied upon as a legal promise or guarantee for future implementations.
 {% endhint %}
 
-## Data Liquidity Rewards
+## Data Liquidity Pool Rewards
 
-Data Liquidity Rewards ensure that early participants who contribute to building data liquidity on the network play a significant governance role through their holdings of [VANA](../../undefined/key-terms.md#vana-token-usdvana) as the network grows.&#x20;
+Data Liquidity Pools (DLPs) are critical to Vana, as they incentivize and verify data coming into the network. Our core strategy is to gather the highest quality data, build the best AI models, and monetize them, providing a programmable way to work with user-owned data and build the frontiers of decentralized AI.&#x20;
 
-By rewarding Data Liquidity Pool (DLP) creators and Propagators, these emissions incentivize the essential components needed to harness the network effects of pooled data: data liquidity and security. This structure incentivizes significant data onboarding early on, enabling robust data network effects to drive ecosystem value creation over time through user-owned AI models and user-owned data applications. The key network effect in an AI-first world is data.&#x20;
+## Reward Structure
 
-## Structure
+For two years following the Token Generation Event (TGE), DLP rewards are 17.5% of the Fully Diluted Valuation (FDV), distributed over twenty-four months:
 
-The demand for data is extremely high and rapidly advancing towards AGI (Artificial General Intelligence). There is a wealth of Web2 data that needs to be onboarded to a user-owned system quickly to support better primitives for new economies and markets to emerge. The next few years are critical for building user-owned AI as we are witnessing advancements at an unprecedented pace.
+| DLP Rewards | % of FDV | Tokens       |
+| ----------- | -------- | ------------ |
+| Year 1      | 8.75%    | 10.5 million |
+| Year 2      | 8.75%    | 10.5 million |
 
-To address this urgency, Data Liquidity Rewards are emitted at a significant rate for the first two years, with the option for the community to reconsider continuing emissions thereafter.&#x20;
+On average, the top 16 DLPs will earn 0.547% of FDV, with top DLPs earning upwards of 1% of FDV. Vana has a slightly deflationary supply of 120 million tokens, similar to Ethereum.&#x20;
 
-|             | Year 1                | Year 2                | After year 2                       |
-| ----------- | --------------------- | --------------------- | ---------------------------------- |
-| DLPs        | 8% of Total Supply    | 6% of Total Supply    | Subject to Community Consideraiton |
-| Propagators | 0.44% of Total Supply | 0.44% of Total Supply | 0.44% of Total Supply              |
+{% hint style="success" %}
+**Top DLPs can earn upwards of 1% of FDV**
+{% endhint %}
 
-_Top performing DLPs can earn approximately 1% of the total supply of the governance token based on initial estimates._&#x20;
+These rewards are designed to incentivize Data Liquidity Contributions similar to early Ethereum miners. We believe that to scale crypto adoption, it's important to invite new participants. Proof of stake networks have the downfall of only making the rich richer. Proof of work and proof of contribution networks are incredibly powerful, as they allow anyone to contribute to the network.&#x20;
 
-## DLPs
+Participating in a data liquidity pool on Vana is like being an early Ethereum miner, and we've structured the rewards similarly.
 
-The top 16 DLPs automatically earn Data Liquidity Rewards. &#x20;
+## DLP Reward Distribution
+
+DLPs control how they distribute rewards to the DLP creator, data token holders, and DLP stakers. This allows new DLPs to break into the top 16 by incentivizing stakers and issuing rewards to their token holders before directly monetizing the data.
+
+Here's an example breakdown for a top DLP earning 1% of FDV in the first year:
+
+<table><thead><tr><th width="186"></th><th width="136">% of rewards</th><th width="104">% of FDV</th><th width="98">Tokens</th><th>Role in DLP</th></tr></thead><tbody><tr><td>DLP Creator</td><td>40%</td><td>0.4%</td><td>480,000</td><td>Implements proof of contribution and a method for data contributors</td></tr><tr><td>DLP Stakers</td><td>20%</td><td>0.2%</td><td>240,000</td><td>Puts stake behind the DLP based on its data value to Vana</td></tr><tr><td>DLP Token Holders, including Data Contributors and Validators</td><td>40%</td><td>0.4%</td><td>480,000</td><td>Includes data contributors, validators, and token purchasers</td></tr></tbody></table>
+
+{% hint style="info" %}
+The DLP creator chooses the initial rewards split. After launch, the split is decided by DLP token holders, forming a data DAO.
+{% endhint %}
+
+### At Launch
+
+The initial 16 DLP slots at launch are allocated based on performance on Satori Testnet and the following criteria:
+
+* **Total Transaction Volume:** The number of transactions created by the DLP.&#x20;
+* **Unique Data Contributors:** The number of unique data contributions on Satori testnet. Note: users are discouraged from uploading real data to testnet DLPs.
+* **Data Security Audit:** An independent assessment of the [Proof of Contribution](proof-of-contribution/) function deployed by the DLP.&#x20;
+
+DLPs are encouraged to publicly launch earlier to ensure that they can start driving these metrics sooner.&#x20;
 
 ### Post-Launch
 
@@ -55,20 +77,6 @@ To incentivize competition and ensure high-quality data within the DLPs, Data Li
 The score 𝑆𝑖 for each Data Liquidity Pool (DLP) 𝑖 is calculated by summing the weighted contributions of four metrics (W): TTF, TFC, VDU, and UW. Each metric is normalized by dividing it by the total of that metric across all DLPs, and then multiplied by its respective weight to reflect its importance as follows:&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-06-20 at 10.46.45.png" alt=""><figcaption></figcaption></figure>
-
-### At Launch
-
-The initial 16 DLP slots at launch are allocated based on performance on Satori Testnet and the following criteria:
-
-* **Total Transaction Volume:** The number of transactions created by the DLP.&#x20;
-* **Unique Data Contributors:** The number of unique data contributions on Satori testnet. Note: users are discouraged from uploading real data to testnet DLPs.
-* **Data Security Audit:** An independent assessment of the [Proof of Contribution](proof-of-contribution/) function deployed by the DLP.&#x20;
-
-DLPs are encouraged to publicly launch earlier to ensure that they can start driving these metrics sooner.&#x20;
-
-### Division of Data Liquidity Rewards
-
-Data Liquidity Rewards rewards are divided between DLP Creators and VANA stakers within each eligible DLP at the discretion of the DLP Creator. The need for VANA holders to delegate stake to DLPs ensures a balancing mechanism wherein DLP Creators are incentivized to offer attractive sub-emissions to stakers while ensuring high-quality contributions.&#x20;
 
 ## Propagators
 
