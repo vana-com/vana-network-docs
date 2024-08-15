@@ -46,9 +46,9 @@ The parameter of the top 16 slots earning rewards is governable, and if the comm
 
 The initial 16 DLP slots at launch are allocated based on performance on Satori Testnet and the following criteria:
 
-* **Total Transaction Volume:** The number of transactions created by the DLP.&#x20;
-* **Unique Data Contributors:** The number of unique data contributions on Satori testnet. Note: users are discouraged from uploading real data to testnet DLPs.
-* **Data Security Audit:** An independent assessment of the [Proof of Contribution](proof-of-contribution/) function deployed by the DLP.&#x20;
+* **Total Transaction Fees (Gas Costs)** created by the DLP
+* **Total Number of Unique wallets** with Verified Data Uploads
+* **Amount Staked** in the DLP
 
 DLPs are encouraged to publicly launch earlier to ensure that they can start driving these metrics sooner.&#x20;
 
@@ -56,13 +56,14 @@ DLPs are encouraged to publicly launch earlier to ensure that they can start dri
 
 DLPs are selected and maintained by a [system of governance](dlp-governance.md) that aligns with Vana’s vision to prioritize community participation.&#x20;
 
-To incentivize competition and ensure high-quality data within the DLPs, Data Liquidity Rewards are distributed based on performance across 4 key metrics, weighted as follows:
+To incentivize competition and ensure high-quality data within the DLPs, Data Liquidity Rewards are distributed based on weighted, normalized performance across the below metrics. _Note that DLP Revenue and Trading Volume are currently set to 0% but will be adjusted as the Network continues to grow._
 
-* Total Transactions Facilitated by the DLP (TTF) - 15%
-* Total Transaction Fees (Gas Costs) created by the DLP (TFC) - 15%
-* Total Number of Verified Data Uploads to the DLP (VDU) - 50%
-* Unique Wallets that Interacted with the DLP (UW) - 20%
+* Total Transaction Fees (Gas Costs) created by the DLP (TFC) - 20%
+* Total Number of Unique wallets with Verified Data Uploads (VDU) - 20%
+* Amount Staked (AST) - 60%
+* DLP Revenue in $VANA (REV) - 0%
+* 2 week avg DLP Trading Volume (DTV) - 0%
 
-The score 𝑆𝑖 for each Data Liquidity Pool (DLP) 𝑖 is calculated by summing the weighted contributions of four metrics (W): TTF, TFC, VDU, and UW. Each metric is normalized by dividing it by the total of that metric across all DLPs, and then multiplied by its respective weight to reflect its importance as follows:&#x20;
+The score 𝑆𝑖 for each Data Liquidity Pool (DLP) 𝑖 is calculated by summing the weighted contributions of three metrics: TFC, VDU, and AST. Each metric is normalized by dividing it by the total of that metric across all DLPs, and then multiplied by its respective weight to reflect its importance as follows:&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-20 at 10.46.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-15 at 12.48.10 PM.png" alt=""><figcaption></figcaption></figure>
