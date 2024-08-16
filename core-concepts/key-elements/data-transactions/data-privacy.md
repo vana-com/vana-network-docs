@@ -21,4 +21,4 @@ The steps are as follows:
 
 This way, only a trusted validator can see the user's encrypted file.&#x20;
 
-This is just one privacy implementation of a DLP. A DLP can implement other privacy features as well, for example, using a [zero-knowledge-proof-of-contribution.md](zero-knowledge-proof-of-contribution.md "mention") that doesn't require a validator to decrypt the user's file to be able to verify it.&#x20;
+This is just one privacy implementation of a DLP. A DLP can implement other privacy features as well, for example, using a [zero-knowledge-proof-of-contribution.md](../proof-of-contribution/zero-knowledge-proof-of-contribution.md "mention") that doesn't require a validator to decrypt the user's file to be able to verify it.&#x20;
