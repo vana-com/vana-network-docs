@@ -20,6 +20,7 @@ Vana turns data into currency. Data submitted to the network becomes a digital a
 * Format
 * Data properties
 * Reference to encrypted data storage location
+* Attestations about the validity of the data
 
 Users choose how they store their (encrypted) data and, at all times, maintain control over the encryption keys of their data. However, Vana allows users to delegate control and access of their data to trusted data custodians within the network. Data Custodians act as intermediaries that host and store user data following strict data protection regulations. Data Custodians can lessen the burden for users when it comes to managing and transacting with their data assets.
 

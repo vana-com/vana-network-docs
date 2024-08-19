@@ -25,6 +25,8 @@
   * [Smart Contracts](core-concepts/key-elements/smart-contracts.md)
   * [Data Transactions](core-concepts/key-elements/data-transactions/README.md)
     * [Data Privacy](core-concepts/key-elements/data-transactions/data-privacy.md)
+    * [Data Ingress](core-concepts/key-elements/data-transactions/data-ingress.md)
+    * [Data Validation](core-concepts/key-elements/data-transactions/data-validation.md)
   * [Proof of Contribution](core-concepts/key-elements/proof-of-contribution/README.md)
     * [Example implementation](core-concepts/key-elements/proof-of-contribution/example-implementation.md)
     * [Zero-Knowledge Proof of Contribution](core-concepts/key-elements/proof-of-contribution/zero-knowledge-proof-of-contribution.md)

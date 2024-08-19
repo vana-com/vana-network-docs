@@ -2,7 +2,7 @@
 
 DLPs may choose to rely on a network of DLP Validators to run their DLP's proof-of-contribution (PoC). After running PoC, these validators form a [consensus](../../key-elements/proof-of-contribution/#nagoya-consensus) with each other and write the proof-of-contribution assessment back on-chain. In this model, DLPs are responsible for deploying and maintaining their validators. DLP Validators earn DLP token rewards for accurate and consistent data evaluations.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>A DLP that relies on DLP validators</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>A DLP that relies on DLP validators</p></figcaption></figure>
 
 ## **Responsibilities**
 
@@ -60,3 +60,13 @@ The NodeServer runs a [FastAPI](https://fastapi.tiangolo.com/) server that is re
 #### Messages
 
 The Messages object is sent back and forth between nodes, providing a vehicle for communication between nodes. It wraps the inputs and outputs of a communication exchange sent between nodes.
+
+## Nagoya Consensus
+
+> _Writer's note: We had to design a new consensus mechanism to handle the fuzziness of data contributions. For example, if I believe your data deserves a score of 100, and another validator believes your data deserves a score of 102, we could both be pretty much right. Neither of us as validators are acting maliciously or incorrectly. But generally crypto consensus mechanisms are designed for exact consensus only. Bittensor proposed an early version of this fuzzy consensus, which we have modified to work for private data and proof of contribution._&#x20;
+
+To reach a state of agreement on data contributions and disincentivize malicious validators, the Proof-of-Contribution system employs Nagoya Consensus. In Nagoya Consensus, each DLP Validator expresses their perspective on the quality and value of data contributions as a rating. Validators then use their rating to score other validators through a set of ratings weighted by stake.
+
+Nagoya Consensus rewards validators for producing data contribution scores that are in agreement with the evaluations of other validators. This disincentivizes divergence from the consensus majority while incentivizing validators to converge on honest assessments of data contribution.
+
+By requiring validators to put stake behind their evaluations and rewarding convergence weighted by stake, Nagoya Consensus makes it economically unfavorable for even a significant minority of validators to collude and manipulate the state of the DLP. As long as an honest majority of stake-weighted validators participate, the system can come to consensus on data contribution scores that accurately reflect the quality and value of data in the DLP.
