@@ -16,7 +16,7 @@ layout:
 
 Data Custodians increase the efficiency of data contributions within the Vana network by aggregating data from data contributors before it is submitted to a DLP. DLPs might opt to leverage Data Custodians to lower the barrier of entry for Data Contributors to share their data with DLPs.
 
-#### **Responsibilities:**
+## **Responsibilities**
 
 * Act as intermediaries for Data Contributors to host their data.
 * Simplify the process for Data Contributors to contribute data to DLPs.

@@ -23,7 +23,7 @@ The Data Liquidity Layer is where data is contributed, validated, and recorded t
 The top DLPs earn data liquidity pool rewards, so DLP slots are competitive. There 16 slots available on mainnet. This limit is intended to incentivize quality over quantity.
 
 * To register your DLP or provide updates to be added to the leaderboard, submit [here](https://usevana.typeform.com/to/lYvFKKYY).&#x20;
-* To see other DLPs, view the [DLP Leaderboard](dlp-leaderboard.md)
+* To see other DLPs, view the [dlp-leaderboard.md](../../welcome-to-vana/dlp-leaderboard.md "mention")
 
 {% hint style="info" %}
 Join our [Discord](https://discord.com/invite/Wv2vtBazMR) server to present your DLP and chat with other devs creating DLPs
@@ -34,19 +34,19 @@ Join our [Discord](https://discord.com/invite/Wv2vtBazMR) server to present your
 A data liquidity pool consists of the following components:
 
 1. A DLP smart contract that issues rewards and communicates back to the connectome.&#x20;
-2. A proof-of-contribution function to measure data quality. This is run by the DLP validators
+2. A proof-of-contribution function to measure data quality. This is run by the validators
 3. An optional UI for data contributors to add data to a liquidity pool
 
-### DLP Validators
+### Validators
 
-A DLP validator runs a proof-of-contribution function that measures data quality. Validators use of the `vana` framework to interact with all the components of the Vana network. A starting point can be found here:&#x20;
+A validator runs a proof-of-contribution function that measures data quality. There are two kinds of Validators that DLPs can use, [TEE Validators](tee-validators.md) (recommended) and [DLP Validators](dlp-validators/).&#x20;
+
+Validators use of the `vana` framework to interact with all the components of the Vana network. A starting point can be found here:&#x20;
 
 {% hint style="info" %}
 Vana framework with core components: [https://github.com/vana-com/vana-framework](https://github.com/vana-com/vana-framework/)
 
-Template for creating DLP validators [https://github.com/vana-com/vana-dlp-template](https://github.com/vana-com/vana-dlp-template)
-
-Data liquidity pool with simple zk proofs: [https://github.com/vana-com/zk-proof-poc](https://github.com/vana-com/zk-proof-poc)
+Template for creating DLP validators [https://github.com/vana-com/vana-dlp-hotdog](https://github.com/vana-com/vana-dlp-hotdog)&#x20;
 {% endhint %}
 
 ### Proof of contribution
@@ -101,7 +101,7 @@ Follow the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/b
 
 1. Choose a valuable data source.
    * Current community requests: stack overflow, telegram, youtube, email, google drive
-   * To see what others are building, visit the [DLP Leaderboard](dlp-leaderboard.md)
+   * To see what others are building, visit the [dlp-leaderboard.md](../../welcome-to-vana/dlp-leaderboard.md "mention")
 2. Tell users how to access that data source.
    * For example, through a GDPR or CCPA data export request, through scraping their own data, or through an API.&#x20;
    * Optionally, build an UI that makes it easy for data contributors to add their data via your smart contract.
@@ -135,7 +135,7 @@ Clone the DLP smart contract from a [template](https://github.com/vana-com/vana-
 
 ### Register a node to a DLP
 
-A DLP Smart contract will be able to accept new nodes into the DLP. To register a new node, create a wallet for it and call the registration function in the DLP smart contract. More information can be found in [become-a-dlp-validator.md](become-a-dlp-validator.md "mention").&#x20;
+A DLP Smart contract will be able to accept new nodes into the DLP. To register a new node, create a wallet for it and call the registration function in the DLP smart contract. More information can be found in [become-a-dlp-validator.md](dlp-validators/become-a-dlp-validator.md "mention").&#x20;
 
 ### Deploy DLP Nodes
 

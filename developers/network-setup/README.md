@@ -26,7 +26,7 @@ In [this section](network-information.md), you will find information on:
 
 ## Working with Keys
 
-In [this section](working-with-keys.md), you will find details about"
+In [this section](working-with-keys.md), you will find details about:
 
 * Key pairings
 * Cold keys
@@ -34,7 +34,7 @@ In [this section](working-with-keys.md), you will find details about"
 
 ## Creating a Wallet
 
-In [this section](creating-a-wallet.md), you will find instruction on how to&#x20;
+In [this section](creating-a-wallet.md), you will find instructions on how to:
 
 * set up a wallet in the browser
 * set up a local wallet with CLI

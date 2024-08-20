@@ -16,7 +16,7 @@ layout:
 
 Data Consumers pay for access to DLPs and user-owned data apps within the ecosystem. They create demand for data contribution and ecosystem growth.
 
-#### **Participation:**
+## **Participation**
 
 * Provide demand for DLP creation and data collection.
 * Pay fees to access DLP data banks for external services.
