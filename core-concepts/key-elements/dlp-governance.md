@@ -42,9 +42,9 @@ The parameter of the top 16 slots earning rewards is governable, and if the comm
 
 ## Initial DLP Selection
 
-### At Launch
+### At launch - overview
 
-The initial 16 DLP slots at launch are allocated based on performance on Satori Testnet and the following criteria:
+The initial DLP slots at launch are allocated based on performance on Satori Testnet and the following criteria:
 
 * **Total Transaction Fees (Gas Costs)** created by the DLP
 * **Total Number of Unique wallets** with Verified Data Uploads
@@ -52,7 +52,7 @@ The initial 16 DLP slots at launch are allocated based on performance on Satori 
 
 DLPs are encouraged to publicly launch earlier to ensure that they can start driving these metrics sooner.&#x20;
 
-### Post-Launch
+### At launch - details
 
 DLPs are selected and maintained by a [system of governance](dlp-governance.md) that aligns with Vana’s vision to prioritize community participation.&#x20;
 
