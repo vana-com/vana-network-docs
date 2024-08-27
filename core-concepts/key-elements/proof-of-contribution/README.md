@@ -28,7 +28,7 @@ Each function depends on the constraints imposed by the DLP that receives the da
 
 ## Model Influence Functions
 
-One recommended implementation for DLP Proof-of-Contribution is to run a model influence function, which measures exactly how much new information a given data point teaches the AI model.&#x20;
+One recommended implementation for DLP Proof-of-Contribution is to run a [model influence function](https://www.vana.org/posts/model-influence-functions-measuring-data-quality), which measures exactly how much new information a given data point teaches the AI model.&#x20;
 
 ## Data Privacy
 
