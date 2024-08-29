@@ -27,6 +27,6 @@ The DLP Root contract manages the registration and reward distribution for Data 
 To prevent exploitation, the contract implements a minimum staking period and requires stakers to claim their rewards manually. DLP owners can set custom reward percentages to attract more stakers, potentially securing a position in the top 16. The system also allows for multi-DLP staking and requires an initial minimum stake from DLP owners for registration.
 
 {% hint style="info" %}
-Satori: [0xd750576FeCD6B595f1FA334050793b3Df643D553](https://satori.vanascan.io/address/0xd750576FeCD6B595f1FA334050793b3Df643D553)
+Satori: [0x8f514f140034a1C23Cbc31f8D7aCDE78C41AF9E8](https://satori.vanascan.io/address/0x8f514f140034a1C23Cbc31f8D7aCDE78C41AF9E8)
 {% endhint %}
 

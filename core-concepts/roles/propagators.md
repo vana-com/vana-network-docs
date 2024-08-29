@@ -48,6 +48,8 @@ To run a reliable, performant node, we suggest that the node’s hardware profil
 * 100 GB high-speed SSD
 * x86-64 architecture
 
+These hardware requirements are rough guidelines, and each node operator should monitor their node to ensure good performance for the intended task.
+
 ## Running a Propagator
 
 {% hint style="info" %}
