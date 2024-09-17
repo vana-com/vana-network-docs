@@ -8,7 +8,7 @@ The authenticity check aims to prove that the data submitted is authentic and no
 
 ### How it works in the ChatGPT DLP
 
-In the ChatGPT LDP, we rely on the email from OpenAI linking the user to their export to verify the authenticity of the data.
+In the ChatGPT DLP, we rely on the email from OpenAI linking the user to their export to verify the authenticity of the data.
 
 1. User requests a data export of their ChatGPT data.
 2. Once they receive the "Your export is ready email", they download the zip file and copy the download link from the email.

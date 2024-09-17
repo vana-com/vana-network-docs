@@ -27,7 +27,7 @@ Propagators earn transaction fees and block rewards in the form of [VANA](../../
 {% hint style="warning" %}
 Satori testnet is currently run as Proof-of-Authority (PoA) chain for now. More information will be shared, as the testnet progresses. Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) for more information.
 
-The testnet will be upgraded to proof-of-stake for propagators to ensure Satori testnet remains stable for data liquidity pools.
+The Moksha testnet will be released as a Proof-of-Stake (PoS) for propagators to ensure the testnet remains stable for data liquidity pools.
 {% endhint %}
 
 ## Hardware requirements[​](https://docs.roninchain.com/validators/setup/overview#hardware-requirements) <a href="#hardware-requirements" id="hardware-requirements"></a>
@@ -41,7 +41,7 @@ To run a reliable, performant node, we suggest that the node’s hardware profil
 * 1.2 TB high-speed SSD
 * x86-64 architecture
 
-### Satori testnet[​](https://docs.roninchain.com/validators/setup/overview#saigon-testnet) <a href="#saigon-testnet" id="saigon-testnet"></a>
+### Testnet[​](https://docs.roninchain.com/validators/setup/overview#saigon-testnet) <a href="#saigon-testnet" id="saigon-testnet"></a>
 
 * 2-core CPU
 * 8 GB RAM
