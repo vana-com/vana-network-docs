@@ -8,7 +8,7 @@ description: >-
 
 ## Encrypting Data
 
-Vana uses a patented non-custodial encryption technique to encrypt personal data. Data does not leave the user's browser unencrypted. A user's file is symmetrically encrypted with their encryption key, and if the encryption key is shared with another party, the key is encrypted with that party's public key so only the intended reciepient can decrypt the key and the data.
+Vana uses a patented non-custodial encryption technique to encrypt personal data. Data does not leave the user's browser unencrypted. A user's file is symmetrically encrypted with their encryption key, and if the encryption key is shared with another party, the key is encrypted with that party's public key so only the intended recipient can decrypt the key and the data.
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Encrypting user data, and sharing with a trusted party</p></figcaption></figure>
 
@@ -18,7 +18,7 @@ The steps are as follows:
 2. They are prompted to sign a fixed message with their wallets, creating a unique signature that can only be recreated by signing that same message using that same wallet.
 3. The generated signature is used as the encryption key (EK) to encrypt the file F using a symmetric encryption technique, creating an encrypted file EF.
 4. The encryption key EK is then encrypted with the trusted party's public key, making an encrypted encryption key (EEK).
-5. The encrypted file EF and encrypted encryption key EEK can be safely shared with the intended receipient.
+5. The encrypted file EF and encrypted encryption key EEK can be safely shared with the intended recipient.
 
 ## Decrypting Data
 

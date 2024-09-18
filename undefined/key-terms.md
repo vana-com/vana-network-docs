@@ -64,7 +64,7 @@ A system validating the integrity and quality of data within [DLPs](key-terms.md
 
 ### **Propagator**
 
-A network participant responsible for writing data transactions to the blockchain, maintaining network consensus, and earning fees for their work.
+A network participant is responsible for writing data transactions to the blockchain, maintaining network consensus, and earning fees for their work.
 
 ### **Root Network**
 

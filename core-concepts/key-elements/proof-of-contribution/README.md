@@ -20,7 +20,7 @@ Vana uses a Proof-of-Contribution (PoC) system to validate data submitted to the
 
 Each DLP implements their own proof of contribution function based on their particular dataset. For example, r/datadao measured contributions based on amount of karma, and included an ownership check having users post a code in their reddit profile to confirm ownership. This proof-of-contribution check depends on the goals of the data liquidity pool and the best way to measure data contributions.&#x20;
 
-The proof-of-contribution function defines success for your data liquidity pool. If you do not want a particular kind of data in your DLP, but it passes or is rewarded by your proof-of-contribution function, then your proof-of-contribution function is not compete.&#x20;
+The proof-of-contribution function defines success for your data liquidity pool. If you do not want a particular kind of data in your DLP, but it passes or is rewarded by your proof-of-contribution function, then your proof-of-contribution function is not complete.&#x20;
 
 To validate data submissions, DLP Validators scan through the data transactions and assign a score using the DLP's contribution function. The function takes into account various data characteristics, such as completeness, accuracy, and relevance to the DLP’s purpose.
 

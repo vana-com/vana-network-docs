@@ -1,6 +1,6 @@
 # Smart Contracts
 
-The Vana network relies on several key smart contracts to facilite data liquidity.
+The Vana network relies on several key smart contracts to facilitate data liquidity.
 
 ## Data Registry Contract
 
