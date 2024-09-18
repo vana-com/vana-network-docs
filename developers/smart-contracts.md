@@ -14,7 +14,7 @@ Satori: [0xDAAD102189FE8D0FE43c1926b109E94D06bD8a97](https://satori.vanascan.io/
 
 ## TEE Pool Contract
 
-The TEE Pool contract manages and coordinates the [TEE Validators](create-a-data-liquidity-pool-dlp/tee-validators.md) and serves as an escrow for holding fees associated with validation tasks. Users pay a fee to submit data for validation, and the contract ensures that the validators process the data and provide proof of validation. The contract also allows the owner to add or remove validators, and it securely holds and disburses the fees related to these validation services.
+The TEE Pool contract manages and coordinates the [TEE Validators](create-a-data-liquidity-pool-dlp/satya-validators.md) and serves as an escrow for holding fees associated with validation tasks. Users pay a fee to submit data for validation, and the contract ensures that the validators process the data and provide proof of validation. The contract also allows the owner to add or remove validators, and it securely holds and disburses the fees related to these validation services.
 
 {% hint style="info" %}
 Satori: [0x88790ffF10E952ffc13Be22a442616eAfE081594](https://satori.vanascan.io/address/0x88790ffF10E952ffc13Be22a442616eAfE081594)
@@ -29,4 +29,3 @@ To prevent exploitation, the contract implements a minimum staking period and re
 {% hint style="info" %}
 Satori: [0x8f514f140034a1C23Cbc31f8D7aCDE78C41AF9E8](https://satori.vanascan.io/address/0x8f514f140034a1C23Cbc31f8D7aCDE78C41AF9E8)
 {% endhint %}
-

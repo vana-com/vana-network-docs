@@ -16,7 +16,7 @@ layout:
 
 Validators are critical for maintaining the integrity, value, and trustworthiness of data within the network. Depending on the DLP's architecture, different validators may be required.
 
-* [TEE Validators](../../developers/create-a-data-liquidity-pool-dlp/tee-validators.md) - the recommended approach, a group of confidential validators that can perform validation for any DLP
+* [TEE Validators](../../developers/create-a-data-liquidity-pool-dlp/satya-validators.md) - the recommended approach, a group of confidential validators that can perform validation for any DLP
 * [DLP Validators](../../developers/create-a-data-liquidity-pool-dlp/dlp-validators/) - a group of validators specific to a DLP, useful when TEE validators cannot be used
 * No Validators - some DLPs may not require validators at all
 

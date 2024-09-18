@@ -47,5 +47,5 @@ Please join our [Discord ](https://discord.com/invite/Wv2vtBazMR)to get an overv
 {% endhint %}
 
 {% hint style="info" %}
-If you need some initial [VANA](../../../undefined/key-terms.md#vana-token-usdvana) token to pay for testnet transaction fees, a faucet is available at: [https://faucet.vana.org/](https://faucet.vana.org/)
+If you need some initial [VANA](broken-reference) token to pay for testnet transaction fees, a faucet is available at: [https://faucet.vana.org/](https://faucet.vana.org/)
 {% endhint %}

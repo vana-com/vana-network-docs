@@ -35,16 +35,31 @@ You can run a validator on your own hardware or on a cloud provider like GCP and
 See example integration of a Validator [here](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md#running-a-validator-on-an-existing-dlp).
 {% endhint %}
 
+The following outlines the high level steps to run a DLP validator.&#x20;
+
 1. Choose the DLP you'd like to run a validator for.
    * You can run validators in multiple DLPs
 2. Register as a validator through the DLP via its smart contract.
    * You must meet the minimum staking requirements for the DLP
 3. Wait for your registration request to be approved by the DLP.
-4. Run the validator node specific to the DLP. Confirm that your validator is running correctly. Your logs should look something like this, which will vary by DLP:
-   * See DLP-specific instructions for running a validator node
+4.  Run the validator node specific to the DLP. Confirm that your validator is running correctly. Your logs should look something like this, which will vary by DLP:
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
+
+    * See DLP-specific instructions for running a validator node
 5. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking onchain.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
+### Deploy Validators
+
+Once a DLP validator has been built, we are ready to deploy it. DLP nodes form a peer-to-peer network, and can be deployed to any infrastructure of your choice (ex, AWS, Google Cloud Platform, Azure, etc). Ideally, nodes have a static IP to more easily communicate with each other. Each node must have a wallet used to register the node to the DLP. Once the node is running and registered, they can begin serving proof-of-contribution requests within the DLP.
+
+### Deploy the Smart Contract
+
+Clone the DLP smart contract from a [template](https://github.com/vana-com/vana-dlp-smart-contracts), modify it for the needs of your specific DLP, and deploy it to the network following the readme.
+
+### Validator registration
+
+The [Data Liquidity Pool smart contract](https://github.com/vana-com/vana-dlp-smart-contracts?tab=readme-ov-file#data-liquidity-pool-smart-contract) is designed to manage the registration of validators. This contract ensures that validators can participate in maintaining the network's integrity and security while earning rewards for their contributions. To register a new node, create a wallet for it and call the registration function in the DLP smart contract.
 
 ## Scoring process
 

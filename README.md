@@ -19,7 +19,7 @@ layout:
 
 ## Welcome!
 
-[Vana](https://www.vana.org/) turns data into currency to push the frontiers of decentralized AI. It is a layer one blockchain designed for private, user-owned data. It allows users to collectively own, govern, and earn from the AI models trained on their data. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).&#x20;
+[Vana](https://www.vana.org/) turns data into currency to push the frontiers of decentralized AI. It is a layer one blockchain designed for private, user-owned data. It allows users to collectively own, govern, and earn from the AI models trained on their data. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).
 
 At its core, Vana is a data liquidity network. It makes data liquid by solving the double spend problem for data, ensuring that data can be used like a financial asset in flexible, modular ways. This is achieved through two mechanisms:
 
@@ -30,13 +30,13 @@ These mechanisms create a trustless environment where data can be securely token
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
 ***
 
-Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities.&#x20;
+Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities.
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="./#the-data-ownership-problem">The Data Ownership Problem</a></td><td>How to establish ownership of the AI models created using our data</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-north-star.md">Our North Star</a></td><td>Empower users to own their data and the value it creates by decentralized technology</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-guiding-use-cases.md">Our Guiding Use Cases</a></td><td>Build a User-Owned Data Treasury and a User-Owned Foundation Model</td></tr></tbody></table>
 
@@ -48,7 +48,6 @@ Learn more about the core concepts of the Vana Network by exploring these sectio
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="core-concepts/network-overview/">Network Overview</a></td><td>Understand the core building blocks of the Vana ecosystem</td></tr><tr><td></td><td><a href="core-concepts/roles/">Roles</a></td><td>Explore the different participants and their role in the Vana network</td></tr><tr><td></td><td><a href="core-concepts/key-elements/">Key Elements</a></td><td>Understand how data is transformed and validated and incitives will work</td></tr></tbody></table>
 
-To participate in the network, you can:&#x20;
+To participate in the network, you can:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="developers/create-a-data-liquidity-pool-dlp/">Start a Data Liquidity Pool (DLP)</a></td><td>Build your own DLP based on provided templates and deploy to the Vana Network</td></tr><tr><td></td><td><a href="developers/create-a-data-liquidity-pool-dlp/dlp-validators/become-a-dlp-validator.md">Run a Validator</a></td><td>Start the validation of data for specific DLPs on your own hardware</td></tr><tr><td></td><td><a href="core-concepts/key-elements/data-transactions/contribute-data.md">Contribute Data</a></td><td>Submit your data to a DLP and observe your contribution onchain</td></tr></tbody></table>
-

@@ -18,7 +18,7 @@ This is an overview of how to create a Vana wallet, and associated keys. A Vana 
 
 ## For Basic Use
 
-The Vana network is EVM-compatible and supports Ethereum-compatible addresses. Any wallet that supports EVM chains can be used to create a wallet that can send and receive [VANA](../../undefined/key-terms.md#vana-token-usdvana), including hardware wallets. Some recommended wallet applications are [MetaMask](https://metamask.io/), [Rabby](https://rabby.io/), and [Trust Wallet](https://trustwallet.com/).
+The Vana network is EVM-compatible and supports Ethereum-compatible addresses. Any wallet that supports EVM chains can be used to create a wallet that can send and receive [VANA](broken-reference), including hardware wallets. Some recommended wallet applications are [MetaMask](https://metamask.io/), [Rabby](https://rabby.io/), and [Trust Wallet](https://trustwallet.com/).
 
 ## For Network Operators
 

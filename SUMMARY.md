@@ -46,14 +46,15 @@
   * [Creating a Wallet](developers/network-setup/creating-a-wallet.md)
 * [Smart Contracts](developers/smart-contracts.md)
 * [Create a Data Liquidity Pool (DLP)](developers/create-a-data-liquidity-pool-dlp/README.md)
-  * [TEE Validators](developers/create-a-data-liquidity-pool-dlp/tee-validators.md)
+  * [Satya Validators](developers/create-a-data-liquidity-pool-dlp/satya-validators.md)
   * [DLP Validators](developers/create-a-data-liquidity-pool-dlp/dlp-validators/README.md)
     * [Become a DLP Validator](developers/create-a-data-liquidity-pool-dlp/dlp-validators/become-a-dlp-validator.md)
-* [Data Ingress](developers/data-ingress/README.md)
-  * [Data Privacy](developers/data-ingress/data-privacy.md)
-  * [Data Validation](developers/data-ingress/data-validation.md)
+* [Add and Validate Data](developers/add-and-validate-data/README.md)
+  * [Data Privacy](developers/add-and-validate-data/data-privacy.md)
+  * [Data Validation](developers/add-and-validate-data/data-validation.md)
+  * [Data Attestation](developers/add-and-validate-data/data-attestation.md)
 
-## &#x20;
+## Untitled Group
 
 * [FAQ](undefined/faq.md)
 * [Key Terms](undefined/key-terms.md)
