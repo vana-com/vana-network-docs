@@ -19,7 +19,7 @@ layout:
 
 ## Welcome!
 
-Vana turns data into currency to push the frontiers of decentralized AI. It is a layer one blockchain designed for private, user-owned data. It allows users to collectively own, govern, and earn from the AI models trained on their data. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).&#x20;
+[Vana](https://www.vana.org/) turns data into currency to push the frontiers of decentralized AI. It is a layer one blockchain designed for private, user-owned data. It allows users to collectively own, govern, and earn from the AI models trained on their data. For more context on why we built Vana, see this [blog post](https://www.vana.org/posts/introducing-the-satori-testnet).&#x20;
 
 At its core, Vana is a data liquidity network. It makes data liquid by solving the double spend problem for data, ensuring that data can be used like a financial asset in flexible, modular ways. This is achieved through two mechanisms:
 
