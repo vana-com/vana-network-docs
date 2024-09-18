@@ -20,7 +20,7 @@ Creating a DLP is the best way for highly motivated builders to get involved and
 
 The Data Liquidity Layer is where data is contributed, validated, and recorded to the network into data liquidity pools (DLPs). Here, DLP creators deploy DLP smart contracts with specific data contribution objectives, including the DLP’s purpose, validation method, and data contribution parameters. DLPs on Vana are analogous to subnets on Bittensor.&#x20;
 
-The top DLPs earn data liquidity pool rewards, so DLP slots are competitive. There 16 slots available on mainnet. This limit is intended to incentivize quality over quantity.
+The top DLPs earn data liquidity pool rewards, so DLP slots are competitive. There are 16 slots available on mainnet. This limit is intended to incentivize quality over quantity.
 
 * To register your DLP or provide updates to be added to the leaderboard, submit [here](https://usevana.typeform.com/to/lYvFKKYY).&#x20;
 * To see other DLPs, view the [dlp-leaderboard.md](../../welcome-to-vana/dlp-leaderboard.md "mention")
