@@ -18,6 +18,4 @@ This setup ensures that neither the node operators nor any other parties can acc
 Satya Validators are a work in progress. Code samples and technical documentation will be added soon.
 {% endhint %}
 
-## Data Flow
-
-A detailed data flow diagram of how TEE Validators operate can be [found here](https://www.mermaidchart.com/raw/32f63822-e5ae-4335-9511-7685b162bdae?theme=light\&version=v0.1\&format=svg).
+Read more about how the Satya network operates in [data-validation.md](../data-ingress/data-validation.md "mention").

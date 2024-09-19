@@ -49,10 +49,11 @@
   * [Satya Validators](developers/create-a-data-liquidity-pool-dlp/satya-validators.md)
   * [DLP Validators](developers/create-a-data-liquidity-pool-dlp/dlp-validators/README.md)
     * [Become a DLP Validator](developers/create-a-data-liquidity-pool-dlp/dlp-validators/become-a-dlp-validator.md)
-* [Add and Validate Data](developers/add-and-validate-data/README.md)
-  * [Data Privacy](developers/add-and-validate-data/data-privacy.md)
-  * [Data Validation](developers/add-and-validate-data/data-validation.md)
-  * [Data Attestation](developers/add-and-validate-data/data-attestation.md)
+* [Data Ingress](developers/data-ingress/README.md)
+  * [Data Storage](developers/data-ingress/data-storage.md)
+  * [Data Privacy](developers/data-ingress/data-privacy.md)
+  * [Data Validation](developers/data-ingress/data-validation.md)
+  * [Data Attestation](developers/data-ingress/data-attestation.md)
 
 ## Untitled Group
 

@@ -1,8 +1,8 @@
-# Add and Validate Data
+# Data Storage
 
-## Data Storage
+In the Vana network, data is stored encrypted and off-chain in a storage solution of the DLP's choice, providing flexibility and control over their data. This approach allows data contributors to utilize familiar platforms such as Dropbox, Google Drive, or decentralized options like IPFS.&#x20;
 
-In the Vana network, data is stored encrypted off-chain in a storage solution of the DLP's choice, providing flexibility and control over their data. This approach allows data contributors to utilize familiar platforms such as Dropbox, Google Drive, or decentralized options like IPFS.&#x20;
+The DLP can choose to provide a central storage location (ex: a Dropbox account controlled by the DLP), or ask the data contributor to store it in their own storage (ex: a Dropbox account controlled by the data contributor).&#x20;
 
 Vana's system only requires two key pieces of information: a URL pointing to the data's location and an optional identifier that changes when the data is modified (e.g., an [ETAG](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) or last modified date). This ensures data at a particular location has not changed since it was uploaded there.&#x20;
 
@@ -14,7 +14,7 @@ By keeping data off-chain but accessible through these identifiers, Vana maintai
 
 To make data discoverable in the Vana network, it must be written onchain using the [Data Registry contract](../smart-contracts.md#data-registry-contract). The data contributor first uploads an [encrypted file](data-privacy.md) to a storage provider of their choice, then writes a pointer to that file (the URL) and an optional content integrity hash to the registry.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Adding data to the <a href="../smart-contracts.md#data-registry-contract">data registry</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Adding data to the <a href="../smart-contracts.md#data-registry-contract">data registry</a></p></figcaption></figure>
 
 To add data to the Vana Network:
 
