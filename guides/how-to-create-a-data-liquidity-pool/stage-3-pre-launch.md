@@ -9,7 +9,7 @@ description: >-
 
 ### **Step 1: Apply for the Telegram Mini App Pre-mined Campaign**
 
-This exclusive opportunity is designed for early-stage DLPs to build awareness and traction ahead of your public launch. By participating, you’ll gain early access to potential users via our Telegram’s Mini app. If you’re interested in joining, **reach out to us** on Discord to get involved and receive additional support for your project.
+This exclusive opportunity is designed for early-stage DLPs to build awareness and traction ahead of your public launch. By participating, you’ll gain early access to potential users via our Telegram’s Mini app. If you’re interested in joining, reach out to us on Discord to get involved and receive additional support for your project.
 
 ### **Step 2: Integrate with DEX, Staking, and Governance**
 

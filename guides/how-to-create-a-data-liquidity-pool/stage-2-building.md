@@ -4,26 +4,26 @@ description: Once you’ve scoped out your DLP, it’s time to start building.
 
 # Stage 2: Building
 
-{% hint style="info" %}
-Follow the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md) for a step-by-step guide on creating a DLP
-{% endhint %}
-
 {% hint style="warning" %}
 **Vana Testnet is for Testing Purposes Only**
 
 Ensure you create a different configuration for data validation on testnet versus mainnet. Data privacy cannot be guaranteed in testnet.&#x20;
 {% endhint %}
 
+{% hint style="info" %}
+You can follow the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md) for a step-by-step guide on creating a DLP. Skip 'Validator Setup' section as we sunsetted DLP Validators.
+{% endhint %}
+
 ### **Step 1: Build a UI for Data Contributors \[Optional]**
 
-Your DLP needs a user-friendly interface where contributors can upload, encrypt, and validate their data. You can choose from a range of options for building this UI—anything from a web app to a browser extension or mobile app. You can also use the open-source DLP UI template [here](https://github.com/vana-com/vana-dlp-ui) or understand how it works [here](../../core-concepts/data-ingress/data-storage.md).
+Your DLP needs a user-friendly interface where contributors can upload, encrypt, and validate their data. You can choose from a range of options for building this UI — anything from a web app to a browser extension or mobile app. You can also use the open-source DLP UI template [here](https://github.com/vana-com/vana-dlp-ui) or understand how it works [here](../../core-concepts/data-ingress/data-storage.md).
 
 * **Key Feature:** Ensure the UI has client-side encryption to maintain privacy and control for data contributors.
 * **Tip:** Ensure your users understand how to access that data source. For example, through a GDPR or CCPA data export request, through scraping their own data, or through an API.&#x20;
-* **Tip:** You can skip with step. Some DLPs are using Chrome extensions or scrapers to contribute data without a separate UI.
+* **Tip:** You can skip this step. Some DLPs are using Chrome extensions or scrapers to contribute data without a separate UI.
 
 {% hint style="info" %}
-Check out [gptDataDAO](https://www.gptdatadao.org/) and [redditDataDAO](https://rdatadao.org/) as references
+Check out [gptDataDAO](https://www.gptdatadao.org/) and [redditDataDAO](https://rdatadao.org/) as references.
 {% endhint %}
 
 ### **Step 2: Deploy the DLP Smart Contract**
