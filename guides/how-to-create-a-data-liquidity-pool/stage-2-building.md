@@ -14,7 +14,7 @@ Ensure you create a different configuration for data validation on testnet versu
 You can follow the [ChatGPT DLP tutorial](https://github.com/vana-com/vana-dlp-chatgpt/blob/main/docs/running\_on\_testnet.md) for a step-by-step guide on creating a DLP. Skip 'Validator Setup' section as we sunsetted DLP Validators.
 {% endhint %}
 
-### **Step 1: Build a UI for Data Contributors \[Optional]**
+### **Step 1: Build a UI for Data Contributors**
 
 Your DLP needs a user-friendly interface where contributors can upload, encrypt, and validate their data. You can choose from a range of options for building this UI — anything from a web app to a browser extension or mobile app. You can also use the open-source DLP UI template [here](https://github.com/vana-com/vana-dlp-ui) or understand how it works [here](../../core-concepts/data-ingress/data-storage.md).
 
@@ -68,4 +68,4 @@ If using Satya validators, use this [proof-of-contribution template](https://git
 
 ### **Step 6: Connect to Satya for Proof Validation \[Optional]**
 
-Connect your DLP’s UI and backend to the [Satya network](../../core-concepts/roles/satya-validators.md), which will handle data validation through decentralized validators. This ensures your proof-of-contribution mechanism runs efficiently and securely. You can read the whole integration guide in the [Data Validation](../../core-concepts/data-ingress/data-validation.md) section. You can also use your own TEE infrastructure for proof validation.
+Connect your DLP’s UI and backend to the [Satya network](../../core-concepts/roles/satya-validators.md), which will handle data validation through decentralized validators. This ensures your proof-of-contribution mechanism runs efficiently and securely. You can read the whole integration guide in the [Data Validation](../../core-concepts/data-ingress/data-validation.md) section. You can also implement your own client-side ZK Proof or run thr proof-of-contribution function on your own infrastructure, even non-TEE.
