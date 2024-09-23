@@ -9,7 +9,11 @@ The data registry contract functions as a central repository for managing all da
 The contract manages access control for these files, enabling file owners to grant specific addresses permission to access their files. It also handles the storage of file metadata, including any offchain proofs or attestations related to file validation, which can include various metrics such as authenticity, ownership, and quality scores. Users can retrieve detailed information about any file in the registry using its unique identifier, including its permissions and associated proofs.
 
 {% hint style="info" %}
-Satori: [0xDAAD102189FE8D0FE43c1926b109E94D06bD8a97](https://satori.vanascan.io/address/0xDAAD102189FE8D0FE43c1926b109E94D06bD8a97)
+Moksha: [0xEA882bb75C54DE9A08bC46b46c396727B4BFe9a5](https://moksha.vanascan.io/address/0xEA882bb75C54DE9A08bC46b46c396727B4BFe9a5)
+{% endhint %}
+
+{% hint style="info" %}
+Satori: [0xEA882bb75C54DE9A08bC46b46c396727B4BFe9a5](https://satori.vanascan.io/address/0xEA882bb75C54DE9A08bC46b46c396727B4BFe9a5)
 {% endhint %}
 
 ## TEE Pool Contract
@@ -17,7 +21,11 @@ Satori: [0xDAAD102189FE8D0FE43c1926b109E94D06bD8a97](https://satori.vanascan.io/
 The TEE Pool contract manages and coordinates the [TEE Validators](../roles/satya-validators.md) and serves as an escrow for holding fees associated with validation tasks. Users pay a fee to submit data for validation, and the contract ensures that the validators process the data and provide proof of validation. The contract also allows the owner to add or remove validators, and it securely holds and disburses the fees related to these validation services.
 
 {% hint style="info" %}
-Satori: [0x88790ffF10E952ffc13Be22a442616eAfE081594](https://satori.vanascan.io/address/0x88790ffF10E952ffc13Be22a442616eAfE081594)
+Moksha: [0xF084Ca24B4E29Aa843898e0B12c465fAFD089965](https://moksha.vanascan.io/address/0xF084Ca24B4E29Aa843898e0B12c465fAFD089965)
+{% endhint %}
+
+{% hint style="info" %}
+Satori: [0xF084Ca24B4E29Aa843898e0B12c465fAFD089965](https://satori.vanascan.io/address/0xF084Ca24B4E29Aa843898e0B12c465fAFD089965)
 {% endhint %}
 
 ## Root Network Contract
@@ -27,5 +35,9 @@ The DLP Root contract manages the registration and reward distribution for Data 
 To prevent exploitation, the contract implements a minimum staking period and requires stakers to claim their rewards manually. DLP owners can set custom reward percentages to attract more stakers, potentially securing a position in the top 16. The system also allows for multi-DLP staking and requires an initial minimum stake from DLP owners for registration.
 
 {% hint style="info" %}
-Satori: [0x8f514f140034a1C23Cbc31f8D7aCDE78C41AF9E8](https://satori.vanascan.io/address/0x8f514f140034a1C23Cbc31f8D7aCDE78C41AF9E8)
+Moksha:  [0xf408A064d640b620219F510963646Ed2bD5606BB](https://moksha.vanascan.io/address/0xf408A064d640b620219F510963646Ed2bD5606BB)
+{% endhint %}
+
+{% hint style="info" %}
+Satori: [0xf408A064d640b620219F510963646Ed2bD5606BB](https://satori.vanascan.io/address/0xf408A064d640b620219F510963646Ed2bD5606BB)
 {% endhint %}
