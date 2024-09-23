@@ -32,6 +32,6 @@ One recommended implementation for DLP Proof-of-Contribution is to run a [model 
 
 ## Data Privacy
 
-To protect the privacy of data contributions, great care has gone in to protecting the user's data. Validators can act as a trusted party and securely run PoC on user data. Read more about how Validators protect data in [data-privacy.md](../../../developers/data-ingress/data-privacy.md "mention").
+To protect the privacy of data contributions, great care has gone in to protecting the user's data. Validators can act as a trusted party and securely run PoC on user data. Read more about how Validators protect data in [data-privacy.md](../../data-ingress/data-privacy.md "mention").
 
 The PoC system supports zero-knowledge proofs. When a Data Contributor or Custodian submits data to the DLP, they generate a zero-knowledge proof that verifies the authenticity and integrity of the data, as well as its contribution to the DLP, without revealing its full contents. Read more about it in [zero-knowledge-proof-of-contribution.md](zero-knowledge-proof-of-contribution.md "mention").

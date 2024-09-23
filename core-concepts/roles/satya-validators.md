@@ -6,7 +6,7 @@ Each Satya validator node is a sealed, encrypted virtual machine running on an i
 
 This setup ensures that neither the node operators nor any other parties can access the interior of the processor or the data being processed. The TEE environment guarantees that deployed programs within it are immutable and private, maintaining operational integrity and preventing unauthorized changes while processing user data.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>A DLP that relies on TEE validators</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>A DLP that relies on Satya validators</p></figcaption></figure>
 
 ## **Responsibilities**
 

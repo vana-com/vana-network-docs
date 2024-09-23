@@ -1,5 +1,6 @@
 ---
 description: Validate user data for specific Data Liquidity Pools
+hidden: true
 layout:
   title:
     visible: true
@@ -13,7 +14,7 @@ layout:
     visible: true
 ---
 
-# Become a DLP Validator
+# How to run a DLP Validator?
 
 Start to validate user data for specific Data Liquidity Pools.
 
@@ -44,7 +45,7 @@ The following outlines the high level steps to run a DLP validator.&#x20;
 3. Wait for your registration request to be approved by the DLP.
 4.  Run the validator node specific to the DLP. Confirm that your validator is running correctly. Your logs should look something like this, which will vary by DLP:
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2024-05-27 at 1.27.48 PM.png" alt=""><figcaption><p>Logs for a ChatGPT DLP validator node</p></figcaption></figure>
 
     * See DLP-specific instructions for running a validator node
 5. Congratulations, your validator is up and running! You can keep track of your stats and trust score by looking onchain.&#x20;

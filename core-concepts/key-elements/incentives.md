@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Incentives
+# DLP Incentives
 
 {% hint style="warning" %}
 This is a draft and should not be relied upon as a legal promise or guarantee for future implementations.
@@ -59,10 +59,10 @@ The DLP Rewards apply to the top 16 DLP slots, prioritizing quality over quantit
 
 A detailed breakdown of the DLP Selection process can be found in the [DLP Governance](dlp-governance.md) section.
 
-## Propagators
+## L1 Validators
 
-Propagators rely on Proof of Stake (PoS) to validate data transactions and maintain network security.
+L1 Validators rely on Proof of Stake (PoS) to validate data transactions and maintain network security.
 
-To participate, Propagators must stake a minimum amount of VANA tokens, which are held as collateral to ensure honest behaviour. Propagators are randomly selected to propose and validate blocks, with the selection probability proportional to their staked amount.&#x20;
+To participate, L1 Validators must stake a minimum amount of VANA tokens, which are held as collateral to ensure honest behaviour. L1 Validators are randomly selected to propose and validate blocks, with the selection probability proportional to their staked amount.&#x20;
 
-This process includes proposing new blocks, having them attested by other propagators, reaching consensus through a supermajority, and ensuring decentralization and fairness. Successful Propagators earn VANA rewards, while those who act maliciously may be penalized.
+This process includes proposing new blocks, having them attested by other propagators, reaching consensus through a supermajority, and ensuring decentralization and fairness. Successful L1 Validators earn VANA rewards, while those who act maliciously may be penalized.

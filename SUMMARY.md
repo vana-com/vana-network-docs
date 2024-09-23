@@ -1,14 +1,21 @@
 # Table of contents
 
-## Welcome to Vana
+## 👋 Welcome to Vana
 
 * [What is Vana?](README.md)
   * [The Value of Data](welcome-to-vana/what-is-vana/the-value-of-data.md)
   * [Our North Star](welcome-to-vana/what-is-vana/our-north-star.md)
   * [Our Guiding Use Cases](welcome-to-vana/what-is-vana/our-guiding-use-cases.md)
-* [DLP Leaderboard](welcome-to-vana/dlp-leaderboard.md)
+* [What is Data Liquidity Pool?](welcome-to-vana/what-is-data-liquidity-pool/README.md)
+  * [DLP Leaderboard](welcome-to-vana/what-is-data-liquidity-pool/dlp-leaderboard.md)
+  * [DLP Whitepaper](https://drive.google.com/file/d/1mbucIVLC6dnq6NU-gE33xCGSOO-x-xlX/view?usp=sharing)
+* [How to participate?](welcome-to-vana/how-to-participate/README.md)
+  * [Explorers](welcome-to-vana/how-to-participate/explorers.md)
+  * [Builders](welcome-to-vana/how-to-participate/builders.md)
+  * [Data Contributors](welcome-to-vana/how-to-participate/data-contributors.md)
+  * [Data Consumers](welcome-to-vana/how-to-participate/data-consumers.md)
 
-## Core Concepts
+## 🎓 Core Concepts
 
 * [Network Overview](core-concepts/network-overview/README.md)
   * [Data Liquidity Layer](core-concepts/network-overview/data-liquidity-layer.md)
@@ -22,12 +29,9 @@
     * [Collective Servers](core-concepts/network-overview/data-portability-layer/collective-servers.md)
   * [Connectome](core-concepts/network-overview/connectome.md)
 * [Roles](core-concepts/roles/README.md)
-  * [Data Liquidity Pools](core-concepts/roles/data-liquidity-pools/README.md)
-    * [Data Liquidity Pool Whitepaper](https://drive.google.com/file/d/1mbucIVLC6dnq6NU-gE33xCGSOO-x-xlX/view?usp=sharing)
-  * [Validators](core-concepts/roles/validators.md)
-  * [Propagators](core-concepts/roles/propagators.md)
-  * [Data Contributors](core-concepts/roles/data-contributors.md)
-  * [Data Consumers](core-concepts/roles/data-consumers.md)
+  * [L1 Validators](core-concepts/roles/propagators.md)
+  * [Satya Validators](core-concepts/roles/satya-validators.md)
+  * [DLP Validators](core-concepts/roles/dlp-validators.md)
   * [Data Custodians (optional)](core-concepts/roles/data-custodians-optional.md)
 * [Key Elements](core-concepts/key-elements/README.md)
   * [Data Transactions](core-concepts/key-elements/data-transactions/README.md)
@@ -35,27 +39,31 @@
   * [Proof of Contribution](core-concepts/key-elements/proof-of-contribution/README.md)
     * [Example implementation](core-concepts/key-elements/proof-of-contribution/example-implementation.md)
     * [Zero-Knowledge Proof of Contribution](core-concepts/key-elements/proof-of-contribution/zero-knowledge-proof-of-contribution.md)
-  * [Incentives](core-concepts/key-elements/incentives.md)
+  * [DLP Incentives](core-concepts/key-elements/incentives.md)
   * [DLP Governance](core-concepts/key-elements/dlp-governance.md)
+  * [Smart Contracts](core-concepts/key-elements/smart-contracts.md)
+* [Data Ingress](core-concepts/data-ingress/README.md)
+  * [Data Storage](core-concepts/data-ingress/data-storage.md)
+  * [Data Privacy](core-concepts/data-ingress/data-privacy.md)
+  * [Data Validation](core-concepts/data-ingress/data-validation.md)
+  * [Data Attestation](core-concepts/data-ingress/data-attestation.md)
 
-## Developers
+## 🚀 Guides
 
-* [Network Setup](developers/network-setup/README.md)
-  * [Network information](developers/network-setup/network-information.md)
-  * [Working with Keys](developers/network-setup/working-with-keys.md)
-  * [Creating a Wallet](developers/network-setup/creating-a-wallet.md)
-* [Smart Contracts](developers/smart-contracts.md)
-* [Create a Data Liquidity Pool (DLP)](developers/create-a-data-liquidity-pool-dlp/README.md)
-  * [Satya Validators](developers/create-a-data-liquidity-pool-dlp/satya-validators.md)
-  * [DLP Validators](developers/create-a-data-liquidity-pool-dlp/dlp-validators/README.md)
-    * [Become a DLP Validator](developers/create-a-data-liquidity-pool-dlp/dlp-validators/become-a-dlp-validator.md)
-* [Data Ingress](developers/data-ingress/README.md)
-  * [Data Storage](developers/data-ingress/data-storage.md)
-  * [Data Privacy](developers/data-ingress/data-privacy.md)
-  * [Data Validation](developers/data-ingress/data-validation.md)
-  * [Data Attestation](developers/data-ingress/data-attestation.md)
+* [How to create a Data Liquidity Pool?](guides/how-to-create-a-data-liquidity-pool/README.md)
+  * [Stage 1: Scoping](guides/how-to-create-a-data-liquidity-pool/stage-1-scoping.md)
+  * [Stage 2: Building](guides/how-to-create-a-data-liquidity-pool/stage-2-building.md)
+  * [Stage 3: Pre-launch](guides/how-to-create-a-data-liquidity-pool/stage-3-pre-launch.md)
+* [How to run a DLP Validator?](guides/how-to-run-a-dlp-validator.md)
 
-## Untitled Group
+## 🛠️ For Builders
 
-* [FAQ](undefined/faq.md)
-* [Key Terms](undefined/key-terms.md)
+* [Network Setup](for-builders/network-setup/README.md)
+  * [Network information](for-builders/network-setup/network-information.md)
+  * [Working with Keys](for-builders/network-setup/working-with-keys.md)
+  * [Creating a Wallet](for-builders/network-setup/creating-a-wallet.md)
+
+## 🔮 Other
+
+* [FAQ](other/faq.md)
+* [Key Terms](other/key-terms.md)

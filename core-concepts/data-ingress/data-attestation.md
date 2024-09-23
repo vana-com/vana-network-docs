@@ -1,6 +1,6 @@
 # Data Attestation
 
-Anyone can submit data to the Vana network. However, for data to be considered valid by a DLP, it must be attested for by a trusted party, i.e. [validators.md](../../core-concepts/roles/validators.md "mention") in a DLP. These trusted parties issue an attestation to prove that this data is, in fact, authentic, high-quality, unique, and has whatever other properties DLPs value in its data contributions.&#x20;
+Anyone can submit data to the Vana network. However, for data to be considered valid by a DLP, it must be attested for by a trusted party, i.e. [Broken link](broken-reference "mention") in a DLP. These trusted parties issue an attestation to prove that this data is, in fact, authentic, high-quality, unique, and has whatever other properties DLPs value in its data contributions.&#x20;
 
 Data attestations live offchain, and a URL to a data's attestation is written onchain alongside the data itself.&#x20;
 
@@ -29,7 +29,7 @@ An example of when this would be useful: consider a ChatGPT DLP that accepts GDP
     * **`image_url`** Docker image URL of where the instructions to generate the proof is downloaded from
     * **`created_at`** Timestamp of when the proof was created.
     * **`duration`** Duration of the proof generation process, in seconds.
-    * **`dlp_id`** DLP ID from the [Root Network Contract](../smart-contracts.md#root-network-contract), this is used to tie the proof to a DLP.
+    * **`dlp_id`** DLP ID from the [Root Network Contract](../key-elements/smart-contracts.md#root-network-contract), this is used to tie the proof to a DLP.
     * **`valid`** Boolean indicating if the subject is valid.
     * **`score`** Overall score of the subject, from 0-1.
     * **`authenticity`** Authenticity score of the subject, from 0-1.

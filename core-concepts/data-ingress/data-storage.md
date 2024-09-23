@@ -12,9 +12,9 @@ By keeping data off-chain but accessible through these identifiers, Vana maintai
 
 ## Adding Data
 
-To make data discoverable in the Vana network, it must be written onchain using the [Data Registry contract](../smart-contracts.md#data-registry-contract). The data contributor first uploads an [encrypted file](data-privacy.md) to a storage provider of their choice, then writes a pointer to that file (the URL) and an optional content integrity hash to the registry.
+To make data discoverable in the Vana network, it must be written onchain using the [Data Registry contract](../key-elements/smart-contracts.md#data-registry-contract). The data contributor first uploads an [encrypted file](data-privacy.md) to a storage provider of their choice, then writes a pointer to that file (the URL) and an optional content integrity hash to the registry.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Adding data to the <a href="../smart-contracts.md#data-registry-contract">data registry</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Adding data to the <a href="../key-elements/smart-contracts.md#data-registry-contract">data registry</a></p></figcaption></figure>
 
 To add data to the Vana Network:
 
@@ -22,5 +22,5 @@ To add data to the Vana Network:
 2. Symmetrically encrypt the data using the `encryption_key`. Code samples available in [data-privacy.md](data-privacy.md "mention").
 3. Upload the encrypted data to a location of your choice. This can be a Web2 storage solution like Google Cloud, Dropbox, etc, or a Web3 solution like IPFS
 4. Get the storage URL of the uploaded file
-5. Add file to the [data registry contract](../smart-contracts.md#data-registry-contract): `addFile(encrypted_data_url)`
+5. Add file to the [data registry contract](../key-elements/smart-contracts.md#data-registry-contract): `addFile(encrypted_data_url)`
 6. The data registry returns a `file_id`, which can be used later to look up the file

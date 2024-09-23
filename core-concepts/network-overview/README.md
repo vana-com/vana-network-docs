@@ -36,7 +36,7 @@ The primary goal is to bring data onchain, enabling transactions among Data Cont
 
 ### Data Liquidity Pools
 
-[Data Liquidity Pools (DLPs)](../roles/data-liquidity-pools/) aggregate similar types of data submitted to the data liquidity layer by Data Contributors and Custodians. Each DLP is an individual peer-to-peer network that uses DLP Validators to ensure data integrity through Vana’s proof-of-contribution system. DLPs provide trustless, private, and attributable data liquidity pools from which users and developers can:
+[Data Liquidity Pools (DLPs)](broken-reference) aggregate similar types of data submitted to the data liquidity layer by Data Contributors and Custodians. Each DLP is an individual peer-to-peer network that uses DLP Validators to ensure data integrity through Vana’s proof-of-contribution system. DLPs provide trustless, private, and attributable data liquidity pools from which users and developers can:
 
 * Govern the use of their data in model training and application development.
 * Build community-focused applications in Vana’s application layer.

@@ -1,10 +1,10 @@
 # Data Validation
 
-Vana uses a [proof-of-contribution](../../core-concepts/key-elements/proof-of-contribution/ "mention")system to validate data submitted to the network. "Valid" means something different in each DLP, because different DLPs value data differently.
+Vana uses a [proof-of-contribution](../key-elements/proof-of-contribution/ "mention")system to validate data submitted to the network. "Valid" means something different in each DLP, because different DLPs value data differently.
 
 ## Running Proof-of-Contribution in the Satya Network
 
-The recommended way of validating data securely in the Vana Network is by using the Satya Network, a group of highly confidential nodes that run on special hardware. At a high level, the data contributor adds unverified data, and requests a proof-of-contribution job from the [satya-validators.md](../create-a-data-liquidity-pool-dlp/satya-validators.md "mention") (and pay a small fee to have their data validated). Once validated, the Satya validator will write the proof on chain.
+The recommended way of validating data securely in the Vana Network is by using the Satya Network, a group of highly confidential nodes that run on special hardware. At a high level, the data contributor adds unverified data, and requests a proof-of-contribution job from the [satya-validators.md](../roles/satya-validators.md "mention") (and pay a small fee to have their data validated). Once validated, the Satya validator will write the proof on chain.
 
 ## Proof-of-Contribution Template
 
@@ -18,7 +18,7 @@ The diagram below explains how this PoC template works.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Proof-of-contribution running in a Satya node</p></figcaption></figure>
 
-1. The data contributor adds their encrypted data onchain, via the [Data Registry](../smart-contracts.md#data-registry-contract).
+1. The data contributor adds their encrypted data onchain, via the [Data Registry](../key-elements/smart-contracts.md#data-registry-contract).
 2. They request a validation job, paying a small fee. Once a Satya node is available to run the job, they connect directly to the node, and send them the encryption key and the proof-of-contribution docker image that needs to run on the data to validate it.
 3. The Satya node receives the key, and downloads the encrypted file, and decrypts it
 4. The Satya node places the decrypted file in a temporary, shielded\* location. The node operator cannot see the contents of this location.
@@ -33,11 +33,11 @@ The diagram below explains how this PoC template works.&#x20;
 
 ## Satya Network Integration
 
-Once a data contributor has uploaded their encrypted file to the [Data Registry](../smart-contracts.md#data-registry-contract), it's time to run a proof of contribution job to validate it. The steps below show how to use the Satya Network to validate it.&#x20;
+Once a data contributor has uploaded their encrypted file to the [Data Registry](../key-elements/smart-contracts.md#data-registry-contract), it's time to run a proof of contribution job to validate it. The steps below show how to use the Satya Network to validate it.&#x20;
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Using a Satya node to run proof-of-contribution</p></figcaption></figure>
 
-1. Each validation job requires a small fee (which changes based on load). The data contributor can get the current fee by calling `teeFee()` on the [#tee-pool-contract](../smart-contracts.md#tee-pool-contract "mention").&#x20;
+1. Each validation job requires a small fee (which changes based on load). The data contributor can get the current fee by calling `teeFee()` on the [#tee-pool-contract](../key-elements/smart-contracts.md#tee-pool-contract "mention").&#x20;
 2. The current job fee is returned: ex: `job_fee = 3 VANA`
 3. The DLP UI now attaches a listener to listen for `JobSubmitted` events from the TEE Pool contract, which emits when the job is successfully submitted.
 4. The DLP UI submits the job request to the TEE Pool to get the data contributor's file validated: `requestContributionProof(file_id, { value: job_fee })`

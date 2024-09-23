@@ -1,14 +1,10 @@
----
-description: >-
-  The Vana network strives to ensure personal data remains private and is only
-  shared with trusted parties.
----
-
 # Data Privacy
+
+{% embed url="https://www.loom.com/share/df93beddcc9b4512822124a4acad9719?sid=4801cf88-03f5-4f6f-89a7-cd4e98f537e0" %}
 
 ## Encrypting Data
 
-Vana uses a patented non-custodial encryption technique to encrypt personal data. Data does not leave the user's browser unencrypted. A user's file is symmetrically encrypted with their encryption key, and if the encryption key is shared with another party, the key is encrypted with that party's public key so only the intended recipient can decrypt the key and the data.
+Vana uses a patented non-custodial encryption technique to encrypt personal data. The network strives to ensure personal data remains private and is only shared with trusted parties. Data does not leave the user's browser unencrypted. A user's file is symmetrically encrypted with their encryption key, and if the encryption key is shared with another party, the key is encrypted with that party's public key so only the intended recipient can decrypt the key and the data.
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Encrypting user data, and sharing with a trusted party</p></figcaption></figure>
 

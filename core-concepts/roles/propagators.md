@@ -12,9 +12,9 @@ layout:
     visible: true
 ---
 
-# Propagators
+# L1 Validators
 
-Propagators are essential for ensuring the composability and security of the network.
+L1 Validators are essential for ensuring the composability and security of the Vana Proof-of-Stake (PoS) network.
 
 ## **Responsibilities**
 
@@ -22,12 +22,10 @@ Propagators are essential for ensuring the composability and security of the net
 * Verify the validity of network transactions.
 * Maintain network state liveness through accurate and timely block creation.
 
-Propagators earn transaction fees and block rewards in the form of [VANA](broken-reference) for processing network transactions and finalizing blocks.
+L1 validators earn transaction fees and block rewards in the form of [VANA](broken-reference) for processing network transactions and finalizing blocks.
 
-{% hint style="warning" %}
-Satori testnet is currently run as Proof-of-Authority (PoA) chain for now. More information will be shared, as the testnet progresses. Please join our [Discord](https://discord.com/invite/Wv2vtBazMR) for more information.
-
-The Moksha testnet will be released as a Proof-of-Stake (PoS) for propagators to ensure the testnet remains stable for data liquidity pools.
+{% hint style="info" %}
+L1 validators are only available on the Moksha testnet, which is the first to use Proof-of-Stake (PoS) consensus.
 {% endhint %}
 
 ## Hardware requirements[​](https://docs.roninchain.com/validators/setup/overview#hardware-requirements) <a href="#hardware-requirements" id="hardware-requirements"></a>
@@ -50,8 +48,10 @@ To run a reliable, performant node, we suggest that the node’s hardware profil
 
 These hardware requirements are rough guidelines, and each node operator should monitor their node to ensure good performance for the intended task.
 
-## Running a Propagator
+## Running a L1 validator
+
+The guide for running L1 validators is available on our [GitHub](https://github.com/vana-com/vana) repository.
 
 {% hint style="info" %}
-We will release more information on how to run a propagator node soon.
+Please note that this guide is under active development and may be updated in the future.
 {% endhint %}
