@@ -30,7 +30,7 @@ These mechanisms create a trustless environment where data can be securely token
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -38,7 +38,7 @@ These mechanisms create a trustless environment where data can be securely token
 
 Vana aligns incentives between data owners, developers, and data consumers. It creates a data-powered economy owned by its participants rather than centralized entities.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="./#the-data-ownership-problem">The Data Ownership Problem</a></td><td>How to establish ownership of the AI models created using our data</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-north-star.md">Our North Star</a></td><td>Empower users to own their data and the value it creates by decentralized technology</td></tr><tr><td></td><td><a href="welcome-to-vana/what-is-vana/our-guiding-use-cases.md">Our Guiding Use Cases</a></td><td>Build a User-Owned Data Treasury and a User-Owned Foundation Model</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="./#the-data-ownership-problem">The Data Ownership Problem</a></td><td>How to establish ownership of the AI models created using our data</td></tr><tr><td></td><td><a href="welcome-to-vana/readme/our-north-star.md">Our North Star</a></td><td>Empower users to own their data and the value it creates by decentralized technology</td></tr><tr><td></td><td><a href="welcome-to-vana/readme/our-guiding-use-cases.md">Our Guiding Use Cases</a></td><td>Build a User-Owned Data Treasury and a User-Owned Foundation Model</td></tr></tbody></table>
 
 ***
 

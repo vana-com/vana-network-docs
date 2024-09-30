@@ -6,7 +6,7 @@ The DLP can choose to provide a central storage location (ex: a Dropbox account 
 
 Vana's system only requires two key pieces of information: a URL pointing to the data's location and an optional identifier that changes when the data is modified (e.g., an [ETAG](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) or last modified date). This ensures data at a particular location has not changed since it was uploaded there.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Contributors upload files to their personal Dropbox or Google Drive accounts in the <a href="https://www.gptdatadao.org/claim/upload">GPT Data DAO</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Contributors upload files to their personal Dropbox or Google Drive accounts in the <a href="https://www.gptdatadao.org/claim/upload">GPT Data DAO</a>.</p></figcaption></figure>
 
 By keeping data off-chain but accessible through these identifiers, Vana maintains a balance between data privacy, user control, and cost efficiency.
 
@@ -14,7 +14,7 @@ By keeping data off-chain but accessible through these identifiers, Vana maintai
 
 To make data discoverable in the Vana network, it must be written onchain using the [Data Registry contract](../key-elements/smart-contracts.md#data-registry-contract). The data contributor first uploads an [encrypted file](data-privacy.md) to a storage provider of their choice, then writes a pointer to that file (the URL) and an optional content integrity hash to the registry.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Adding data to the <a href="../key-elements/smart-contracts.md#data-registry-contract">data registry</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Adding data to the <a href="../key-elements/smart-contracts.md#data-registry-contract">data registry</a></p></figcaption></figure>
 
 To add data to the Vana Network:
 

@@ -3,9 +3,9 @@
 ## 👋 Welcome to Vana
 
 * [What is Vana?](README.md)
-  * [The Value of Data](welcome-to-vana/what-is-vana/the-value-of-data.md)
-  * [Our North Star](welcome-to-vana/what-is-vana/our-north-star.md)
-  * [Our Guiding Use Cases](welcome-to-vana/what-is-vana/our-guiding-use-cases.md)
+  * [The Value of Data](welcome-to-vana/readme/the-value-of-data.md)
+  * [Our North Star](welcome-to-vana/readme/our-north-star.md)
+  * [Our Guiding Use Cases](welcome-to-vana/readme/our-guiding-use-cases.md)
 * [What is Data Liquidity Pool?](welcome-to-vana/what-is-data-liquidity-pool/README.md)
   * [DLP Leaderboard](welcome-to-vana/what-is-data-liquidity-pool/dlp-leaderboard.md)
   * [DLP Whitepaper](https://drive.google.com/file/d/1mbucIVLC6dnq6NU-gE33xCGSOO-x-xlX/view?usp=sharing)

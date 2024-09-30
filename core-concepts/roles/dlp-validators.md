@@ -6,7 +6,7 @@ hidden: true
 
 DLPs may choose to rely on a network of DLP Validators to run their DLP's proof-of-contribution (PoC). After running PoC, these validators form a [consensus](../key-elements/proof-of-contribution/#nagoya-consensus) with each other and write the proof-of-contribution assessment back on-chain. In this model, DLPs are responsible for deploying and maintaining their validators. DLP Validators earn DLP token rewards for accurate and consistent data evaluations.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>A DLP that relies on DLP validators</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>A DLP that relies on DLP validators</p></figcaption></figure>
 
 ## **Responsibilities**
 

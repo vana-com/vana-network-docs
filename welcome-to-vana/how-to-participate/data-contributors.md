@@ -16,4 +16,4 @@ description: >-
 
 Your data is valuable, and with Vana, you get compensated for its contribution. You maintain full control over how your data is used, and you gain governance power in the network, making you a stakeholder in AI’s future.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>A data contributor can contribute to the ChatGPT DLP by uploading their ChatGPT exports at gptdatadao.org</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>A data contributor can contribute to the ChatGPT DLP by uploading their ChatGPT exports at gptdatadao.org</p></figcaption></figure>

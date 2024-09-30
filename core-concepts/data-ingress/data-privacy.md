@@ -6,7 +6,7 @@
 
 Vana uses a patented non-custodial encryption technique to encrypt personal data. The network strives to ensure personal data remains private and is only shared with trusted parties. Data does not leave the user's browser unencrypted. A user's file is symmetrically encrypted with their encryption key, and if the encryption key is shared with another party, the key is encrypted with that party's public key so only the intended recipient can decrypt the key and the data.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Encrypting user data, and sharing with a trusted party</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Encrypting user data, and sharing with a trusted party</p></figcaption></figure>
 
 The steps are as follows:
 
@@ -20,7 +20,7 @@ The steps are as follows:
 
 Once the data has been encrypted, it can be decrypted by either a dApp or trusted party.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>A dApp, or trusted party can decrypt user data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>A dApp, or trusted party can decrypt user data</p></figcaption></figure>
 
 ### Decryption by dApp
 
