@@ -10,7 +10,10 @@ description: >-
 
 * Discover and explore **DLPs** (Decentralized Liquidity Pools) to learn more about decentralized data sharing.
 * **Subscribe to our social channels** to stay updated on Vana’s latest developments.
-* **Farm pre-mined Vana Points** using our Telegram Mini App to get started with rewards.
+  * [Twitter/X](https://twitter.com/withvana/)
+  * [Discord](https://discord.com/invite/Wv2vtBazMR)
+  * [Github](https://github.com/vana-com/)
+* **Farm pre-mined Vana Points** using our [Telegram Mini App](https://t.me/VanaDataHeroBot/) to get started with rewards.
 
 **Why participate?**
 

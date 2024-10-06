@@ -10,7 +10,7 @@ Definitions of all relevant terms within the Vana ecosystem.
 
 A network overlay validating real-time data transactions within [Vana’s](key-terms.md#vana) ecosystem, ensuring cross-[DLP](key-terms.md#data-liquidity-pool-dlp) data access and interoperability with other networks.
 
-### **$DAT (**depreciated)
+### $DAT (deprecated)
 
 $DAT or Data Autonomy Token is now [$VANA](key-terms.md#vana-token-usdvana), the native token of the Vana ecosystem.
 
@@ -78,7 +78,7 @@ The current information about the [DLP](key-terms.md#data-liquidity-pool-dlp), i
 
 A collaborative model governed by [data-contributing](key-terms.md#data-contributor) users, where each user trains part of the model on their [personal server](key-terms.md#personal-server) and is rewarded based on their contribution.
 
-### **Validator**&#x20;
+### **Validator**
 
 A participant who verifies data authenticity and quality within a [DLP](key-terms.md#data-liquidity-pool-dlp), rewarded for accurate evaluations and governed by the [Nagoya Consensus ](key-terms.md#nagoya-consensus)mechanism.
 

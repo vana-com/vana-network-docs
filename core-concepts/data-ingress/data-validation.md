@@ -114,7 +114,7 @@ Once a Satya node has been selected to run the proof-of-contribution for a data 
 
 #### Sending Secrets to PoC Container
 
-When your Proof-of-contribution container runs, you may need to access secrets such as API keys, passwords, etc. The Satya nodes accept an `env_vars` object to send envrionment variables in plain text, however, this is not suitable for secret values.
+When your Proof-of-contribution container runs, you may need to access secrets such as API keys, passwords, etc. The Satya nodes accept an `env_vars` object to send environment variables in plain text, however, this is not suitable for secret values.
 
 To send secrets, encrypt them with the public key below, and send them as a part of the `secrets` object in the `/RunProof` request. They will be decrypted and injected into the Proof-of-contribution container as environment variables along with the `env_vars`. These secrets can only be decrypted by a TEE that's currently registered in the TEE Pool. &#x20;
 
