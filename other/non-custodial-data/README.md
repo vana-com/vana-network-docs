@@ -1,5 +1,6 @@
 ---
 description: Vana makes data non-custodial by running operations in a personal server
+hidden: true
 layout:
   title:
     visible: true

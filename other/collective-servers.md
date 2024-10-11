@@ -1,5 +1,6 @@
 ---
 description: Store private data off-chain while permissioning it onchain
+hidden: true
 layout:
   title:
     visible: true

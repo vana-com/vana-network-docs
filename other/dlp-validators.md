@@ -4,9 +4,9 @@ hidden: true
 
 # DLP Validators
 
-DLPs may choose to rely on a network of DLP Validators to run their DLP's proof-of-contribution (PoC). After running PoC, these validators form a [consensus](../key-elements/proof-of-contribution/#nagoya-consensus) with each other and write the proof-of-contribution assessment back on-chain. In this model, DLPs are responsible for deploying and maintaining their validators. DLP Validators earn DLP token rewards for accurate and consistent data evaluations.
+DLPs may choose to rely on a network of DLP Validators to run their DLP's proof-of-contribution (PoC). After running PoC, these validators form a [consensus](../core-concepts/key-elements/proof-of-contribution/#nagoya-consensus) with each other and write the proof-of-contribution assessment back on-chain. In this model, DLPs are responsible for deploying and maintaining their validators. DLP Validators earn DLP token rewards for accurate and consistent data evaluations.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>A DLP that relies on DLP validators</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>A DLP that relies on DLP validators</p></figcaption></figure>
 
 ## **Responsibilities**
 
@@ -49,7 +49,7 @@ A node is a network participant responsible for validating, querying, scoring, o
 
 #### Communication Between Nodes
 
-<figure><img src="../../.gitbook/assets/Vana Docs Graphics.jpg" alt="" width="375"><figcaption><p>Nodes running within a DLP</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Vana Docs Graphics.jpg" alt="" width="375"><figcaption><p>Nodes running within a DLP</p></figcaption></figure>
 
 Nodes can communicate with each other by encapsulating information in a Message object, and sending that object back and forth using a client-server relationship over HTTP.
 
