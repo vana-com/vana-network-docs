@@ -3,6 +3,8 @@ description: >-
   Draft Bylaws for the future Vana DAO. Work in progress - all content below
   could change.
 hidden: true
+noIndex: true
+noRobotsIndex: true
 ---
 
 # \[WIP] Vana DAO Bylaws
@@ -52,14 +54,7 @@ In an effort to decentralize the DAO over time, while protecting the network, th
 
 The Vana DAO will have the power to adjust the DLP Rewards framework via governance.  They can propose new performance metrics, in alignment with ecosystem goals, that will determine the DLP Rewards.&#x20;
 
-The DAO may propose and vote on updates to the performance metrics, including but not limited to:
-
-* Data quality
-* Volume of data contributed
-* Diversity of data sources
-* \# of Verified Uploads
-* Total Transaction Fees
-* Avg PoC Score (Sum of the PoC Scores / # of verified uploads)
+The DAO may propose and vote on updates to the performance metrics.
 
 These updates will ensure that the DLP rewards system remains flexible and responsive to the needs of the ecosystem as it evolves.
 
