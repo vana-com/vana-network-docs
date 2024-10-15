@@ -39,6 +39,7 @@
   * [Data Privacy](core-concepts/data-ingress/data-privacy.md)
   * [Data Validation](core-concepts/data-ingress/data-validation.md)
   * [Data Attestation](core-concepts/data-ingress/data-attestation.md)
+* [\[WIP\] Vana DAO Bylaws](core-concepts/wip-vana-dao-bylaws.md)
 
 ## 🚀 Guides
 
