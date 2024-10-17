@@ -59,12 +59,3 @@
 
 * [FAQ](other/faq.md)
 * [Key Terms](other/key-terms.md)
-* [How to run a DLP Validator?](other/how-to-run-a-dlp-validator.md)
-* [Non-Custodial Data](other/non-custodial-data/README.md)
-  * [Personal Servers for Non-Custodial Data](https://drive.google.com/file/d/1xJkPQUhIzTA1R5P91bkDSVfK7NBMkNqv/view?usp=drive\_link)
-* [Run your personal server](other/run-your-personal-server/README.md)
-  * [Self-Host on Macbook](other/run-your-personal-server/self-host-on-macbook.md)
-  * [Hosted App](other/run-your-personal-server/hosted-app.md)
-* [Collective Servers](other/collective-servers.md)
-* [DLP Validators](other/dlp-validators.md)
-* [Data Custodians (optional)](other/data-custodians-optional.md)

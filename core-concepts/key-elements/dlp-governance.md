@@ -18,7 +18,7 @@ layout:
 This is a draft and should not be relied upon as a legal promise or guarantee for future implementations.
 {% endhint %}
 
-Data Liquidity Pools (DLPs) transform raw data into valuable onchain assets, playing a crucial role in Vana's architecture. Given their central importance, it is logical for DLPs to be at the heart of community governance, allowing [VANA](broken-reference) holders to directly influence key decisions.&#x20;
+Data Liquidity Pools (DLPs) transform raw data into valuable onchain assets, playing a crucial role in Vana's architecture. Given their central importance, it is logical for DLPs to be at the heart of community governance.
 
 Combined with the [DLP Rewards](incentives.md), DLP Governance ensures the sustainability of the ecosystem by aligning governance with contributions that support the network's growth.
 
@@ -42,28 +42,10 @@ The parameter of the top 16 slots earning rewards is governable, and if the comm
 
 ## Initial DLP Selection
 
-### At launch - overview
+At launch, the initial DLP slots are allocated based on performance on Satori and Moksha Testnets and key criteria that reflect their contribution to the network. DLPs are encouraged to publicly launch earlier to ensure that they can start driving these metrics sooner.
 
-The initial DLP slots at launch are allocated based on performance on Satori Testnet and the following criteria:
+DLPs are selected and maintained by a system of governance that aligns with Vana's vision to prioritize community participation. To incentivize competition and ensure high-quality data within the DLPs, Data Liquidity Rewards are distributed based on weighted, normalized performance across multiple metrics.&#x20;
 
-* **Total Transaction Fees (Gas Costs)** created by the DLP
-* **Total Number of Unique wallets** with Verified Data Uploads
-* **Amount Staked** in the DLP
+Exact metrics and their weights will be defined by the Vana DAO participants.
 
-DLPs are encouraged to publicly launch earlier to ensure that they can start driving these metrics sooner.&#x20;
-
-### At launch - details
-
-DLPs are selected and maintained by a [system of governance](dlp-governance.md) that aligns with Vana’s vision to prioritize community participation.&#x20;
-
-To incentivize competition and ensure high-quality data within the DLPs, Data Liquidity Rewards are distributed based on weighted, normalized performance across the below metrics. _Note that DLP Revenue and Trading Volume are currently set to 0% but will be adjusted as the Network continues to grow._
-
-* Total Transaction Fees (Gas Costs) created by the DLP (TFC) - 20%
-* Total Number of Unique wallets with Verified Data Uploads (VDU) - 20%
-* Amount Staked (AST) - 60%
-* DLP Revenue in $VANA (REV) - 0%
-* 2 week avg DLP Trading Volume (DTV) - 0%
-
-The score 𝑆𝑖 for each Data Liquidity Pool (DLP) 𝑖 is calculated by summing the weighted contributions of three metrics: TFC, VDU, and AST. Each metric is normalized by dividing it by the total of that metric across all DLPs, and then multiplied by its respective weight to reflect its importance as follows:&#x20;
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-15 at 12.48.10 PM.png" alt=""><figcaption></figcaption></figure>
+This comprehensive approach ensures that DLPs are evaluated on their overall contribution to the network's growth and sustainability.
