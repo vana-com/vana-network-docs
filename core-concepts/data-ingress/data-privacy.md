@@ -37,9 +37,9 @@ Once the data has been encrypted, it can be decrypted by either a dApp or truste
 
 Data DAOs can use the encryption technique described above to efficiently encrypt large files (up to several gigabytes in size) in the browser.
 
-{% embed url="https://github.com/vana-com/vana-dlp-ui-template/blob/098b8eebb3d06864bcd94a0e469a21f2b834dc2f/app/utils/crypto.ts#L4" %}
+{% embed url="https://github.com/vana-com/vana-dlp-ui-tee-template/blob/3a803771670fc51af3228109699f7c3210c94d46/app/utils/crypto.ts#L4" %}
 
-If the encryption key EK needs to be shared with a trusted party, it can be encrypted with their public key. To generate a new public/private keypair, see the instructions [here](https://github.com/vana-com/vana-dlp-ui-template/blob/098b8eebb3d06864bcd94a0e469a21f2b834dc2f/keys.md).
+If the encryption key EK needs to be shared with a trusted party, it can be encrypted with their public key. To generate a new public/private keypair, see the instructions [here](https://github.com/vana-com/vana-dlp-ui-tee-template/blob/main/keys.md).
 
 ```typescript
 import * as openpgp from "openpgp";
