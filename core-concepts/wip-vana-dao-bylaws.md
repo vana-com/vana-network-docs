@@ -26,11 +26,11 @@ The proposal submission process follows these steps:
 * **Step 1: Community Forum Discussion:** Proposals are first posted to the community forum for open discussion. This discussion period will last for a minimum of 7 days. During this period, members can provide feedback, raise concerns, and collaborate to refine the proposal.
 * **Step 2: Temperature Check:** The purpose of the Temperature Check is to determine if there is sufficient will to make changes to the status quo. Only members of the Vana DAO with a minimum of 10k $VANA staked (self or delegated) may submit a temperature check.
 * **Step 3: Delegate Approval:** 2 of the top 15 delegates need to give explicit approval for a temperature check to be moved to voting.&#x20;
-* **Step 4: Formal Vote on Tally:** Once the discussion phase is complete and the proposal is ready for a formal vote, it is submitted to Tally, the Vana DAO's voting platform. All votes operate on a one-token-one-vote basis, with voting power proportional to the staked tokens held by each member.
+* **Step 4: Formal Vote on Governance Tool Provider:** Once the discussion phase is complete and the proposal is ready for a formal vote, it is submitted to our governance tool provider, the Vana DAO's voting platform. All votes operate on a one-token-one-vote basis, with voting power proportional to the staked tokens held by each member.
 
 ### **Section 3.2: Voting Mechanism and Implementation**
 
-* Proposals will remain open for voting on Tally for a designated period, typically 7 days unless specified otherwise by the proposal.
+* Proposals will remain open for voting on our governance tool provider for a designated period, typically 7 days unless specified otherwise by the proposal.
 * If the proposal receives majority approval based on the staked voting power, the contracts are automatically executed and implemented.
 * In cases where the proposal involves a process rather than contract deployment, the Vana Foundation team will follow the governance decision as directed by the DAO.
 * A security council will be elected as the last line of defense to veto any proposals that may be deemed nefarious, dangerous or threatening to the health of the ecosystem. &#x20;
